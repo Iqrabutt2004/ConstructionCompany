@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import "./HomeConstruction.css";
-import ConstructionReuse from '../../components/ConstructionReuse/ConstructionReuse';
+// import ConstructionReuse from '../../components/ConstructionReuse/ConstructionReuse';
+import CustomHomeComponent from '../../components/CustomHomeComponent/CustomHomeComponent';
 import HomeOne from "../../assets/images/HomeOne.svg";
 import HomeTwo from "../../assets/images/HomeTwo.svg";
 import HomeThree from "../../assets/images/HomeThree.svg";
@@ -14,78 +15,25 @@ function HomeConstruction() {
       <Container>
         <Row>
           <Col lg={4} className="pb-4">
-            <ConstructionReuse
+            <CustomHomeComponent
               imageSrc={HomeOne}
-              title="Building Construction"
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
-                  Nullam lectus erat
-                </>
-              }
+              heading="Building Construction"
             />
+            <CustomHomeComponent imageSrc={HomeFour} heading="Foundation" />
           </Col>
           <Col lg={4} className="pb-4">
-            <ConstructionReuse
+            <CustomHomeComponent
               imageSrc={HomeTwo}
-              title="Building Repairs"
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
-                  Nullam lectus erat
-                </>
-              }
+              heading="Building Repairs"
             />
-          </Col>
-          <Col lg={4}>
-            <ConstructionReuse
-              imageSrc={HomeThree}
-              title="Demolition"
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
-                  Nullam lectus erat
-                </>
-              }
-            />
-          </Col>
-        </Row>
-        <Row className="py-5">
-          <Col lg={4} className="pb-4">
-            <ConstructionReuse
-              imageSrc={HomeFour}
-              title="Foundation"
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
-                  Nullam lectus erat
-                </>
-              }
-            />
-          </Col>
-          <Col lg={4} className="pb-4">
-            <ConstructionReuse
+            <CustomHomeComponent
               imageSrc={HomeFive}
-              title="Painting & Exterior"
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
-                  Nullam lectus erat
-                </>
-              }
+              heading="Painting & Exterior"
             />
           </Col>
           <Col lg={4}>
-            <ConstructionReuse
-              imageSrc={HomeSix}
-              title="Site Management"
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
-                  Nullam lectus erat
-                </>
-              }
-            />
+            <CustomHomeComponent imageSrc={HomeThree} heading="Demolition" />
+            <CustomHomeComponent imageSrc={HomeSix} heading="Site Management" />
           </Col>
         </Row>
       </Container>

@@ -54,7 +54,7 @@ function CardFaq() {
                 </h6>
               </div>
               <div className="d-flex">
-                {activeIndex === 0 ? (
+                {activeIndex === 1 ? (
                   <img className="img-fluid minus" src={Minus} alt="" />
                 ) : (
                   <img className="img-fluid plus" src={Plus} alt="" />
@@ -62,7 +62,7 @@ function CardFaq() {
               </div>
             </div>
           </Accordion.Header>
-          <Accordion.Body eventKey="1">
+          <Accordion.Body eventKey="2">
             <p className="card-text text-muted pb-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
@@ -82,7 +82,7 @@ function CardFaq() {
                 </h6>
               </div>
               <div className="d-flex">
-                {activeIndex === 0 ? (
+                {activeIndex === 2 ? (
                   <img className="img-fluid minus" src={Minus} alt="" />
                 ) : (
                   <img className="img-fluid plus" src={Plus} alt="" />
@@ -110,7 +110,7 @@ function CardFaq() {
                 </h6>
               </div>
               <div className="d-flex">
-                {activeIndex === 0 ? (
+                {activeIndex === 3 ? (
                   <img className="img-fluid minus" src={Minus} alt="" />
                 ) : (
                   <img className="img-fluid plus" src={Plus} alt="" />
@@ -118,7 +118,7 @@ function CardFaq() {
               </div>
             </div>
           </Accordion.Header>
-          <Accordion.Body eventKey="3">
+          <Accordion.Body eventKey="4">
             <p className="card-text text-muted pb-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
@@ -138,7 +138,7 @@ function CardFaq() {
                 </h6>
               </div>
               <div className="d-flex">
-                {activeIndex === 0 ? (
+                {activeIndex === 4 ? (
                   <img className="img-fluid minus" src={Minus} alt="" />
                 ) : (
                   <img className="img-fluid plus" src={Plus} alt="" />

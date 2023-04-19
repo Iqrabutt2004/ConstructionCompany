@@ -8,7 +8,7 @@ function MainProject() {
     <div>
       <Row>
         <Col lg={4} className="p-0">
-          <img className="img-fluid img-blog" src={MainProjectImage} alt="" />
+          <img style={{ width:"100%", height:"666px", objectFit:"cover"}} className="" src={MainProjectImage} alt="" />
         </Col>
         <Col lg={8} className="p-0">
           <div className="TooBig-style">
