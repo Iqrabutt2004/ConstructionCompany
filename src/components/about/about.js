@@ -75,8 +75,6 @@ function About() {
             </p>
           </Col>
         </Row>
-        {/* <ReusableButton onClick={handleClick} text="Click me!" style={style} />
-        <ReusableButton onClick={handleClick2} text="Log in!" style={style} /> */}
       </Container>
     </section>
   );
