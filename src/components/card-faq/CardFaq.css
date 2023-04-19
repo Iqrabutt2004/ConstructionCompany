@@ -1,0 +1,17 @@
+.card-faq{
+    background-color: white;
+
+}
+.card-border{
+  border-radius: 0px !important;
+  border: 0px solid white;
+}
+.border-faq{
+    border-bottom: 1px solid #C5C5C5;
+}
+.heading-padding{
+    padding-left: 1rem;
+}
+.img-padding{
+    padding-right: 1rem;
+}

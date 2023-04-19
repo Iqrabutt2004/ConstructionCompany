@@ -1,0 +1,14 @@
+.line{
+
+width: 48px;
+border-bottom: 5px solid #FFB400;
+ padding-top: 1.5rem!important;
+    
+}
+li{
+    text-decoration: none;
+}
+/* .project-padding{
+    padding-top: 5.5rem!important;
+    padding-bottom: 3.5rem!important;
+} */

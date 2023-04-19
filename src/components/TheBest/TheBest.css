@@ -1,0 +1,45 @@
+.background-clr{
+    background-color: #F7F7F7;
+}
+.eco-style{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.best-orange{
+    background-color: #FFB400;
+    color: #2A2A2A;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.best-black{
+    background-color:#2A2A2A;
+    color: white;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p-style{
+    font-weight: 800;
+    font-size: 12px;
+}
+.flex{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h2-style{
+    font-weight: 400 !important;
+}
+.text-font{
+   font-size: 14px;
+}
+.width-manage{
+    width: 378px;
+    margin: 0px 2rem;
+}

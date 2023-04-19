@@ -1,0 +1,14 @@
+.line-style-2{
+
+width: 45px;
+border-bottom: 5px solid #FFB400;
+ padding-top: 1.5rem!important;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+    
+}
+.service-bgClr{
+    background-color: #f7f7f7;
+}

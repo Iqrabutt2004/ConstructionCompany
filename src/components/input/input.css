@@ -1,0 +1,42 @@
+.input-row {
+  display: flex;
+  margin-bottom: 1rem;
+
+}
+.input{
+    padding: 0.5rem 2rem !important;
+}
+
+.input-column {
+  margin-right: 1rem;
+
+}
+
+.label {
+  
+  font-size: 1.2rem;
+}
+
+.input {
+  border-radius: 4px;
+  padding: 0.5rem;
+ border: 2px solid white !important;
+ border-radius: 0px !important;
+}
+
+.comment-row {
+  padding-bottom: 4rem;
+ 
+}
+
+.comment-input {
+ border: 2px solid white !important;
+ border-radius: 0px !important;
+  border-radius: 4px;
+  padding: 4rem 6rem;
+  
+}
+
+.comment-input::placeholder {
+  padding: 0.5rem;
+}

@@ -1,0 +1,16 @@
+.Contact-container {
+  position: relative;
+  background-image: url(../../assets/images/MainPageImg.png); /* Use the imported image */
+  background-size: cover;
+  background-position: center;
+  height: 532px;
+}
+
+@media (max-width: 992px) {
+  .contact-small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}

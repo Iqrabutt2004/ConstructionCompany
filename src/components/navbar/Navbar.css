@@ -1,0 +1,24 @@
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    text-align: center !important;
+    width: 100%;
+  }
+}
+Nav.Link{
+    text-decoration: none;
+}
+.nav-text{
+  color: black;
+  font-size: 14px;
+}
+.nav-link.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  width: 50px;
+  background-color: black;
+}

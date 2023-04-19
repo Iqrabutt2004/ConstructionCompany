@@ -1,0 +1,53 @@
+.footer-clr{
+    background-color: #FFB400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-2{
+
+width: 42px;
+border-bottom: 5px solid black;
+ padding-top: 1.5rem!important;
+    
+}
+.upper-clr{
+    background-color: #2A2A2A;
+}
+.set-padding{
+    padding: 0px !important;
+}
+.text-field-3{
+    border: 0px solid white;
+    border-radius: 0px;
+  width: 259px;
+    height: 53px;
+}
+.text-field-4 {
+  border: 0px solid white;
+  border-radius: 0px;
+  width: 535px;
+  height: 148px;
+  position: relative;
+  padding: 20px; 
+}
+
+.text-field-4::placeholder {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  padding: 20px; 
+}
+@media (max-width: 540px) {
+  .text-field-3 {
+      width: 190px;
+
+  }
+  .text-field-4 {
+    width: 400px;
+  }
+}
+.maxWidth{
+  max-width: 536px;
+  margin-left: 1rem;
+}

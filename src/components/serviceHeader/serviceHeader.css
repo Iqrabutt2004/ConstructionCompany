@@ -1,0 +1,19 @@
+.custom-class-2 .line-style-about {
+
+
+       width: 70px;
+    border: 4px solid #FFB400;
+    transform: rotate(-90deg);
+    position: absolute;
+  left: 105px;
+    top: 120px;
+
+}
+
+.service-container{
+  position: relative;
+  height: 662px;
+  background-image: url("../../assets/images/ServicesHeaderImg.png"); /* Use the imported image */
+  background-size: cover;
+  background-position: center;
+}

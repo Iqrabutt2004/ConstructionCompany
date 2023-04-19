@@ -1,0 +1,42 @@
+.float-repair{
+    display: flex;
+    justify-content: flex-end;
+}
+.width-set{
+  
+    border: 0px;
+    border-radius: 0px;
+
+}
+.padding-set{
+   padding: 0px 3rem;
+}
+.width-set-none{
+    padding: 12px !important;
+}
+.text-color{
+   color: #2A2A2A;
+}
+.repair-clr-1{
+    background-color: #2A2A2A;
+       padding: 1rem !important;
+   
+}
+.repair-clr-2{
+    background-color: #FFB400;
+     padding: 1rem !important;
+     
+}
+.padding-none{
+    padding: 0px 0px !important;
+}
+.padding-section{
+    padding-bottom: 8rem;
+}
+@media screen and (min-width:992px) {
+    .width-set{
+       width: 900px;
+    height: 400px;
+    }
+    
+}

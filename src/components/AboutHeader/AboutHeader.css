@@ -1,0 +1,17 @@
+.heading-styles{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0px;
+    flex-direction: column;
+}
+.heading-color{
+    color: #FFB400;
+}
+.about-container {
+  position: relative;
+  height: 662px;
+  background-image: url(../../assets/images/home-head.png); /* Use the imported image */
+  background-size: cover;
+  background-position: center;
+}

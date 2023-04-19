@@ -1,0 +1,16 @@
+.video-bg{
+    background-color: #2A2A2A;
+    padding: 3rem 0px 10rem 0px;
+}
+.line-3{
+    width: 48px;
+   border-bottom: 5px solid #FFB400;
+ padding-top: 1.5rem!important; 
+}
+.padding-none{
+    padding: 0px !important;
+}
+.call-bg{
+    background-color: #FFB400;
+    padding: 18px 18px;
+}
