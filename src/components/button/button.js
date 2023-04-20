@@ -1,3 +1,4 @@
+import "../HomeMain/HomeMain.css";
 const ButtonReuse = ({
   className,
   text,
@@ -26,7 +27,7 @@ const ButtonReuse = ({
   };
 
   return (
-    <button className={`button ${className}`} style={buttonStyle}>
+    <button className={className} style={buttonStyle}>
       <span className="text-wrapper" style={textStyle}>
         {text}
       </span>

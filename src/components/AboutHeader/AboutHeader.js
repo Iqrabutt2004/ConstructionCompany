@@ -33,19 +33,8 @@ const AboutHeader = () => {
                   egestas pellentesque libero dolor in diam consequat ut.
                 </>
               }
-              buttonText="GET A FREE QUOTE"
-              buttonProps={{
-                text: "GET A FREE QUOTE",
-                border: "0px",
-                borderColor: "#FFB400",
-                backgroundColor: "#FFB400",
-                textColor: "white",
-                fontSize: "14",
-                fontWeight: "600",
-                width: "180",
-                height: "42",
-              }}
             />
+           
           </Col>
           <Col xs={6}>
             <div className="heading-styles">
@@ -65,18 +54,18 @@ const AboutHeader = () => {
                 />
               </div>
               <div className="py-3">
-              <ConstructionReuse
-                imageSrc={AboutTwo}
-                title="Building Repairs"
-                subtitle={
-                  <>
-                    Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
-                    Nullam lectus erat
-                  </>
-                }
-                isFlex={true}
-                textColor="white" // Pass 'textColor' prop with desired color value to set the text color
-              />
+                <ConstructionReuse
+                  imageSrc={AboutTwo}
+                  title="Building Repairs"
+                  subtitle={
+                    <>
+                      Lorem ipsum dolor sit consectetur <br /> adipiscing elit.
+                      Nullam lectus erat
+                    </>
+                  }
+                  isFlex={true}
+                  textColor="white" // Pass 'textColor' prop with desired color value to set the text color
+                />
               </div>
               <div className="py-3">
                 <ConstructionReuse

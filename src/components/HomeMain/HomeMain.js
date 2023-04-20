@@ -1,15 +1,15 @@
 import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import "../../assets/css/hover-min.css";
+import "../../assets/css/hover.css";
 import "./HomeMain.css";
 import HomeMainImg from "../../assets/images/home-head.png";
 import ButtonReuse from "../../components/button/button";
 // import "hover.css/css/hvr-grow.min.css";
 // import "hover.css/css/hvr-grow";
 const HomeMain = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
     <div
@@ -26,7 +26,7 @@ const HomeMain = () => {
             <br /> consectetur eu sapien eget, rhoncus consectetur sem.
           </p>
           <ButtonReuse
-            className="hvr-grow"
+            className="hvr-pop"
             text="VIEW OUR WORK"
             border="0px"
             borderColor="#FFB400"

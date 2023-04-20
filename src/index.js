@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-// @import "~bootstrap/scss/bootstrap";
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// import "css/hover.min.css";
+// import "css/hvr-grow";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import AOS from "aos";
+import "aos/dist/aos.css";
+    AOS.init();
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />

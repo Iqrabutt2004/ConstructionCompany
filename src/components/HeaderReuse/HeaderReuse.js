@@ -2,25 +2,12 @@ import React, { useEffect } from "react";
 import "./HeaderReuse.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import ButtonReuse from "../../components/button/button";
 const HeaderReuse = ({
   title,
   subtitle,
-  buttonText,
-  buttonProps,
   className,
 }) => {
-  const {
-    text,
-    border,
-    borderColor,
-    backgroundColor,
-    textColor,
-    fontSize,
-    fontWeight,
-    width,
-    height,
-  } = buttonProps;
 
   useEffect(() => {
     AOS.init({
@@ -45,21 +32,18 @@ const HeaderReuse = ({
         <p className="py-3 text-white" data-aos="fade-up">
           {subtitle}
         </p>
-        <button
-          style={{
-            border: border,
-            borderColor: borderColor,
-            backgroundColor: backgroundColor,
-            color: textColor,
-            fontSize: fontSize + "px",
-            fontWeight: fontWeight,
-            width: width + "px",
-            height: height + "px",
-          }}
-          data-aos="bounce"
-        >
-          {buttonText}
-        </button>
+        <ButtonReuse
+          className="hvr-pop"
+          text="VIEW OUR WORK"
+          border="0px"
+          borderColor="#FFB400"
+          backgroundColor="#FFB400"
+          textColor="white"
+          fontSize="14"
+          fontWeight="600"
+          width="180"
+          height="42"
+        />
       </div>
     </div>
   );
