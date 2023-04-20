@@ -1,6 +1,5 @@
-import React from "react";
-
 const ButtonReuse = ({
+  className,
   text,
   border,
   borderColor,
@@ -17,7 +16,7 @@ const ButtonReuse = ({
     backgroundColor: `${backgroundColor}`,
     width: `${width}px`,
     height: `${height}px`,
-    paddingLeft: `${paddingLeft}px`, 
+    paddingLeft: `${paddingLeft}px`,
   };
 
   const textStyle = {
@@ -27,7 +26,7 @@ const ButtonReuse = ({
   };
 
   return (
-    <button className="button" style={buttonStyle}>
+    <button className={`button ${className}`} style={buttonStyle}>
       <span className="text-wrapper" style={textStyle}>
         {text}
       </span>
