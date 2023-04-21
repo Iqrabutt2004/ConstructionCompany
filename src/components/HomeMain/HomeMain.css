@@ -27,3 +27,11 @@
   color: #ffffff;
 }
 /* Grow */
+/* .hvr-shutter-out-horizontal {
+
+    background: white !important;
+    color: #ffb400 !important;
+    } */
+    .hvr-shutter-out-horizontal:before {
+      background: black !important;
+}

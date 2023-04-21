@@ -33,7 +33,7 @@ const HeaderReuse = ({
           {subtitle}
         </p>
         <ButtonReuse
-          className="hvr-pop"
+          className=" btn-after hvr-bob hvr-shutter-out-horizontal"
           text="VIEW OUR WORK"
           border="0px"
           borderColor="#FFB400"
