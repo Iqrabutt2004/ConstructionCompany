@@ -10,12 +10,15 @@ function ServicesQuote() {
           <Row>
             <Col lg={6} className="d-flex align-items-center">
               <div className="py-2">
-                <h2 className="about-projectHead ">Get a Quote For Your Project</h2>
+                <h2 className="about-projectHead ">
+                  Get a Quote For Your Project
+                </h2>
               </div>
             </Col>
             <Col lg={6} className="d-flex align-items-center">
               <div className="card-body p-4 d-flex justify-content-lg-end justify-content-center">
                 <ButtonReuse
+                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                   text="FREE QUOTE"
                   border="3px" // Set border width to 1px
                   borderColor="#FFB400"

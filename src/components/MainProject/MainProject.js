@@ -47,6 +47,7 @@ function MainProject() {
                   </p>
                   <div>
                     <ButtonReuse
+                      className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                       text="LEARN MORE"
                       border="4px" // Set border width to 1px
                       borderColor="#1F1F1F"

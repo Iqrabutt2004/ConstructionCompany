@@ -17,6 +17,7 @@ function FAQ() {
               ut quam sed mauris proin feugiat.{" "}
             </p>
             <ButtonReuse
+              className=" btn-after hvr-shrink hvr-shutter-out-vertical"
               text="ASK A QUESTION"
               border="3px" // Set border width to 1px
               borderColor="#FFB400"

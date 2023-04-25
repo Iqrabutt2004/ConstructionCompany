@@ -23,8 +23,7 @@ const BlogHeader = () => {
         className="blog-container"
         style={{ backgroundImage: `url(${BlogMain})` }}
       >
-        <div className="lineStyle"></div>
-        <h1 className="text-white news-style" data-aos="fade-up">
+        <h1 className="heading-reuse news-style" data-aos="fade-up">
           News
         </h1>
       </div>

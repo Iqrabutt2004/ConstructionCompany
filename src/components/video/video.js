@@ -52,6 +52,7 @@ const videoUrl = "https://www.youtube.com/watch?v=sssrfVJUdFk";
                 }}
               >
                 <ButtonReuse
+                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                   text="ONLINE ESTIMATE FORM"
                   border="4px"
                   borderColor="black"

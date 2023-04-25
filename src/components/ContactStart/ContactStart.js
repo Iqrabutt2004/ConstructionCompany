@@ -19,6 +19,7 @@ function ContactStart() {
             <Col lg={6} className="d-flex align-items-center">
               <div className="card-body d-flex justify-content-center justify-content-lg-end">
                 <ButtonReuse
+                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                   text="ONLINE ESTIMATE FORM"
                   border="3px" // Set border width to 1px
                   borderColor="#FFB400"

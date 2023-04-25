@@ -6,16 +6,17 @@ import ButtonReuse from '../../components/button/button';
 import TheBestpic from "../../assets/images/TheBest-pic.svg";
 function TheBest() {
   return (
-    <div className='py-5'>
+    <div className="py-5">
       <Row>
         <Col lg={4} className="background-clr py-4">
-         <div className='width-manage'>
+          <div className="width-manage">
             <h3 className="py-3 px-2">Only the Best</h3>
             <TheBestReuse title="Eco Friendly Construction" />
             <TheBestReuse title="The Newest Technology Repairs" />
             <TheBestReuse title="High Quality Construction Management" />
             <div className="d-flex justify-content-end py-4">
               <ButtonReuse
+                className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                 text="FREE QUOTE"
                 border="4px" // Set border width to 1px
                 borderColor="#FFB400"
@@ -27,11 +28,11 @@ function TheBest() {
                 height="42"
               />
             </div>
-            </div>
+          </div>
         </Col>
         <Col lg={8} className="px-0">
-          <img className=" bestPic"  src={TheBestpic} alt="" />
-          <Row className='mx-0'>
+          <img className=" bestPic" src={TheBestpic} alt="" />
+          <Row className="mx-0">
             <Col lg={6} className="best-orange">
               <h1>12</h1>
               <p className="p-style">YEARS ESTABLISHED</p>

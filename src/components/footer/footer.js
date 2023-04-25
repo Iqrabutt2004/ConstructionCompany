@@ -42,7 +42,8 @@ function Footer() {
                 />
               </div>
               <div className="d-flex justify-content-end ">
-                <ButtonReuse 
+                <ButtonReuse
+                  className=" btn-after hvr-grow hvr-shutter-out-vertical"
                   text="SEND MESSAGE"
                   border="4px"
                   borderColor="white"

@@ -16,6 +16,7 @@ const CardReuse = ({ title, body, borderStyle, textColor }) => {
       </p>{" "}
       <div className="buttonPadding">
         <ButtonReuse
+          className=" btn-after hvr-shrink hvr-shutter-out-vertical"
           text="LEARN MORE"
           border="1px" // Set border width to 1px
           borderColor="black"

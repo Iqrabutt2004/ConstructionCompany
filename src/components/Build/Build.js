@@ -22,6 +22,7 @@ function Build() {
               </p>
               <div className="">
                 <ButtonReuse
+                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                   text="GET IN TOUCH"
                   border="3px"
                   borderColor="#FFB400"

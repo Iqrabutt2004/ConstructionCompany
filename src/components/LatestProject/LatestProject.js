@@ -16,7 +16,7 @@ const LatestProject = () => {
     <div className="service-bgClr">
       <Container className="py-5 ">
         <div className="text-center pb-5">
-          <h3 className="latest-heading"  >Latest Project</h3>
+          <h3 className="latest-heading">Latest Project</h3>
           <div className="line-style-2 mx-auto"></div>
         </div>
         <Row className="">
@@ -77,6 +77,7 @@ const LatestProject = () => {
           }}
         >
           <ButtonReuse
+            className=" btn-after hvr-shrink hvr-shutter-out-vertical"
             text="VIEW ALL"
             border="4px"
             borderColor="black"

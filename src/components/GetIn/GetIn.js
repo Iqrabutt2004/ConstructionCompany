@@ -12,7 +12,10 @@ function GetIn() {
           <Col lg={6} className="pb-5">
             <h2>Get In Touch</h2>
             <div className="line-style-4"></div>
-            <form className="py-5 d-flex flex-column" style={{width:"538px"}}>
+            <form
+              className="py-5 d-flex flex-column"
+              style={{ width: "538px" }}
+            >
               <div className="pb-4">
                 <input
                   className="text-field px-3"
@@ -36,6 +39,7 @@ function GetIn() {
               </div>
               <div className="d-flex justify-content-center justify-content-lg-end">
                 <ButtonReuse
+                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                   text="SEND MESSAGE"
                   border="4px"
                   borderColor="black"
@@ -55,7 +59,6 @@ function GetIn() {
         </Row>
       </Container>
     </div>
-    
   );
 }
 

@@ -72,6 +72,7 @@ function MainLatest() {
                   </p>
                   <div className="py-4">
                     <ButtonReuse
+                      className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                       text="VIEW PROJECT"
                       border="1px"
                       borderColor="#666666"
@@ -107,6 +108,7 @@ function MainLatest() {
                   </p>
                   <div className="py-4">
                     <ButtonReuse
+                      className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                       text="VIEW PROJECT"
                       border="1px"
                       borderColor="#666666"
@@ -123,6 +125,7 @@ function MainLatest() {
             </Col>
             <div className="text-center d-flex flex-column align-items-center justify-content-center ">
               <ButtonReuse
+                className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                 text="VIEW ALL"
                 border="4px"
                 borderColor="black"

@@ -29,6 +29,7 @@ const MainPageStart = () => {
                 }
                 buttonText="VIEW OUR WORK"
                 buttonProps={{
+                   
                   text: "GET A FREE QUOTE",
                   border: "0px",
                   borderColor: "#FFB400",

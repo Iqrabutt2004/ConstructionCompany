@@ -94,6 +94,7 @@ function NoProject() {
             </div>
             <div>
               <ButtonReuse
+                className=" btn-after hvr-shrink hvr-shutter-out-vertical"
                 text="ONLINE ESTIMATE FORM"
                 border="4px" // Set border width to 1px
                 borderColor="#FFB400"
