@@ -24,12 +24,12 @@ const HeaderReuse = ({
 
   return (
     <div className={className}>
-      <div className="line-style-about"></div>
+      {/* <div className="line-style-about"></div> */}
       <div className="text-container-2">
-        <h1 className="text-white" data-aos="fade-up">
+        <h1 className="heading-reuse" data-aos="fade-up">
           {title}
         </h1>
-        <p className="py-3 text-white" data-aos="fade-up">
+        <p className="py-3 heading-reuse-text" data-aos="fade-up">
           {subtitle}
         </p>
         <ButtonReuse
@@ -41,7 +41,7 @@ const HeaderReuse = ({
           textColor="white"
           fontSize="14"
           fontWeight="600"
-          width="180"
+          width="200"
           height="42"
         />
       </div>

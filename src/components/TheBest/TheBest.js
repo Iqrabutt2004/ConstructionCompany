@@ -6,7 +6,7 @@ import ButtonReuse from '../../components/button/button';
 import TheBestpic from "../../assets/images/TheBest-pic.svg";
 function TheBest() {
   return (
-    <div>
+    <div className='py-5'>
       <Row>
         <Col lg={4} className="background-clr py-4">
          <div className='width-manage'>
@@ -27,10 +27,10 @@ function TheBest() {
                 height="42"
               />
             </div>
-   </div>
+            </div>
         </Col>
         <Col lg={8} className="px-0">
-          <img className="img-fluid" src={TheBestpic} alt="" />
+          <img className=" bestPic"  src={TheBestpic} alt="" />
           <Row className='mx-0'>
             <Col lg={6} className="best-orange">
               <h1>12</h1>

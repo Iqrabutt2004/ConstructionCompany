@@ -12,8 +12,14 @@
 
 .service-container{
   position: relative;
-  height: 662px;
+height: 625px;
   background-image: url("../../assets/images/ServicesHeaderImg.png"); /* Use the imported image */
   background-size: cover;
   background-position: center;
+}
+.service-paraStyle{
+  font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+color: #666666;
 }

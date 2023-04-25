@@ -40,9 +40,8 @@ function ServiceHeader() {
                     fontWeight: "600",
                     width: "180",
                     height: "42",
-                         
                   }}
-                      className="custom-class-2"
+                  className="custom-class-2"
                 />
               </div>
             </Col>
@@ -59,7 +58,8 @@ function ServiceHeader() {
                       </>
                     }
                     isFlex={true}
-                    textColor="white" // Pass 'textColor' prop with desired color value to set the text color
+                    titleTextColor="white"
+                    subtitleTextColor="white"
                   />
                 </div>
                 <div className="py-3">
@@ -73,7 +73,8 @@ function ServiceHeader() {
                       </>
                     }
                     isFlex={true}
-                    textColor="white" // Pass 'textColor' prop with desired color value to set the text color
+                    titleTextColor="white"
+                    subtitleTextColor="white"
                   />
                 </div>
                 <div className="py-3">
@@ -87,7 +88,8 @@ function ServiceHeader() {
                       </>
                     }
                     isFlex={true}
-                    textColor="white" // Pass 'textColor' prop with desired color value to set the text color
+                    titleTextColor="white"
+                    subtitleTextColor="white"
                   />
                 </div>
               </div>
@@ -95,41 +97,56 @@ function ServiceHeader() {
           </Row>
         </Container>
       </div>
-      <Container className="py-5">
-        <Row>
-          <Col lg={6}>
-            <p>
-              Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
-              Proin cursus, dolor a mollis consectetur, risus dolor fermentum
-              massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a
-              tortor ultrices bibendum. Nulla fermentum, metus quis sodales
-              tristique, augue mauris molestie augue, non feugiat ligula neque
-              nec felis. <br /> Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Phasellus sed nibh dignissim, cursus tellus sit
-              amet, ultrices mauris. Aliquam blandit est in eros elementum, quis
-              vehicula est suscipit. Proin cursus, dolor a mollis consectetur,
-              risus dolor fermentum massa, a commodo elit dui sit amet risus.
-              Maecenas ornare nisl a tortor ultrices bibendum.
-            </p>
-          </Col>
-          <Col lg={6}>
-            <p>
-              Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus
-              erat, consectetur eu sapien eget rhoncus consectetur sem. Proin
-              cursus, dolor a mollis consectetur, risus dolor fermentum massa, a
-              commodo elit dui sit amet risus. Maecenas ornare nisl a tortor
-              ultrices bibendum. Nulla fermentum, metus quis sodales tristique,
-              augue mauris molestie augue non feugiat ligula neque nec felis.
-              <br />
-              <br />
-              Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
-              Proin cursus, dolor a mollis consectetur, risus dolor fermentum
-              massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a
-              tortor ultrices bibendum.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+      <section>
+        <Container>
+          <Row>
+            <Col lg={6}>
+              <p className="service-paraStyle">
+                Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
+                Proin <br />
+                cursus, dolor a mollis consectetur, risus dolor fermentum massa,
+                a <br />
+                commodo elit dui sit amet risus. Maecenas ornare nisl a tortor
+                ultrices
+                <br /> bibendum. Nulla fermentum, metus quis sodales tristique,
+                augue mauris
+                <br /> molestie augue, non feugiat ligula neque nec felis.
+                <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus sed nibh <br />
+                dignissim, cursus tellus sit amet, ultrices mauris. Aliquam
+                blandit est in eros
+                <br /> elementum, quis vehicula est suscipit. Proin cursus,
+                dolor a mollis <br />
+                consectetur, risus dolor fermentum massa, a commodo elit dui sit
+                amet
+                <br /> risus. Maecenas ornare nisl a tortor ultrices bibendum.
+              </p>
+            </Col>
+            <Col lg={6}>
+              <p className="service-paraStyle">
+                Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus
+                erat,
+                <br /> consectetur eu sapien eget rhoncus consectetur sem.
+                <br /> Proin cursus, dolor a mollis consectetur, risus dolor
+                fermentum massa, a<br /> commodo elit dui sit amet risus.
+                Maecenas ornare nisl a tortor ultrices <br />
+                bibendum. Nulla fermentum, metus quis sodales tristique, augue
+                mauris
+                <br /> molestie augue non feugiat ligula neque nec felis.
+                <br />
+                <br />
+                Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
+                Proin
+                <br /> cursus, dolor a mollis consectetur, risus dolor fermentum
+                massa, a <br />
+                commodo elit dui sit amet risus. Maecenas ornare nisl a tortor
+                ultrices <br />
+                bibendum.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </div>
   );
 }

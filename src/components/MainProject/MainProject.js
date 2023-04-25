@@ -1,14 +1,19 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import MainProjectImage from "../../assets/images/MainProject.svg";
-// import ButtonReuse from "../../components/button/ButtonReuse";
-
+import ButtonReuse from "../../components/button/button";
+import "./MainProject.css";
 function MainProject() {
   return (
     <div>
       <Row>
         <Col lg={4} className="p-0">
-          <img style={{ width:"100%", height:"666px", objectFit:"cover"}} className="" src={MainProjectImage} alt="" />
+          <img
+            style={{ width: "100%", height: "760px", objectFit: "cover" }}
+            className=""
+            src={MainProjectImage}
+            alt=""
+          />
         </Col>
         <Col lg={8} className="p-0">
           <div className="TooBig-style">
@@ -17,7 +22,7 @@ function MainProject() {
               <div className="line-style-4 "></div>
               <Row>
                 <Col lg={6}>
-                  <p className="text-muted py-5">
+                  <p className="mainPara py-5">
                     Lorem ipsum dolor sit amet, consectetur
                     <br /> adipiscing elit. Sapien, dignissim tristique
                     <br /> tellus sed faucibus nullam. Tincidunt mauris
@@ -26,12 +31,13 @@ function MainProject() {
                     <br />
                     phasellus.
                     <br /> <br /> Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Sapien, dignissim tristique tellus sed
-                    faucibus nullam.
+                    <br />
+                    adipiscing elit. Sapien, dignissim tristique <br />
+                    tellus sed faucibus nullam.
                   </p>
                 </Col>
                 <Col lg={6}>
-                  <p className="text-muted py-5">
+                  <p className="mainPara  py-5">
                     Lorem ipsum dolor sit amet, consectetur
                     <br /> adipiscing elit. Sapien, dignissim tristique tellus
                     <br />
@@ -40,17 +46,17 @@ function MainProject() {
                     posuere iaculis nunc amet phasellus.
                   </p>
                   <div>
-                    {/* <ButtonReuse
-                      text="ONLINE ESTIMATE FORM"
+                    <ButtonReuse
+                      text="LEARN MORE"
                       border="4px" // Set border width to 1px
-                      borderColor="#FFB400"
-                      backgroundColor="#2A2A2A"
-                      textColor="#FFB400"
+                      borderColor="#1F1F1F"
+                      backgroundColor="#F7F7F7"
+                      textColor="#1F1F1F"
                       fontSize="14"
-                      fontWeight="500"
-                      width="202"
-                      height="42"
-                    /> */}
+                      fontWeight="600"
+                      width="210"
+                      height="54"
+                    />
                   </div>
                 </Col>
               </Row>

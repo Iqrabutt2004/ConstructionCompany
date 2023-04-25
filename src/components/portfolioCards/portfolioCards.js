@@ -12,6 +12,7 @@ import PortfolioCardsEight from "../../assets/images/portfolioCard-8.svg";
 import PortfolioCardsNine from "../../assets/images/portfolioCard-9.svg";
 
 import CardReuse from "../../components/cardReuse/cardReuse";
+
 function PortfolioCards() {
     const customBorderStyle = {
       border: "1px solid #666666",

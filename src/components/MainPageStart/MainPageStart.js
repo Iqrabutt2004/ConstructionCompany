@@ -9,7 +9,6 @@ import MainTwo from "../../assets/images/Main-2.svg";
 import MainThree from "../../assets/images/Main-3.svg";
 const MainPageStart = () => {
   return (
-
     <div>
       <Row>
         <Col lg={9} className="p-0">
@@ -24,7 +23,8 @@ const MainPageStart = () => {
                   <>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                     quis egestas <br /> pellentesque libero dolor in diam
-                    consequat ut. Mi nibh amet viverra id aliquet neque odio.
+                    consequat ut. Mi nibh amet viverra <br /> id aliquet neque
+                    odio.
                   </>
                 }
                 buttonText="VIEW OUR WORK"
@@ -46,8 +46,8 @@ const MainPageStart = () => {
         </Col>
         <Col lg={3} className="clr-main p-0">
           <div className="mx-3">
-            <h4 className="text-center pt-2">Our Services</h4>
-            <div className="py-3">
+            <h4 className="text-services">Our Services</h4>
+            <div className="py-3 px-3">
               <ConstructionReuse
                 imageSrc={MainOne}
                 title="Building Construction"
@@ -58,12 +58,13 @@ const MainPageStart = () => {
                   </>
                 }
                 isFlex={true}
-                textColor="black"
+                titleTextColor="black"
+                subtitleTextColor="white"
                 className="custom-class-1"
               />
             </div>
 
-            <div className="py-3">
+            <div className="py-3 px-3">
               <ConstructionReuse
                 imageSrc={MainTwo}
                 title="Foundation Work"
@@ -74,12 +75,13 @@ const MainPageStart = () => {
                   </>
                 }
                 isFlex={true}
-                textColor="black"
+                titleTextColor="black"
+                subtitleTextColor="white"
                 className="custom-class-1"
               />
             </div>
 
-            <div className="py-3">
+            <div className="py-3 px-3">
               <ConstructionReuse
                 imageSrc={MainThree}
                 title="Site Management"
@@ -90,7 +92,8 @@ const MainPageStart = () => {
                   </>
                 }
                 isFlex={true}
-                textColor="black"
+                titleTextColor="black"
+                subtitleTextColor="white"
                 className="custom-class-1"
               />
             </div>

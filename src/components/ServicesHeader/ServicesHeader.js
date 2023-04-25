@@ -35,7 +35,7 @@ const SevicesHeader = () => {
               }
               buttonText="GET A FREE QUOTE"
               buttonProps={{
-                text: "GET A FREE QUOTE",
+                text: "GET A QUOTE",
                 border: "0px",
                 borderColor: "#FFB400",
                 backgroundColor: "#FFB400",
@@ -61,7 +61,8 @@ const SevicesHeader = () => {
                     </>
                   }
                   isFlex={true}
-                  textColor="white"
+                 titleTextColor="white"
+                subtitleTextColor="white"
                 />
               </div>
               <div className="py-3">
@@ -75,7 +76,8 @@ const SevicesHeader = () => {
                     </>
                   }
                   isFlex={true}
-                  textColor="white"
+                 titleTextColor="white"
+                subtitleTextColor="white"
                 />
               </div>
               <div className="py-3">
@@ -89,7 +91,8 @@ const SevicesHeader = () => {
                     </>
                   }
                   isFlex={true}
-                  textColor="white"
+                 titleTextColor="white"
+                subtitleTextColor="white"
                 />
               </div>
             </div>

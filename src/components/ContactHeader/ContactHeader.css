@@ -3,7 +3,7 @@
   background-image: url(../../assets/images/MainPageImg.png); /* Use the imported image */
   background-size: cover;
   background-position: center;
-  height: 532px;
+  height: 526px;
 }
 
 @media (max-width: 992px) {

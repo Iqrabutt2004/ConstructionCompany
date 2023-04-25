@@ -10,7 +10,7 @@
 }
 .about-container {
   position: relative;
-  height: 662px;
+  height: 625px;
   background-image: url(../../assets/images/home-head.png); /* Use the imported image */
   background-size: cover;
   background-position: center;

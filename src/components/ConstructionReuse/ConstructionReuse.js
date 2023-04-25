@@ -1,19 +1,21 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./ConstructionReuse.css";
 
 const ConstructionReuse = ({
   imageSrc,
   title,
   subtitle,
   isFlex,
-  textColor,
+  titleTextColor,
+  subtitleTextColor,
 }) => {
-  const containerStyle = isFlex ? { display: "flex" } : {}; 
-  const textStyle = { color: textColor };
+  const containerStyle = isFlex ? { display: "flex" } : {};
+  const titleStyle = { color: titleTextColor };
+  const subtitleStyle = { color: subtitleTextColor };
 
-
-useEffect(() => {
+  useEffect(() => {
     AOS.init();
   }, []);
 
@@ -23,11 +25,11 @@ useEffect(() => {
         <img className="img-fluid" src={imageSrc} alt="" />
       </div>
       <div style={{ paddingLeft: "13px" }}>
-        <p className="building-para-1" data-aos="fade-right" style={textStyle}>
+        <p className="building-para-1" data-aos="fade-right" style={{ ...titleStyle , fontWeight: "700", fontSize:"18px"}}>
           {title} <br />
           <span
             data-aos="fade-right"
-            style={{ fontSize: "12px", fontWeight: "200" }}
+            style={{ ...subtitleStyle, fontSize: "15px", fontWeight: "400" }}
           >
             {subtitle}
           </span>

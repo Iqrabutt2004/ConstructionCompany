@@ -9,7 +9,7 @@ function Contact() {
       <ContactHeader/>
       <ContactStart />
       <GetIn />
-      <img className="img-fluid " src={Map} alt="" />
+      <img className="img-fluid w-100 " src={Map} alt="" />
     </div>
   );
 }

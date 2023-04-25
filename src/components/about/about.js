@@ -9,19 +9,21 @@ import "./about.css";
 function About() {
   return (
     <section>
-      <Container className="py-5">
-        <Row>
-          <Col lg={6}>
+      <Container >
+        <Row className="pb-5">
+          <Col lg={6} >
             <div className="d-flex flex-column justify-content-center justify-content-lg-left">
-              <h3 className="">About this Project</h3>
+              <h3 className="about-projectHead">About this Project</h3>
               <div className="line-style-4"> </div>
               <div>
-                <p className="pt-4 text-muted">
+                <p className="pt-4 about-paraHead">
                   Lectus erat, consectetur eu sapien eget rhoncus consectetur
-                  sem. Proin cursus, dolor a mollis consectetur, risus dolor
-                  fermentum massa, a commodo elit dui sit amet risus.
+                  sem.
+                  <br /> Proin cursus, dolor a mollis consectetur, risus dolor
+                  fermentum
+                  <br /> massa, a commodo elit dui sit amet risus.
                 </p>
-                <ul className="text-muted">
+                <ul className="about-paraHead">
                   <li>Maecenas ornare nisl</li>
                   <li>A tortor ultrices bibendum</li>
                   <li> Nulla fermentum</li>
@@ -47,10 +49,10 @@ function About() {
           alt=""
         />
 
-        <Row>
+        <Row className="py-3">
           <Col lg={6}>
-            <img
-              className="img-fluid"
+            <img 
+              className="img-fluid pb-4"
               style={{ width: "100%" }}
               src={Projectpicone}
               alt=""

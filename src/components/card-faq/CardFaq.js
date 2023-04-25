@@ -19,13 +19,13 @@ function CardFaq() {
             onClick={() => handleAccordionToggle(0)}
             className={activeIndex === 0 ? "active" : ""}
           >
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between w-100">
               <div className="py-3">
                 <h6 className="card-title">
                   Donec rutrum congue leo eget malesuada?
                 </h6>
               </div>
-              <div className="d-flex">
+              <div className="d-flex ">
                 {activeIndex === 0 ? (
                   <img className="img-fluid minus" src={Minus} alt="" />
                 ) : (
@@ -47,7 +47,7 @@ function CardFaq() {
             onClick={() => handleAccordionToggle(1)}
             className={activeIndex === 1 ? "active" : ""}
           >
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between w-100">
               <div className="py-3">
                 <h6 className="card-title">
                   Donec rutrum congue leo eget malesuada?
@@ -75,7 +75,7 @@ function CardFaq() {
             onClick={() => handleAccordionToggle(1)}
             className={activeIndex === 2 ? "active" : ""}
           >
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between w-100">
               <div className="py-3">
                 <h6 className="card-title">
                   Donec rutrum congue leo eget malesuada?
@@ -103,7 +103,7 @@ function CardFaq() {
             onClick={() => handleAccordionToggle(1)}
             className={activeIndex === 3 ? "active" : ""}
           >
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between w-100">
               <div className="py-3">
                 <h6 className="card-title">
                   Donec rutrum congue leo eget malesuada?
@@ -131,7 +131,7 @@ function CardFaq() {
             onClick={() => handleAccordionToggle(1)}
             className={activeIndex === 4 ? "active" : ""}
           >
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between w-100">
               <div className="py-3">
                 <h6 className="card-title">
                   Donec rutrum congue leo eget malesuada?

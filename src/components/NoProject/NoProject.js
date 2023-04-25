@@ -9,19 +9,20 @@ function NoProject() {
     <div>
       <Row>
         <Col lg={4} className="p-0">
-          <div className="bg-clr-project padding-parent">
-            <div className="">
+          <div className="bg-clr-project padding-parent  ">
+            <div className="px-5">
               <div className="d-flex py-2 margin-div">
                 <img className="img-fluid" src={ArrowOne} alt="" />
                 <img className="img-fluid" src={ArrowOne} alt="" />
                 <h6 className="new-style mx- 4">Eco Friendly Construction</h6>
               </div>
               <p className="margin-para">
-                Donec sollicitudin molestie malesuada. Praesent sapien massa,
-                convallis a pellentesque nec, egestas non nisi.
+                Donec sollicitudin molestie malesuada. Praesent
+                <br /> sapien massa, convallis a pellentesque nec, <br />
+                egestas non nisi.
               </p>
             </div>
-            <div className="">
+            <div className="px-5">
               <div className="d-flex py-2 margin-div">
                 <img className="img-fluid" src={ArrowOne} alt="" />
                 <img className="img-fluid" src={ArrowOne} alt="" />
@@ -30,11 +31,12 @@ function NoProject() {
                 </h6>
               </div>
               <p className="margin-para">
-                Donec sollicitudin molestie malesuada. Praesent sapien massa,
-                convallis a pellentesque nec, egestas non nisi.
+                Donec sollicitudin molestie malesuada. Praesent
+                <br /> sapien massa, convallis a pellentesque nec, <br />
+                egestas non nisi.
               </p>
             </div>
-            <div className="">
+            <div className="px-5">
               <div className="d-flex py-2 margin-div">
                 <img className="img-fluid" src={ArrowOne} alt="" />
                 <img className="img-fluid" src={ArrowOne} alt="" />
@@ -43,8 +45,9 @@ function NoProject() {
                 </h6>
               </div>
               <p className="margin-para">
-                Donec sollicitudin molestie malesuada. Praesent sapien massa,
-                convallis a pellentesque nec, egestas non nisi.
+                Donec sollicitudin molestie malesuada. Praesent
+                <br /> sapien massa, convallis a pellentesque nec, <br />
+                egestas non nisi.
               </p>
             </div>
           </div>

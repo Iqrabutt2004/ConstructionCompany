@@ -1,6 +1,7 @@
 .project-container{
        position: relative;
-  height: 100vh;
+ width: 100%;
+height: 569px;
   background-image: url(../../assets/images/ProjectHeaderImg.png); 
   background-size: cover;
   background-position: center;

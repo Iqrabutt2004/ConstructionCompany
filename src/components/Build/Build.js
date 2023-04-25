@@ -4,7 +4,7 @@ import ButtonReuse from '../../components/button/button';
 import CardFaq from '../../components/card-faq/CardFaq';
 function Build() {
   return (
-    <section className="service-bgClr">
+    <div className=" py-3 service-bgClr">
       <div className="py-5">
         <Container>
           <Row className="flex-wrap">
@@ -40,7 +40,7 @@ function Build() {
           </Row>
         </Container>
       </div>
-    </section>
+    </div>
   );
 }
 

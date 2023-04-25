@@ -5,7 +5,7 @@ import LatestCardThree from "../../assets/images/LatestCard-3.svg";
 import { Container, Row, Col } from "react-bootstrap";
 import CardReuse from "../../components/cardReuse/cardReuse"
 import ButtonReuse from "../../components/button/button";
-
+import "./LatestProject.css";
 const LatestProject = () => {
   const customBorderStyle = {
     border: "1px solid #666666",
@@ -16,7 +16,7 @@ const LatestProject = () => {
     <div className="service-bgClr">
       <Container className="py-5 ">
         <div className="text-center pb-5">
-          <h3>Latest Project</h3>
+          <h3 className="latest-heading"  >Latest Project</h3>
           <div className="line-style-2 mx-auto"></div>
         </div>
         <Row className="">

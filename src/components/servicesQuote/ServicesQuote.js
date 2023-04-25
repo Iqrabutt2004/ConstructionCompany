@@ -5,12 +5,12 @@ import ButtonReuse from '../../components/button/button';
 function ServicesQuote() {
   return (
     <div>
-      <div className="shadow ">
+      <div className="shadow py-4">
         <Container>
           <Row>
             <Col lg={6} className="d-flex align-items-center">
-              <div className="card-title py-2">
-                <h2>Get a Quote For Your Project</h2>
+              <div className="py-2">
+                <h2 className="about-projectHead ">Get a Quote For Your Project</h2>
               </div>
             </Col>
             <Col lg={6} className="d-flex align-items-center">
@@ -22,9 +22,9 @@ function ServicesQuote() {
                   backgroundColor="white"
                   textColor="#FFB400"
                   fontSize="14"
-                  fontWeight="500"
-                  width="180"
-                  height="42"
+                  fontWeight="600"
+                  width="230"
+                  height="65"
                 />
               </div>
             </Col>

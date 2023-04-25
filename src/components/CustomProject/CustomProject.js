@@ -1,10 +1,10 @@
-import React from 'react'
-import RepairReuse from "../../components/RepairReuse/RepairReuse"
+import React from "react";
+import RepairReuse from "../../components/RepairReuse/RepairReuse";
 import "./CustomProject.css";
 function CustomProject() {
   return (
-    <section className="py-5">
-      <div className='py-5'>
+    <div>
+      <div className="">
         <RepairReuse
           title="Building Construction"
           description="Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum."
@@ -15,7 +15,7 @@ function CustomProject() {
           className="float-repair"
         />
       </div>
-      <div className=" float-repair-2 py-5">
+      <div className=" float-repair-2 ">
         <div className=" float-repair-2 d-flex">
           <RepairReuse
             title="Repairs & Installations"
@@ -28,7 +28,7 @@ function CustomProject() {
           />
         </div>
       </div>
-      <div className='py-5'>
+      <div className="pb-5">
         <RepairReuse
           title="Custom Design Projects"
           description="Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum."
@@ -39,8 +39,8 @@ function CustomProject() {
           className="float-repair"
         />
       </div>
-    </section>
+    </div>
   );
 }
 
-export default CustomProject
+export default CustomProject;

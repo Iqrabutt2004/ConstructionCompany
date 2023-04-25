@@ -12,9 +12,8 @@ const ProjectHeader =() => {
         <Row>
           <Col md={6}>
             <div className=" project-style">
-              <div className="lineStyle-project"></div>
-              <h1 className="text-white">Monarch HQ Project</h1>
-              <p className="text-white">
+              <h1 className="heading-reuse">Monarch HQ Project</h1>
+              <p className="heading-reuse-text py-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
                 <br />
                 egestas pellentesque libero dolor in diam consequat ut.

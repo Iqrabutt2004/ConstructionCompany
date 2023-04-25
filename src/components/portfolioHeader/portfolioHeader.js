@@ -15,13 +15,12 @@ const PortfolioHeader = () => {
         className="portfolio-container"
         style={{ backgroundImage: `url(${PortfolioHeaderImg})` }}
       >
-        <div className="lineStyle-portfolio"></div>
         <div className=" portfolio-style">
-          <h1 className="text-white" data-aos="fade-up">
+          <h1 className="heading-reuse" data-aos="fade-up">
             Our Construction
             <br /> Projects
           </h1>
-          <p className="text-white" data-aos="fade-left">
+          <p className="heading-reuse-text" data-aos="fade-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
             <br />
             egestas pellentesque libero dolor in diam consequat ut.

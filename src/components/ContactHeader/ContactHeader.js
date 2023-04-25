@@ -2,7 +2,6 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {  useEffect } from "react";
-
 import { Row, Col } from "react-bootstrap";
 import "./ContactHeader.css";
 import  ContactPagePic from "../../assets/images/MainPageImg.png";
@@ -47,21 +46,16 @@ const ContactHeader = () => {
                   height: "42",
                 }}
                 className="custom-class-1"
-                 data-aos="fade-left"
-                
+                data-aos="fade-left"
               />
             </div>
           </div>
         </Col>
         <Col lg={3} className="clr-main p-0 ">
-          <div className="mx-3 contact-small">
-            <h4
-              className="py-4"
-              style={{ fontWeight: "800" }}
-              data-aos="fade-up"
-            >
+          <div className="py-3 px-4 contact-small">
+            <h2 className="py-1 " data-aos="fade-up">
               Contact Info
-            </h4>
+            </h2>
 
             <div className="pb-4">
               <p style={{ fontWeight: "700" }} data-aos="fade-left">

@@ -8,27 +8,29 @@ const MyVideoComponent = () => {
 const videoUrl = "https://www.youtube.com/watch?v=sssrfVJUdFk";
  const opts = {
    width: "100%",
-   height:"450px"
+   height:"472px"
  };
   return (
     <div className="">
       <Row>
         <Col lg={4} className="padding-none">
-          <div className="video-bg px-4">
-            <h3 className="text-white">About Process</h3>
-            <div className="line-3"></div>
-            <p className="text-white pt-5">
-              Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
-              Proin cursus, dolor a mollis consectetur, risus dolor fermentum
-              massa, a commodo elit dui sit amet risus.
-            </p>
-            <ul className="text-white">
-              <li>Maecenas ornare nisl</li>
-              <li>A tortor ultrices bibendum</li>
-              <li>Nulla fermentum</li>
-              <li>Metus quis</li>
-              <li>Sodales tristique</li>
-            </ul>
+          <div className="video-paddingSet">
+            <div className="video-bg ">
+              <h3 className="text-white">About Process</h3>
+              <div className="line-3"></div>
+              <p className="text-white pt-5">
+                Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
+                Proin cursus, dolor a mollis consectetur, risus dolor fermentum
+                massa, a commodo elit dui sit amet risus.
+              </p>
+              <ul className="text-white">
+                <li>Maecenas ornare nisl</li>
+                <li>A tortor ultrices bibendum</li>
+                <li>Nulla fermentum</li>
+                <li>Metus quis</li>
+                <li>Sodales tristique</li>
+              </ul>
+            </div>
           </div>
         </Col>
         <Col lg={8} className="padding-none">
@@ -51,7 +53,7 @@ const videoUrl = "https://www.youtube.com/watch?v=sssrfVJUdFk";
               >
                 <ButtonReuse
                   text="ONLINE ESTIMATE FORM"
-                  border="4px" 
+                  border="4px"
                   borderColor="black"
                   backgroundColor="white"
                   textColor="black"

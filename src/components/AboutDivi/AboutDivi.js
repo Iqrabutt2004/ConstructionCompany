@@ -11,7 +11,7 @@ function AboutDivi() {
         </div>
         <Row>
           <Col lg={6}>
-            <p className="text-muted">
+            <p className="service-paraStyle d-flex justify-content-center">
               Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
               <br />
               Proin cursus, dolor a mollis consectetur, risus dolor fermentum
@@ -24,20 +24,21 @@ function AboutDivi() {
               nec
               <br /> felis.
               <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus sed nibh dignissim, cursus tellus sit amet, ultrices
-              mauris. Aliquam blandit est in eros elementum, quis vehicula est
-              suscipit.
+              Phasellus sed <br />
+              nibh dignissim, cursus tellus sit amet, ultrices mauris. Aliquam
+              blandit <br /> est in eros elementum, quis vehicula est suscipit.
             </p>
           </Col>
           <Col lg={6}>
-            <p className="text-muted">
+            <p className="service-paraStyle">
               Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus
               erat, <br />
               consectetur eu sapien eget rhoncus consectetur sem. <br /> Proin
               cursus, dolor a mollis consectetur, risus dolor fermentum massa,
               <br /> a commodo elit dui sit amet risus. Maecenas ornare nisl a
-              tortor  ultrices bibendum. Nulla fermentum, metus quis
-              sodales tristique, 
+              tortor <br />
+              ultrices bibendum. Nulla fermentum, metus quis sodales tristique,{" "}
+              <br />
               augue mauris molestie augue non feugiat ligula neque nec felis.
             </p>
           </Col>

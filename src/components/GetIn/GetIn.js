@@ -6,7 +6,7 @@ import CardFaq from "../card-faq/CardFaq";
 
 function GetIn() {
   return (
-    <div className="service-bgClr py-4">
+    <div className="service-bgClr py-5">
       <Container>
         <Row className="flex-wrap">
           <Col lg={6} className="pb-5">

@@ -16,7 +16,7 @@ const RelatedProject = () => {
   return (
     <div className="service-bgClr">
       <Container className="py-5 ">
-        <div className="text-center">
+        <div className="text-center pb-5">
           <h3>Related Project</h3>
           <div className="line-style-2 mx-auto"></div>
         </div>

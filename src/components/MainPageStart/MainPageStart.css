@@ -3,6 +3,7 @@
   background-image: url(../../assets/images/MainPageImg.png); /* Use the imported image */
   background-size: cover;
   background-position: center;
+  height: 491px;
 }
 .clr-main{
     background-color:#FFB400;
@@ -18,4 +19,9 @@
   left: 160px;
     top: 120px;
 
+}
+.text-services{
+  padding: 1rem 24px;
+    font-weight: 700;
+    font-size: 32px;
 }

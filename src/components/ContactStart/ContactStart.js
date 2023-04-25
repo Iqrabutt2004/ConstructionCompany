@@ -10,11 +10,13 @@ function ContactStart() {
           <Row>
             <Col lg={6}>
               <div className="card-title">
-                <h1 className="call-clr">Call: (541) 931-3526</h1>
-                <h3>Get a Quote For Your Project</h3>
+                <h1 className="call-clr about-projectHead">
+                  Call: (541) 931-3526
+                </h1>
+                <h3>We Can't Wait to Make Your Ideas a Reality</h3>
               </div>
             </Col>
-            <Col lg={6} className='d-flex align-items-center'>
+            <Col lg={6} className="d-flex align-items-center">
               <div className="card-body d-flex justify-content-center justify-content-lg-end">
                 <ButtonReuse
                   text="ONLINE ESTIMATE FORM"
@@ -23,9 +25,9 @@ function ContactStart() {
                   backgroundColor="white"
                   textColor="#FFB400"
                   fontSize="14"
-                  fontWeight="500"
-                  width="220"
-                  height="50"
+                  fontWeight="600"
+                  width="230"
+                  height="65"
                 />
               </div>
             </Col>

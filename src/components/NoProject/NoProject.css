@@ -1,14 +1,9 @@
 .bg-clr-project{
     background-color: #FFB400;
 }
-.margin-para{
-      margin-right: 1.5rem!important;
-    margin-left: 4.5rem!important;
 
-}
-.margin-div{
-    margin-left: 18px;
-}
+
+
 .new-style{
        display: flex;
     align-items: center;
@@ -30,4 +25,7 @@
     background-color: #2A2A2A;
         padding-top: 2.3rem!important;
     padding-bottom: 2.3rem!important;
+ }
+ .margin-para{
+    padding: 0px 3.5rem;
  }

@@ -12,9 +12,25 @@
     display: flex;
         flex-direction: column;
         padding: 6rem 0px;
+        
 }
-@media (max-width: 627px) {
-    .line-style-about{
-        display: none;
-    }
+
+.heading-reuse{
+    font-weight: 700;
+font-size: 60px;
+color: white;
+padding: 1rem;
+
+
+}
+.heading-reuse::before{
+    content: "";
+    height: 90px;
+    border: 4px solid #FFB400;
+    position: absolute;
+    left: -0.5rem;
+}
+.heading-reuse-text{
+    font-size: 22px;
+    color: white;
 }

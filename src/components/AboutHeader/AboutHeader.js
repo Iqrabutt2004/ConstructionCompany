@@ -34,7 +34,6 @@ const AboutHeader = () => {
                 </>
               }
             />
-           
           </Col>
           <Col xs={6}>
             <div className="heading-styles">
@@ -50,7 +49,8 @@ const AboutHeader = () => {
                     </>
                   }
                   isFlex={true}
-                  textColor="white" // Pass 'textColor' prop with desired color value to set the text color
+                  titleTextColor="white"
+                  subtitleTextColor="white"
                 />
               </div>
               <div className="py-3">
@@ -64,7 +64,8 @@ const AboutHeader = () => {
                     </>
                   }
                   isFlex={true}
-                  textColor="white" // Pass 'textColor' prop with desired color value to set the text color
+                  titleTextColor="white"
+                  subtitleTextColor="white"
                 />
               </div>
               <div className="py-3">
@@ -78,7 +79,8 @@ const AboutHeader = () => {
                     </>
                   }
                   isFlex={true}
-                  textColor="white" // Pass 'textColor' prop with desired color value to set the text color
+                  subtitleTextColor="white"
+                  titleTextColor="white"
                 />
               </div>
             </div>
