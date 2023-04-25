@@ -22,7 +22,7 @@ const ProjectHeader =() => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-white">
+            <div className="text-white project-header">
               <p>Date: 12 April 2018 </p>
               <p>Client: Monarch Group</p>
               <p>Project Type: Building Renovation</p>
