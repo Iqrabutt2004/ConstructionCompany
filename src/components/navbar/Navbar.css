@@ -9,7 +9,8 @@ Nav.Link{
 }
 .nav-text{
   color: black;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
 }
 .nav-link.active::after {
   content: "";
