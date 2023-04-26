@@ -8,20 +8,20 @@ const MyVideoComponent = () => {
 const videoUrl = "https://www.youtube.com/watch?v=sssrfVJUdFk";
  const opts = {
    width: "100%",
-   height:"472px"
+   height:"479px"
  };
   return (
-    <div className="">
-      <Row>
-        <Col lg={4} className="padding-none">
+    <div>
+      <div className="video-flex">
+        <div className="video-flex-1">
           <div className="video-paddingSet">
             <div className="video-bg ">
               <h3 className="text-white">About Process</h3>
               <div className="line-3"></div>
               <p className="text-white pt-5">
                 Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
-                Proin cursus, dolor a mollis consectetur, risus dolor fermentum
-                massa, a commodo elit dui sit amet risus.
+                Proin cursus, dolor a mollis consectetur, fermentum massa, a
+                commodo elit dui sit amet risus.
               </p>
               <ul className="text-white">
                 <li>Maecenas ornare nisl</li>
@@ -32,42 +32,46 @@ const videoUrl = "https://www.youtube.com/watch?v=sssrfVJUdFk";
               </ul>
             </div>
           </div>
-        </Col>
-        <Col lg={8} className="padding-none">
-          <YouTube videoId={videoUrl.split("v=")[1]} opts={opts} />
-          <Row>
-            <Col lg={6}>
-              <div className="call-bg">
-                <h3>Call for a Quote</h3>
-                <h3>(346) 234-6973</h3>
+        </div>
+        <div className="video-flex-2">
+          <div style={{ height: "479px" }}>
+            <YouTube videoId={videoUrl.split("v=")[1]} opts={opts} />
+          </div>
+          <div>
+            <div className="video-flex">
+              <div className="video-flex-3">
+                <div className="call-bg">
+                  <h3>Call for a Quote</h3>
+                  <h3>(346) 234-6973</h3>
+                </div>
               </div>
-            </Col>
-            <Col lg={6}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  padding: "2rem",
-                }}
-              >
-                <ButtonReuse
-                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
-                  text="ONLINE ESTIMATE FORM"
-                  border="4px"
-                  borderColor="black"
-                  backgroundColor="white"
-                  textColor="black"
-                  fontSize="14"
-                  fontWeight="500"
-                  width="200"
-                  height="42"
-                />
+              <div className="video-flex-4">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    padding: "2rem",
+                  }}
+                >
+                  <ButtonReuse
+                    className=" btn-after hvr-bob"
+                    text="ONLINE ESTIMATE FORM"
+                    border="4px"
+                    borderColor="black"
+                    backgroundColor="white"
+                    textColor="black"
+                    fontSize="14"
+                    fontWeight="500"
+                    width="200"
+                    height="42"
+                  />
+                </div>
               </div>
-            </Col>
-          </Row>
-        </Col>
-      </Row>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -18,6 +18,7 @@ function CardFaq() {
           <Accordion.Header
             onClick={() => handleAccordionToggle(0)}
             className={activeIndex === 0 ? "active" : ""}
+            
           >
             <div className="d-flex justify-content-between w-100">
               <div className="py-3">
@@ -62,7 +63,7 @@ function CardFaq() {
               </div>
             </div>
           </Accordion.Header>
-          <Accordion.Body eventKey="2">
+          <Accordion.Body eventKey="1">
             <p className="card-text text-muted pb-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
@@ -90,7 +91,7 @@ function CardFaq() {
               </div>
             </div>
           </Accordion.Header>
-          <Accordion.Body eventKey="3">
+          <Accordion.Body eventKey="2">
             <p className="card-text text-muted pb-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
@@ -118,7 +119,7 @@ function CardFaq() {
               </div>
             </div>
           </Accordion.Header>
-          <Accordion.Body eventKey="4">
+          <Accordion.Body eventKey="3">
             <p className="card-text text-muted pb-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris

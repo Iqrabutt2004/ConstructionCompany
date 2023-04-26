@@ -11,8 +11,8 @@ import ButtonReuse from "../button/button";
 
 function Footer() {
   return (
-    <Row>
-      <Col xl={6} className="set-padding">
+    <div className="parent-flex">
+      <div className="footer-flex-1">
         <div className="footer-clr padding-clr py-5 px-4 ">
           <div className="maxWidth">
             <h3>Contact Us</h3>
@@ -42,8 +42,7 @@ function Footer() {
                 />
               </div>
               <div className="d-flex justify-content-end ">
-                <ButtonReuse
-                  className=" btn-after hvr-grow hvr-shutter-out-vertical"
+                <ButtonReuse 
                   text="SEND MESSAGE"
                   border="4px"
                   borderColor="white"
@@ -58,8 +57,8 @@ function Footer() {
             </form>
           </div>
         </div>
-      </Col>
-      <Col xl={6} className="set-padding">
+      </div>
+      <div className="footer-flex-2">
         <div className="upper-clr py-4">
           <div className="d-flex justify-content-center ">
             <img style={{ paddingRight: "2rem" }} src={Facebook} alt="" />
@@ -87,8 +86,8 @@ function Footer() {
             </span>
           </div>
         </div>
-      </Col>
-    </Row>
+      </div>
+    </div>
   );
 }
 

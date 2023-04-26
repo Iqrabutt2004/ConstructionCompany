@@ -28,8 +28,8 @@ const BlogHeader = () => {
         </h1>
       </div>
       <Container className="py-5">
-        <Row>
-          <Col lg={4}>
+        <Row className="d-flex justify-content-evenly">
+          <Col lg={3} style={{ width: "27%" }}>
             <Cards
               imageSrc={AvatarOne}
               title="Nunc Volutpat Venenatis"
@@ -41,7 +41,7 @@ const BlogHeader = () => {
         dapibus augue, at mollis tellus ex non nisi."
             />
           </Col>
-          <Col lg={4}>
+          <Col lg={3} style={{ width: "27%" }}>
             <Cards
               imageSrc={AvatarTwo}
               title="Vestibulum Nisl Felis"
@@ -50,7 +50,7 @@ const BlogHeader = () => {
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet. "
             />
           </Col>
-          <Col lg={4}>
+          <Col lg={3} style={{ width: "27%" }}>
             <Cards
               imageSrc={AvatarThree}
               title="Proin Eu Augue Efficitur"
@@ -60,8 +60,8 @@ const BlogHeader = () => {
             />
           </Col>
         </Row>
-        <Row>
-          <Col lg={4}>
+        <Row className="d-flex justify-content-evenly">
+          <Col lg={4} style={{ width: "27%" }}>
             <Cards
               imageSrc={AvatarFour}
               title="Nunc Volutpat Venenatis"
@@ -70,7 +70,7 @@ const BlogHeader = () => {
               description="Nulla a odio sed magna congue condimentum. Pellentesque convallis enim nec libero vulputate, et rhoncus urna placerat. Phasellus mattis, diam vel vehicula facilisis, erat leo dapibus augue, at mollis tellus ex non nisi. Maecenas urna sapien, dignissim a augue vitae, porttitor luctus urna. Morbi scelerisque semper congue. "
             />
           </Col>
-          <Col lg={4}>
+          <Col lg={4} style={{ width: "27%" }}>
             <Cards
               imageSrc={AvatarFive}
               title="Donec Sit Amet Nibh"
@@ -79,7 +79,7 @@ const BlogHeader = () => {
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet.   "
             />
           </Col>
-          <Col lg={4}>
+          <Col lg={4} style={{ width: "27%" }}>
             <Cards
               imageSrc={AvatarSix}
               title="Maecenas Fringilla Augue"

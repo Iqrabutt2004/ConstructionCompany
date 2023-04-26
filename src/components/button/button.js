@@ -10,14 +10,14 @@ const ButtonReuse = ({
   textColor,
   fontSize,
   fontWeight,
-  paddingLeft,
+  padding,
 }) => {
   const buttonStyle = {
     border: `${border} solid ${borderColor}`, // Set border width and color
     backgroundColor: `${backgroundColor}`,
     width: `${width}px`,
     height: `${height}px`,
-    paddingLeft: `${paddingLeft}px`,
+    padding: `${padding}`,
   };
 
   const textStyle = {

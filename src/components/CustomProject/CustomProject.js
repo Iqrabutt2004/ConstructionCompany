@@ -8,7 +8,7 @@ function CustomProject() {
         <RepairReuse
           title="Building Construction"
           description="Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum."
-          button1Text="LEARN MORE"
+          button1Text="GET A QUOTE"
           button1BgColor="#2A2A2A"
           button2Text="LEARN MORE"
           button2BgColor="#FFB400"
@@ -20,7 +20,7 @@ function CustomProject() {
           <RepairReuse
             title="Repairs & Installations"
             description="Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum."
-            button1Text="LEARN MORE"
+            button1Text="GET A QUOTE"
             button1BgColor="#2A2A2A"
             button2Text="LEARN MORE"
             button2BgColor="#FFB400"
@@ -32,7 +32,7 @@ function CustomProject() {
         <RepairReuse
           title="Custom Design Projects"
           description="Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum."
-          button1Text="LEARN MORE"
+          button1Text="GET A QUOTE"
           button1BgColor="#2A2A2A"
           button2Text="LEARN MORE"
           button2BgColor="#FFB400"

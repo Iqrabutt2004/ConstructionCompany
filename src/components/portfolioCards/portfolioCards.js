@@ -14,16 +14,17 @@ import PortfolioCardsNine from "../../assets/images/portfolioCard-9.svg";
 import CardReuse from "../../components/cardReuse/cardReuse";
 
 function PortfolioCards() {
-    const customBorderStyle = {
-      border: "1px solid #666666",
-      borderRadius: "0px",
-    };
-    const customTextColor = "gray";
+  const customBorderStyle = {
+    border: "1px solid #666666",
+    borderRadius: "0px",
+  };
+  const customTextColor = "gray";
+  const customBgColor = "#F7F7F7";
   return (
-    <div>
+    <div className="service-bgClr">
       <Container className="py-5">
-        <Row className="mb-5">
-          <Col lg={4} className="mb-5">
+        <Row className="mb-5 d-flex justify-content-evenly">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -36,10 +37,11 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -52,10 +54,11 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -68,12 +71,13 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>
         </Row>
-        <Row className="mb-5">
-          <Col lg={4} className="mb-5">
+        <Row className="mb-5  d-flex justify-content-evenly">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -86,10 +90,11 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -102,10 +107,11 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -118,12 +124,13 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>
         </Row>
-        <Row className="mb-5">
-          <Col lg={4} className="mb-5">
+        <Row className="mb-5  d-flex justify-content-evenly">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -136,10 +143,11 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -152,10 +160,11 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5 ">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -168,6 +177,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                 backgroundColor={customBgColor}
               />
             </div>
           </Col>

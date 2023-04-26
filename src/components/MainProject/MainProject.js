@@ -1,28 +1,27 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 import MainProjectImage from "../../assets/images/MainProject.svg";
 import ButtonReuse from "../../components/button/button";
 import "./MainProject.css";
 function MainProject() {
   return (
     <div>
-      <Row>
-        <Col lg={4} className="p-0">
+      <div className="flexMain">
+        <div className="p-0 flexMain-1">
           <img
-            style={{ width: "100%", height: "760px", objectFit: "cover" }}
-            className=""
+            
+            className="img-fluid MainImgSet"
             src={MainProjectImage}
             alt=""
           />
-        </Col>
-        <Col lg={8} className="p-0">
+        </div>
+        <div className="p-0 flexMain-2">
           <div className="TooBig-style">
             <div className="TooBig-style-2">
               <h1>No Project Too Big Or Too Small</h1>
               <div className="line-style-4 "></div>
-              <Row>
-                <Col lg={6}>
-                  <p className="mainPara py-5">
+              <div className="flexMain">
+                <div className="flexMain-3">
+                  <p className="mainPara ">
                     Lorem ipsum dolor sit amet, consectetur
                     <br /> adipiscing elit. Sapien, dignissim tristique
                     <br /> tellus sed faucibus nullam. Tincidunt mauris
@@ -35,9 +34,9 @@ function MainProject() {
                     adipiscing elit. Sapien, dignissim tristique <br />
                     tellus sed faucibus nullam.
                   </p>
-                </Col>
-                <Col lg={6}>
-                  <p className="mainPara  py-5">
+                </div>
+                <div className="flexMain-4">
+                  <p className="mainPara  ">
                     Lorem ipsum dolor sit amet, consectetur
                     <br /> adipiscing elit. Sapien, dignissim tristique tellus
                     <br />
@@ -47,7 +46,7 @@ function MainProject() {
                   </p>
                   <div>
                     <ButtonReuse
-                      className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                      className=" btn-after hvr-bob"
                       text="LEARN MORE"
                       border="4px" // Set border width to 1px
                       borderColor="#1F1F1F"
@@ -59,22 +58,22 @@ function MainProject() {
                       height="54"
                     />
                   </div>
-                </Col>
-              </Row>
+                </div>
+              </div>
             </div>
           </div>
-          <Row className="mx-0">
-            <Col lg={6} className="best-orange">
+          <div className="mx-0 flexMain">
+            <div className="best-orange flexMain-5">
               <h1>12</h1>
               <p className="p-style">YEARS ESTABLISHED</p>
-            </Col>
-            <Col lg={6} className="best-black">
+            </div>
+            <div className="best-black flexMain-6">
               <h1>250</h1>
               <p className="p-style">COMPLETED PROJECTS</p>
-            </Col>
-          </Row>
-        </Col>
-      </Row>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

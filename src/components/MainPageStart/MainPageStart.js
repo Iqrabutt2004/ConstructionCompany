@@ -10,13 +10,13 @@ import MainThree from "../../assets/images/Main-3.svg";
 const MainPageStart = () => {
   return (
     <div>
-      <Row>
-        <Col lg={9} className="p-0">
+      <div className="MainStartFlex">
+        <div className="p-0 MainStartFlex-1">
           <div
             className="main-container"
             style={{ backgroundImage: `url(${MainPagePic})` }}
           >
-            <div className="d-flex justify-content-center p-0">
+            <div className="reuseFlex  p-0">
               <HeaderReuse
                 title={<>Construction</>}
                 subtitle={
@@ -29,7 +29,6 @@ const MainPageStart = () => {
                 }
                 buttonText="VIEW OUR WORK"
                 buttonProps={{
-                   
                   text: "GET A FREE QUOTE",
                   border: "0px",
                   borderColor: "#FFB400",
@@ -40,12 +39,12 @@ const MainPageStart = () => {
                   width: "180",
                   height: "42",
                 }}
-                className="custom-class-1"
+                className="custom-class-2"
               />
             </div>
           </div>
-        </Col>
-        <Col lg={3} className="clr-main p-0">
+        </div>
+        <div className="clr-main p-0 MainStartFlex-2">
           <div className="mx-3">
             <h4 className="text-services">Our Services</h4>
             <div className="py-3 px-3">
@@ -99,8 +98,8 @@ const MainPageStart = () => {
               />
             </div>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </div>
   );
 };

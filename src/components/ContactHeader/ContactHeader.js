@@ -15,8 +15,8 @@ const ContactHeader = () => {
   }, []);
   return (
     <div>
-      <Row>
-        <Col lg={9} className="p-0">
+      <div className="contactFlex">
+        <div className="p-0 contactFlex-1">
           <div
             className="Contact-container"
             style={{ backgroundImage: `url(${ContactPagePic})` }}
@@ -50,8 +50,8 @@ const ContactHeader = () => {
               />
             </div>
           </div>
-        </Col>
-        <Col lg={3} className="clr-main p-0 ">
+        </div>
+        <div className="clr-main p-0 contactFlex-2">
           <div className="py-3 px-4 contact-small">
             <h2 className="py-1 " data-aos="fade-up">
               Contact Info
@@ -86,14 +86,14 @@ const ContactHeader = () => {
                 <br /> (346) 426-2351
               </p>
             </div>
-            <div className="d-flex pb-2 ">
+            <div className="d-flex icons pb-2 ">
               <img style={{ paddingRight: "2rem" }} src={Facebook} alt="" />
               <img style={{ paddingRight: "2rem" }} src={Twitter} alt="" />
               <img src={Linkedin} alt="" />
             </div>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </div>
   );
 };

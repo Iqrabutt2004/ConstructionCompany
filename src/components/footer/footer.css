@@ -51,3 +51,20 @@ border-bottom: 5px solid black;
   max-width: 536px;
   margin-left: 1rem;
 }
+.footer-flex-1{
+  flex: 0 0 50%;
+}
+.footer-flex-2{
+  flex: 0 0 50%;
+}
+.parent-flex{
+  display: flex;
+}
+@media (max-width: 1200px){
+.parent-flex{
+  flex-direction: column;
+}
+.footer-flex-2{
+  text-align: center;
+}
+}

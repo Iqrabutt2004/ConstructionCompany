@@ -1,0 +1,16 @@
+.card-date{
+    font-weight: 300;
+    font-size: 15px;
+    color: #C9C9C9;
+}
+.card-heading{
+    font-size: 19px;
+    font-weight: 700;
+    color: #666666;
+}
+.card-desc{
+   font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+     color: #666666;
+}

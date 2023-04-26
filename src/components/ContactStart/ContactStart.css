@@ -1,3 +1,13 @@
 .call-clr{
     color: #FFB400;
 }
+.ContactStartFlex{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:992px){
+    .ContactStartFlex{
+        flex-direction: column;
+        text-align: center;
+    }
+}

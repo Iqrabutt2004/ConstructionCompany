@@ -5,23 +5,23 @@ import ButtonReuse from '../../components/button/button';
 function ContactStart() {
   return (
     <div>
-      <div className="shadow py-4">
+      <div className="shadow py-5">
         <Container>
-          <Row>
-            <Col lg={6}>
+          <div className="ContactStartFlex">
+            <div className="ContactStartFlex-1">
               <div className="card-title">
                 <h1 className="call-clr about-projectHead">
                   Call: (541) 931-3526
                 </h1>
-                <h3>We Can't Wait to Make Your Ideas a Reality</h3>
+                <p style={{fontSize:"30px" ,fontWeight:"500"}}>We Can't Wait to Make Your Ideas a Reality</p>
               </div>
-            </Col>
-            <Col lg={6} className="d-flex align-items-center">
-              <div className="card-body d-flex justify-content-center justify-content-lg-end">
+            </div>
+            <div className=" ContactStartFlex-2">
+              <div className="py-4 ">
                 <ButtonReuse
-                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                  className=" btn-after hvr-bob"
                   text="ONLINE ESTIMATE FORM"
-                  border="3px" // Set border width to 1px
+                  border="3px"
                   borderColor="#FFB400"
                   backgroundColor="white"
                   textColor="#FFB400"
@@ -31,8 +31,8 @@ function ContactStart() {
                   height="65"
                 />
               </div>
-            </Col>
-          </Row>
+            </div>
+          </div>
         </Container>
       </div>
     </div>

@@ -10,7 +10,7 @@ const ProjectHeader =() => {
     >
       <Container>
         <Row>
-          <Col md={6}>
+          <Col lg={6} md={6} sm={12}>
             <div className=" project-style">
               <h1 className="heading-reuse " data-aos="fade-up">
                 Monarch HQ Project
@@ -22,11 +22,17 @@ const ProjectHeader =() => {
               </p>
             </div>
           </Col>
-          <Col md={6}>
-            <div className="text-white project-header" >
-              <p>Date: 12 April 2018 </p>
-              <p>Client: Monarch Group</p>
-              <p>Project Type: Building Renovation</p>
+          <Col lg={6} md={6} sm={12}>
+            <div className="text-white project-header">
+              <p style={{ fontSize: "18px", fontWeight: "400" }}>
+                Date: 12 April 2018{" "}
+              </p>
+              <p style={{ fontSize: "18px", fontWeight: "400" }}>
+                Client: Monarch Group
+              </p>
+              <p style={{ fontSize: "18px", fontWeight: "400" }}>
+                Project Type: Building Renovation
+              </p>
             </div>
           </Col>
         </Row>

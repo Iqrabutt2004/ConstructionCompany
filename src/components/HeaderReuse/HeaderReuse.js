@@ -24,7 +24,6 @@ const HeaderReuse = ({
 
   return (
     <div className={className}>
-      {/* <div className="line-style-about"></div> */}
       <div className="text-container-2">
         <h1 className="heading-reuse" data-aos="fade-up">
           {title}

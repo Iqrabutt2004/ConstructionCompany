@@ -16,7 +16,7 @@ function MainLatest() {
               <p className="latestHead">Latest Projects</p>
               <div className="line-style-2"></div>
             </div>
-            <Col lg={4}>
+            <Col lg={4} className="d-flex justify-content-evenly">
               <div className="mb-5">
                 <img
                   className=" img-latest mb-4"
@@ -26,32 +26,32 @@ function MainLatest() {
                 <div className="card card-main mb-5">
                   <h6
                     className="py-3"
-                    style={{ fontSize: "15px", fontWeight: "700" }}
+                    style={{ fontSize: "15px", fontWeight: "500" }}
                   >
                     Project Title
                   </h6>
                   <p className=" pb-5 card-para-main">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                    nLorem ipsum dolor sit amet, consectetur adipiscing elit. Id
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div className="py-4">
+                  <div className="">
                     <ButtonReuse
+                      className=" btn-after hvr-pop "
                       text="VIEW PROJECT"
                       border="1px"
                       borderColor="#666666"
                       backgroundColor="white"
                       textColor="#666666"
                       fontSize="11"
-                      fontWeight="700"
-                      width="138"
-                      height="27"
+                      fontWeight="800"
+                      padding="1px 22px 4px 23px"
                     />
                   </div>
                 </div>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className="d-flex justify-content-evenly">
               <div>
                 <img
                   className="img-latest  mb-4"
@@ -61,7 +61,7 @@ function MainLatest() {
                 <div className="card card-main mb-5">
                   <h6
                     className="py-3"
-                    style={{ fontSize: "15px", fontWeight: "700" }}
+                    style={{ fontSize: "15px", fontWeight: "500" }}
                   >
                     Project Title
                   </h6>
@@ -70,24 +70,23 @@ function MainLatest() {
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div className="py-4">
+                  <div className="">
                     <ButtonReuse
-                      className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                      className=" btn-after hvr-pop "
                       text="VIEW PROJECT"
                       border="1px"
                       borderColor="#666666"
                       backgroundColor="white"
                       textColor="#666666"
                       fontSize="11"
-                      fontWeight="700"
-                      width="138"
-                      height="27"
+                      fontWeight="800"
+                      padding="1px 22px 4px 23px"
                     />
                   </div>
                 </div>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className="d-flex justify-content-evenly mb-5">
               <div>
                 <img
                   className=" img-latest mb-4"
@@ -97,7 +96,7 @@ function MainLatest() {
                 <div className="card card-main">
                   <h6
                     className="py-3"
-                    style={{ fontSize: "15px", fontWeight: "700" }}
+                    style={{ fontSize: "15px", fontWeight: "500" }}
                   >
                     Project Title
                   </h6>
@@ -106,18 +105,17 @@ function MainLatest() {
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div className="py-4">
+                  <div className="">
                     <ButtonReuse
-                      className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                      className=" btn-after hvr-pop "
                       text="VIEW PROJECT"
                       border="1px"
                       borderColor="#666666"
                       backgroundColor="white"
                       textColor="#666666"
                       fontSize="11"
-                      fontWeight="700"
-                      width="138"
-                      height="27"
+                      fontWeight="800"
+                      padding="1px 22px 4px 23px"
                     />
                   </div>
                 </div>
@@ -125,16 +123,15 @@ function MainLatest() {
             </Col>
             <div className="text-center d-flex flex-column align-items-center justify-content-center ">
               <ButtonReuse
-                className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                className=" btn-after hvr-pop "
                 text="VIEW ALL"
                 border="4px"
-                borderColor="black"
+                borderColor="#1F1F1F"
                 backgroundColor="white"
-                textColor="black"
-                fontSize="14"
+                textColor="#1F1F1F"
+                fontSize="15"
                 fontWeight="500"
-                width="180"
-                height="42"
+                padding="11px 72px"
               />
             </div>
           </Row>

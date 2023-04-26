@@ -1,31 +1,40 @@
 import React from "react";
-import "./cardReuse.css";
 import ButtonReuse from "../../components/button/button";
-
-
-const CardReuse = ({ title, body, borderStyle, textColor }) => {
+import "./cardReuse.css";
+const CardReuse = ({
+  title,
+  body,
+  borderStyle,
+  textColor,
+  backgroundColor,
+}) => {
   const textStyle = {
     color: textColor,
   };
 
+  const cardStyle = {
+    ...borderStyle,
+    backgroundColor: backgroundColor,
+  };
+
   return (
-    <div className="card" style={borderStyle}>
-      <h6 className="card-body pt-5">{title}</h6>
-      <p className="card-body" style={textStyle}>
+    <div className="card" style={cardStyle}>
+      <h6 className="card-body card-headerStyle pt-5">{title}</h6>
+      <p className="card-body card-para" style={textStyle}>
         {body}
       </p>{" "}
       <div className="buttonPadding">
         <ButtonReuse
-          className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+          className=" btn-after hvr-bob"
           text="LEARN MORE"
-          border="1px" // Set border width to 1px
-          borderColor="black"
-          backgroundColor="white"
-          textColor="black"
-          fontSize="14"
-          fontWeight="300"
-          width="160"
-          height="35"
+          border="1px"
+          borderColor="#666666"
+          backgroundColor="#F7F7F7"
+          textColor="#666666"
+          fontSize="13"
+          fontWeight="600"
+          width="150"
+          height="28"
         />
       </div>
     </div>

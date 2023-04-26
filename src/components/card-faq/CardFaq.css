@@ -24,4 +24,20 @@
 }
 .accordion-button:not(.collapsed) {
     color: black !important;
+    background-color: white;
+    border-color: white;
 }
+/* .accordion-button:not(.collapsed).active{
+      border-color: white;
+} */
+.accordion-item:first-of-type{
+    border-radius: 0px;
+
+}
+.accordion-item:last-of-type{
+    border-radius: 0px;
+        box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+/* .accordion-item:first-of-type .accordion-button {
+    border: none;
+} */

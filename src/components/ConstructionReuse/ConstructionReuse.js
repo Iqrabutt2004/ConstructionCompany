@@ -25,11 +25,11 @@ const ConstructionReuse = ({
         <img className="img-fluid" src={imageSrc} alt="" />
       </div>
       <div style={{ paddingLeft: "13px" }}>
-        <p className="building-para-1" data-aos="fade-right" style={{ ...titleStyle , fontWeight: "700", fontSize:"18px"}}>
+        <p className="building-para-1" data-aos="fade-right" style={{ ...titleStyle , fontWeight: "700", fontSize:"17px"}}>
           {title} <br />
           <span
             data-aos="fade-right"
-            style={{ ...subtitleStyle, fontSize: "15px", fontWeight: "400" }}
+            style={{ ...subtitleStyle, fontSize: "15px", fontWeight: "300" }}
           >
             {subtitle}
           </span>

@@ -39,7 +39,7 @@ function GetIn() {
               </div>
               <div className="d-flex justify-content-center justify-content-lg-end">
                 <ButtonReuse
-                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                  className=" btn-after hvr-pop"
                   text="SEND MESSAGE"
                   border="4px"
                   borderColor="black"

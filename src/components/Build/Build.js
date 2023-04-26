@@ -4,7 +4,7 @@ import ButtonReuse from '../../components/button/button';
 import CardFaq from '../../components/card-faq/CardFaq';
 function Build() {
   return (
-    <div className=" py-3 service-bgClr">
+    <div className=" py-5 service-bgClr">
       <div className="py-5">
         <Container>
           <Row className="flex-wrap">
@@ -22,7 +22,7 @@ function Build() {
               </p>
               <div className="">
                 <ButtonReuse
-                  className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                  className=" btn-after hvr-bob"
                   text="GET IN TOUCH"
                   border="3px"
                   borderColor="#FFB400"

@@ -14,6 +14,50 @@
     background-color: #FFB400;
     padding: 18px 18px;
 }
-.video-paddingSet{
-    
+.video-flex{
+    display: flex;
 }
+.video-flex-1{
+  flex: 0 0 30%;
+}
+.video-flex-2{
+  flex: 0 0 70%;
+}
+   
+.video-flex-3{
+  flex: 0 0 50%;
+}
+.video-flex-4{
+  flex: 0 0 50%;
+  text-align: center;
+}
+@media screen and (max-width:1825px) {
+   .call-bg{
+    padding: 30px 18px;
+} 
+
+}
+@media screen and (max-width:1420px) {
+   .call-bg{
+    padding: 42px 18px;
+    
+} 
+.video-flex-4{
+  flex: 0 0 50%;
+  text-align: center;
+  padding: 1.4rem 18px;
+}
+.video-flex-4{
+  flex: 0 0 50%;
+  text-align: center;
+}
+}
+@media screen and (max-width:1233px) {
+ .call-bg{
+    padding: 18px 18px;
+    text-align: center;
+}
+.video-flex{
+    flex-direction: column
+}
+} 
