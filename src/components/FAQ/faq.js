@@ -6,6 +6,7 @@ import CardFaq from "../card-faq/CardFaq";
 function FAQ() {
   return (
     <div className="service-bgClr">
+      
       <Container className="py-5">
         <Row>
           <Col lg={4} className="pb-4">

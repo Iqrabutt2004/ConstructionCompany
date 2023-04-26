@@ -6,6 +6,12 @@
     align-items: center;
     padding-left: 5px;
     padding-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.eco-style-para{
+    font-size: 15px;
+    font-weight: 400;
 }
 .best-orange{
     background-color: #FFB400;
@@ -40,10 +46,30 @@
    font-size: 14px;
 }
 .width-manage{
-    width: 378px;
-    margin: 0px 2rem;
+   padding: 3rem;
 }
 .bestPic{
-    width: 976px;
-height: 742px;
+width: 100%;
+
+}
+.BestFlex{
+    display: flex;
+}
+.BestFlex-1{
+    flex: 0 0 50%;
+}
+.BestFlex-2{
+    flex: 0 0 50%;
+}
+.paddingReuse{
+    padding: 2rem 0px;
+}
+@media screen and (max-width:1425px) {
+    .paddingReuse{
+    padding: 0rem 0px;
+}
+.max-width{
+    padding: 2rem;
+}
+    
 }

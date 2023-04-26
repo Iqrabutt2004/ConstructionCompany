@@ -11,7 +11,8 @@ const LatestProject = () => {
     border: "1px solid #666666",
     borderRadius: "0px",
   };
-  const customTextColor = "gray";
+    const customTextColor = "#666666";
+    const customBgColor = "#F7F7F7";
   return (
     <div className="service-bgClr">
       <Container className="py-5 ">
@@ -19,8 +20,8 @@ const LatestProject = () => {
           <h3 className="latest-heading">Latest Project</h3>
           <div className="line-style-2 mx-auto"></div>
         </div>
-        <Row className="">
-          <Col lg={4} className="mb-5">
+        <Row className="d-flex justify-content-evenly">
+          <Col lg={3} className="mb-5">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -33,10 +34,11 @@ const LatestProject = () => {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -49,10 +51,11 @@ const LatestProject = () => {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
-          <Col lg={4} className="mb-5">
+          <Col lg={3} className="mb-5">
             <div>
               <img
                 className="img-fluid mb-4"
@@ -65,6 +68,7 @@ const LatestProject = () => {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -77,7 +81,7 @@ const LatestProject = () => {
           }}
         >
           <ButtonReuse
-            className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+            className=" btn-after hvr-bob"
             text="VIEW ALL"
             border="4px"
             borderColor="black"

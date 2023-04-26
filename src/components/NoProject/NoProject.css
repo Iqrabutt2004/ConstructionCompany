@@ -29,3 +29,34 @@
  .margin-para{
     padding: 0px 3.5rem;
  }
+ .noFlex{
+    display: flex;
+ }
+ .noFlex-1{
+    flex: 0 0 30%;
+ }
+ .noFlex-2{
+        flex: 0 0 70%;
+ }
+  .noFlex-3{
+        flex: 0 0 50%;
+ }
+   .noFlex-4{
+        flex: 0 0 50%;
+ }
+ @media  screen and (max-width:1642px) {
+ .noFlex{
+ flex-direction: column;
+ }
+ .TooBig-style-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .padding-parent{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0px;
+ }
+ }

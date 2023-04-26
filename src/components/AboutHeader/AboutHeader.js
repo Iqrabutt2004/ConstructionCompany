@@ -17,11 +17,12 @@ const AboutHeader = () => {
     >
       <Container>
         <Row>
-          <Col xs={6}>
+          <Col lg={6} md={12} sm={12}>
             <HeaderReuse
               title={
                 <>
-                  About Our <br /> Construction
+                  About Our <br />
+                  Construction
                   <br /> Company
                 </>
               }
@@ -33,9 +34,11 @@ const AboutHeader = () => {
                   egestas pellentesque libero dolor in diam consequat ut.
                 </>
               }
+              className="my-header-reuse"
+              buttonText="GET A FREE QUOTE"
             />
           </Col>
-          <Col xs={6}>
+          <Col lg={6} md={12} sm={12}>
             <div className="heading-styles">
               <h3 className="heading-color">What We Do</h3>
               <div className="py-3">
@@ -79,8 +82,8 @@ const AboutHeader = () => {
                     </>
                   }
                   isFlex={true}
-                  subtitleTextColor="white"
                   titleTextColor="white"
+                  subtitleTextColor="white"
                 />
               </div>
             </div>

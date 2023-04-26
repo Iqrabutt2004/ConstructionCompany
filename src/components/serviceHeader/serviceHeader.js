@@ -17,36 +17,23 @@ function ServiceHeader() {
       >
         <Container>
           <Row>
-            <Col xs={6}>
-              <div className="d-flex justify-content-center align-items-center">
-                <HeaderReuse
-                  title={<>Framing</>}
-                  subtitle={
-                    <>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Ut quis
-                      <br />
-                      egestas pellentesque libero dolor in diam consequat ut.
-                    </>
-                  }
-                  buttonText="GET A FREE QUOTE"
-                  buttonProps={{
-                    text: "GET A FREE QUOTE",
-                    border: "0px",
-                    borderColor: "#FFB400",
-                    backgroundColor: "#FFB400",
-                    textColor: "white",
-                    fontSize: "14",
-                    fontWeight: "600",
-                    width: "180",
-                    height: "42",
-                  }}
-                  className="custom-class-2"
-                />
-              </div>
+            <Col lg={6} md={12} sm={12}>
+              <HeaderReuse
+                title={<>Framing</>}
+                subtitle={
+                  <>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    quis
+                    <br />
+                    egestas pellentesque libero dolor in diam consequat ut.
+                  </>
+                }
+                className="my-header-reuse"
+                buttonText="GET A QUOTE"
+              />
             </Col>
-            <Col xs={6}>
-              <div className="heading-styles">
+            <Col lg={6} md={12} sm={12} className="py-5">
+              <div className="heading-styles py-4">
                 <div className="py-3">
                   <ConstructionReuse
                     imageSrc={AboutOne}

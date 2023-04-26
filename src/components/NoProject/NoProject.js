@@ -7,8 +7,8 @@ import ArrowOne from "../../assets/images/arrow-1.svg"
 function NoProject() {
   return (
     <div>
-      <Row>
-        <Col lg={4} className="p-0">
+      <div className="noFlex">
+        <div className="p-0 noFlex-1">
           <div className="bg-clr-project padding-parent  ">
             <div className="px-5">
               <div className="d-flex py-2 margin-div">
@@ -18,7 +18,7 @@ function NoProject() {
               </div>
               <p className="margin-para">
                 Donec sollicitudin molestie malesuada. Praesent
-                <br /> sapien massa, convallis a pellentesque nec, <br />
+                sapien massa, convallis a pellentesque nec, 
                 egestas non nisi.
               </p>
             </div>
@@ -32,7 +32,7 @@ function NoProject() {
               </div>
               <p className="margin-para">
                 Donec sollicitudin molestie malesuada. Praesent
-                <br /> sapien massa, convallis a pellentesque nec, <br />
+              sapien massa, convallis a pellentesque nec,
                 egestas non nisi.
               </p>
             </div>
@@ -46,19 +46,19 @@ function NoProject() {
               </div>
               <p className="margin-para">
                 Donec sollicitudin molestie malesuada. Praesent
-                <br /> sapien massa, convallis a pellentesque nec, <br />
+                 sapien massa, convallis a pellentesque nec, 
                 egestas non nisi.
               </p>
             </div>
           </div>
-        </Col>
-        <Col lg={8} className="p-0">
+        </div>
+        <div className="p-0 noFlex-2">
           <div className="TooBig-style">
             <div className="TooBig-style-2">
               <h1>No Project Too Big Or Too Small</h1>
               <div className="line-style-4 "></div>
-              <Row>
-                <Col lg={6}>
+              <div className="noFlex">
+                <div className="noFlex-3">
                   <p className="text-muted py-4">
                     Lectus erat, consectetur eu sapien eget <br /> rhoncus
                     consectetur sem. Proin cursus, dolor <br /> a mollis
@@ -69,8 +69,8 @@ function NoProject() {
                     sodales tristique, augue mauris molestie <br /> augue, non
                     feugiat ligula neque nec felis nec felis
                   </p>
-                </Col>
-                <Col lg={6}>
+                </div>
+                <div className="noFlex-4">
                   <p className="text-muted py-4">
                     Lorem ipsum dolor sit consectetur adipiscing elit.
                     <br /> Nullam lectus erat, consectetur eu sapien eget
@@ -84,8 +84,8 @@ function NoProject() {
                     bibendum. Nulla fermentum, metus quis sodales
                     <br /> tristique,
                   </p>
-                </Col>
-              </Row>
+                </div>
+              </div>
             </div>
           </div>
           <div className="row-bg justify-content-around d-flex">
@@ -94,7 +94,7 @@ function NoProject() {
             </div>
             <div>
               <ButtonReuse
-                className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                className=" btn-after hvr-bob"
                 text="ONLINE ESTIMATE FORM"
                 border="4px" // Set border width to 1px
                 borderColor="#FFB400"
@@ -112,8 +112,8 @@ function NoProject() {
               <h2 className='text-white'>Get Free Consultation</h2>
             </Col>
           </Row> */}
-        </Col>
-      </Row>
+        </div>
+      </div>
     </div>
   );
 }

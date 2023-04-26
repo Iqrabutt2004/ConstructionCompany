@@ -3,12 +3,8 @@ import "./HeaderReuse.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ButtonReuse from "../../components/button/button";
-const HeaderReuse = ({
-  title,
-  subtitle,
-  className,
-}) => {
 
+const HeaderReuse = ({ title, subtitle, className, buttonText }) => {
   useEffect(() => {
     AOS.init({
       once: true,
@@ -33,7 +29,7 @@ const HeaderReuse = ({
         </p>
         <ButtonReuse
           className=" btn-after hvr-bob hvr-shutter-out-horizontal"
-          text="VIEW OUR WORK"
+          text={buttonText}
           border="0px"
           borderColor="#FFB400"
           backgroundColor="#FFB400"

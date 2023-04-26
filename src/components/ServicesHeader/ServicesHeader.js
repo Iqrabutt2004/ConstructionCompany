@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import "./SevicesHeader.css";
+
 import HomeMainImg from "../../assets/images/home-head.png";
 import ButtonReuse from "../../components/button/button";
 import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
@@ -17,7 +17,7 @@ const SevicesHeader = () => {
     >
       <Container>
         <Row>
-          <Col xs={6}>
+          <Col lg={6} md={12} sm={12}>
             <HeaderReuse
               title={
                 <>
@@ -33,21 +33,11 @@ const SevicesHeader = () => {
                   egestas pellentesque libero dolor in diam consequat ut.
                 </>
               }
+              className="my-header-reuse"
               buttonText="GET A FREE QUOTE"
-              buttonProps={{
-                text: "GET A QUOTE",
-                border: "0px",
-                borderColor: "#FFB400",
-                backgroundColor: "#FFB400",
-                textColor: "white",
-                fontSize: "14",
-                fontWeight: "600",
-                width: "180",
-                height: "42",
-              }}
             />
           </Col>
-          <Col xs={6}>
+          <Col lg={6} md={12} sm={12}>
             <div className="heading-styles">
               <h3 className="heading-color">What We Do</h3>
               <div className="py-3">
@@ -61,8 +51,8 @@ const SevicesHeader = () => {
                     </>
                   }
                   isFlex={true}
-                 titleTextColor="white"
-                subtitleTextColor="white"
+                  titleTextColor="white"
+                  subtitleTextColor="white"
                 />
               </div>
               <div className="py-3">
@@ -76,8 +66,8 @@ const SevicesHeader = () => {
                     </>
                   }
                   isFlex={true}
-                 titleTextColor="white"
-                subtitleTextColor="white"
+                  titleTextColor="white"
+                  subtitleTextColor="white"
                 />
               </div>
               <div className="py-3">
@@ -91,8 +81,8 @@ const SevicesHeader = () => {
                     </>
                   }
                   isFlex={true}
-                 titleTextColor="white"
-                subtitleTextColor="white"
+                  titleTextColor="white"
+                  subtitleTextColor="white"
                 />
               </div>
             </div>

@@ -14,4 +14,19 @@
   background-image: url(../../assets/images/home-head.png); /* Use the imported image */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width:992px) {
+  .about-container{
+    height: 1000px;
+  }
+  .heading-styles{
+    padding: 0px;
+  }
+  .text-container-2{
+    padding: 3rem 0px;
+    display: flex;
+    align-items: center;
+  }
+  
 }

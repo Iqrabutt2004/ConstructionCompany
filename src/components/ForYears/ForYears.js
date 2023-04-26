@@ -6,7 +6,7 @@ const ForYears = () => {
   return (
     <div
       className="home-container-1"
-      style={{ backgroundImage: `url(${HomeImg})`, height: "100vh" }}
+      style={{ backgroundImage: `url(${HomeImg})` }}
     >
       <div className="">
         <div className="text-container-1">
@@ -20,7 +20,7 @@ const ForYears = () => {
             <br /> consectetur eu sapien eget, rhoncus consectetur sem.
           </p>
           <ButtonReuse
-            className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+            className=" btn-after hvr-bob"
             text="ABOUT US"
             border="0px"
             borderColor="#FFB400"

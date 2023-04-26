@@ -33,18 +33,7 @@ const ContactHeader = () => {
                     <br /> aliquet neque odio.
                   </>
                 }
-                buttonText="VIEW OUR WORK"
-                buttonProps={{
-                  text: "SEND A MESSAGE",
-                  border: "0px",
-                  borderColor: "#FFB400",
-                  backgroundColor: "#FFB400",
-                  textColor: "white",
-                  fontSize: "14",
-                  fontWeight: "600",
-                  width: "180",
-                  height: "42",
-                }}
+                buttonText="SEND A MESSAGE"
                 className="custom-class-1"
                 data-aos="fade-left"
               />

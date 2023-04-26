@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./AboutDivi.css";
 function AboutDivi() {
   return (
-    <section className="py-5">
+    <section>
       <Container>
         <div className="text-center py-4">
-          <h3>About Divi Construction</h3>
+          <h3 className='divi-style'>About Divi Construction</h3>
           <div className="text-center line-style-5"></div>
         </div>
         <Row>

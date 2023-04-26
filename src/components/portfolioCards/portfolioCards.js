@@ -18,7 +18,7 @@ function PortfolioCards() {
     border: "1px solid #666666",
     borderRadius: "0px",
   };
-  const customTextColor = "gray";
+  const customTextColor = "#666666";
   const customBgColor = "#F7F7F7";
   return (
     <div className="service-bgClr">

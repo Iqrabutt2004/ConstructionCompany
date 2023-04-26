@@ -56,7 +56,7 @@ const RepairReuse = ({
           <Col lg={6} className="padding-none">
             <div className="repair-clr-1 d-flex justify-content-center">
               <ButtonReuse
-                className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                className=" btn-after hvr-bob"
                 text={button1Text}
                 border="4px"
                 borderColor="white"
@@ -72,7 +72,7 @@ const RepairReuse = ({
           <Col lg={6} className="padding-none">
             <div className="repair-clr-2 d-flex justify-content-center">
               <ButtonReuse
-                className=" btn-after hvr-shrink hvr-shutter-out-vertical"
+                className=" btn-after hvr-bob"
                 text={button2Text}
                 border="4px"
                 borderColor="white"
