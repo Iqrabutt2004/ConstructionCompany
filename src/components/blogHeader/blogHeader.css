@@ -23,5 +23,15 @@
     top: 100px;
     left: 211px;
 }
-.card-img, .card-img-top {
-  border: 0px;}
+.card-img-top { 
+  border-top-right-radius:0px;
+    border-top-left-radius:0px;
+}
+  /* .blog-setWidth{
+    width: 23%;
+  }
+  @media screen and (max-width:1230px) {
+     .blog-setWidth{
+    width: 25%;
+  }
+  } */

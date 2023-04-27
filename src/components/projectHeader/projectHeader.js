@@ -23,7 +23,7 @@ const ProjectHeader =() => {
             </div>
           </Col>
           <Col lg={6} md={6} sm={12}>
-            <div className="text-white project-header">
+            <div className="text-white project-header" data-aos="fade-left">
               <p style={{ fontSize: "18px", fontWeight: "400" }}>
                 Date: 12 April 2018{" "}
               </p>
