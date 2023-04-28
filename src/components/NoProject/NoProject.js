@@ -17,9 +17,8 @@ function NoProject() {
                 <h6 className="new-style mx- 4">Eco Friendly Construction</h6>
               </div>
               <p className="margin-para">
-                Donec sollicitudin molestie malesuada. Praesent
-                sapien massa, convallis a pellentesque nec, 
-                egestas non nisi.
+                Donec sollicitudin molestie malesuada. Praesent sapien massa,
+                convallis a pellentesque nec, egestas non nisi.
               </p>
             </div>
             <div className="px-5">
@@ -31,9 +30,8 @@ function NoProject() {
                 </h6>
               </div>
               <p className="margin-para">
-                Donec sollicitudin molestie malesuada. Praesent
-              sapien massa, convallis a pellentesque nec,
-                egestas non nisi.
+                Donec sollicitudin molestie malesuada. Praesent sapien massa,
+                convallis a pellentesque nec, egestas non nisi.
               </p>
             </div>
             <div className="px-5">
@@ -45,9 +43,8 @@ function NoProject() {
                 </h6>
               </div>
               <p className="margin-para">
-                Donec sollicitudin molestie malesuada. Praesent
-                 sapien massa, convallis a pellentesque nec, 
-                egestas non nisi.
+                Donec sollicitudin molestie malesuada. Praesent sapien massa,
+                convallis a pellentesque nec, egestas non nisi.
               </p>
             </div>
           </div>
@@ -88,11 +85,13 @@ function NoProject() {
               </div>
             </div>
           </div>
-          <div className="row-bg justify-content-around d-flex">
-            <div>
-              <h2 className="text-white">Get Free Consultation</h2>
+          <div className="row-bg">
+            <div className="pb-4">
+              <h2 className="text-white" style={{ paddingLeft: "2rem" }}>
+                Get Free Consultation
+              </h2>
             </div>
-            <div>
+            <div style={{ paddingRight: "2rem" }}>
               <ButtonReuse
                 className=" btn-after hvr-bob"
                 text="ONLINE ESTIMATE FORM"
@@ -102,16 +101,10 @@ function NoProject() {
                 textColor="#FFB400"
                 fontSize="14"
                 fontWeight="500"
-                width="202"
-                height="42"
+                padding="13px 1.7rem"
               />
             </div>
           </div>
-          {/* <Row className="row-bg py-4">
-            <Col lg={6}>
-              <h2 className='text-white'>Get Free Consultation</h2>
-            </Col>
-          </Row> */}
         </div>
       </div>
     </div>

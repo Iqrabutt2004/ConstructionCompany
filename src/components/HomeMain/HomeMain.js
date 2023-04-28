@@ -4,13 +4,7 @@ import "../../assets/css/hover.css";
 import "./HomeMain.css";
 import HomeMainImg from "../../assets/images/home-head.png";
 import ButtonReuse from "../../components/button/button";
-// import "hover.css/css/hvr-grow.min.css";
-// import "hover.css/css/hvr-grow";
 const HomeMain = () => {
-  // useEffect(() => {
-  //   AOS.init();
-  // }, []);
-
   return (
     <div
       className="home-container"

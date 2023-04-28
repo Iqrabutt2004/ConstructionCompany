@@ -12,50 +12,35 @@ import ButtonReuse from "../button/button";
 function Footer() {
   return (
     <div className="parent-flex">
-      <div className="footer-flex-1">
-        <div className="footer-clr padding-clr py-5 px-4 ">
-          <div className="maxWidth">
-            <h3>Contact Us</h3>
-            <div className="line-2"> </div>
-            <form className="py-5 ">
-              <div className="d-flex ">
-                <div className="pb-4 ">
-                  <input
-                    className="text-field-3 px-3"
-                    type="text"
-                    placeholder="Name"
-                  />
-                </div>
-                <div className="pb-4  px-3">
-                  <input
-                    className="text-field-3 px-3"
-                    type="text"
-                    placeholder="Email"
-                  />
-                </div>
-              </div>
-              <div className="pb-4">
-                <input
-                  className="text-field-4"
-                  type="text"
-                  placeholder="Message"
-                />
-              </div>
-              <div className="d-flex justify-content-end ">
-                <ButtonReuse 
-                  text="SEND MESSAGE"
-                  border="4px"
-                  borderColor="white"
-                  backgroundColor="#FFB400"
-                  textColor="white"
-                  fontSize="14"
-                  fontWeight="600"
-                  width="184"
-                  height="40"
-                />
-              </div>
-            </form>
-          </div>
+      <div className="footer-flex-1 footer-clr ">
+        <div className="maxWidth">
+          <h3>Contact Us</h3>
+          <div className="line-2"> </div>
+          <form className="py-5">
+            <div className="input-flex ">
+              <input className="text-field-3" type="text" placeholder="Name" />
+              <input className="text-field-3" type="text" placeholder="Email" />
+            </div>
+            <textarea
+              className="text-field-4"
+              type="text"
+              placeholder="Message"
+            />
+
+            <div className="d-flex justify-content-end ">
+              <ButtonReuse
+                text="SEND MESSAGE"
+                border="4px"
+                borderColor="white"
+                backgroundColor="#FFB400"
+                textColor="white"
+                fontSize="14"
+                fontWeight="600"
+                width="184"
+                height="40"
+              />
+            </div>
+          </form>
         </div>
       </div>
       <div className="footer-flex-2">
@@ -66,22 +51,22 @@ function Footer() {
             <img src={Linkedin} alt="" />
           </div>
         </div>
-        <div className="d-flex flex-column  ">
-          <div className="px-5 py-3 pt-5">
+        <div className="d-flex flex-column Footer-details  ">
+          <div className="pt-4">
             <img src={Location} alt="" />
-            <span className="" style={{ padding: "20px", fontWeight: "600" }}>
+            <span className="footer-call">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </span>
           </div>
-          <div className="px-5 py-3">
+          <div className="pt-4">
             <img src={Phone} alt="" />
-            <span className="" style={{ padding: "20px", fontWeight: "600" }}>
+            <span className="footer-call">
               +00 123 456 78
             </span>
           </div>
-          <div className="px-5 py-3">
+          <div className="pt-4">
             <img src={Mail} alt="" />
-            <span className="" style={{ padding: "20px", fontWeight: "600" }}>
+            <span className="footer-call">
               constractioninc@gmail.com
             </span>
           </div>

@@ -25,8 +25,7 @@ function ServicesQuote() {
                   textColor="#FFB400"
                   fontSize="14"
                   fontWeight="600"
-                  width="230"
-                  height="65"
+                 padding="13px 50px"
                 />
             </div>
           </div>

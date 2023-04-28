@@ -18,7 +18,7 @@ const PortfolioHeader = () => {
         <div className=" portfolio-style">
           <h1 className="heading-reuse" data-aos="fade-up">
             Our Construction
-            <br /> Projects
+             Projects
           </h1>
           <p className="heading-reuse-text" data-aos="fade-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis

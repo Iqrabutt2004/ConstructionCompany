@@ -89,8 +89,7 @@ const LatestProject = () => {
             textColor="black"
             fontSize="14"
             fontWeight="500"
-            width="180"
-            height="42"
+            padding="8px 3.5rem"
           />
         </div>
       </Container>

@@ -64,6 +64,9 @@ width: 100%;
 .paddingReuse{
     padding: 2rem 0px;
 }
+.best-orange{
+    font-size: 15px;
+}
 @media screen and (max-width:1425px) {
     .paddingReuse{
     padding: 0rem 0px;
@@ -72,4 +75,17 @@ width: 100%;
     padding: 2rem;
 }
     
+}
+@media screen and (max-width:338px) {
+
+.p-style{
+    font-weight: 800;
+    font-size: 8px;
+}
+.best-orange{
+    font-size: 13px;
+}
+.width-manage{
+   padding: 2rem;
+}
 }

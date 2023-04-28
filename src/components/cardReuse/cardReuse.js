@@ -31,10 +31,9 @@ const CardReuse = ({
           borderColor="#666666"
           backgroundColor="#F7F7F7"
           textColor="#666666"
-          fontSize="13"
+          fontSize="11"
           fontWeight="600"
-          width="150"
-          height="28"
+          padding="0px 25px 3px 25px "
         />
       </div>
     </div>

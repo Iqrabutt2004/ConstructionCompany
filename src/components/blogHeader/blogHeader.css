@@ -35,3 +35,10 @@
     width: 25%;
   }
   } */
+    @media screen and (max-width:650px) {
+      .news-style{
+        text-align: center;
+           top: 39%;
+    left: 39%;
+    }
+  }

@@ -9,7 +9,7 @@ const CustomNavbar = () => {
     <Navbar expand="lg" collapseOnSelect>
       <Container>
         <Navbar.Brand>
-          <h4>Construction Company Landing</h4>
+          <h4 className="CompanyName">Construction Company Landing</h4>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">

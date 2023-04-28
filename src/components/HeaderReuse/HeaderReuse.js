@@ -36,7 +36,7 @@ const HeaderReuse = ({ title, subtitle, className, buttonText }) => {
           textColor="white"
           fontSize="14"
           fontWeight="600"
-          width="200"
+          width="180"
           height="42"
         />
       </div>

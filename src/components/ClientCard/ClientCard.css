@@ -2,4 +2,26 @@
     border: 0px solid white;
     border-radius: 0px;
     width: 311px ;
+    margin: auto;
+}
+.john-text{
+    font-weight: 500;
+font-size: 16px;
+}
+.testimonial-para{
+    font-weight: 300;
+font-size: 15px;
+color: #666666;
+}
+@media screen and (max-width:410px) {
+    .card-client{
+
+         width: 270px ;
+    }
+}
+@media screen and (max-width:290px) {
+    .card-client{
+
+         width: 200px ;
+    }
 }

@@ -1,0 +1,13 @@
+.eco-style-para{
+    padding: 0px 2.5rem;
+}
+@media screen and (max-width:350px){
+    .eco-style-para{
+    padding: 0px 1rem;
+}
+}
+@media screen and (max-width:247px){
+    .eco-style-para{
+    padding: 0px 0rem;
+}
+}

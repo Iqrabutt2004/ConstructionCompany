@@ -10,9 +10,32 @@
 .padding-none{
     padding: 0px !important;
 }
-.call-bg{
-    background-color: #FFB400;
-    padding: 18px 18px;
+.AboutProcess-text{
+  font-weight: 700;
+font-size: 40px;
+color: #fff;
+}
+.AboutProcess-para{
+  font-weight: 300;
+font-size: 17px;
+line-height: 28px;
+color: #fff;
+padding: 3rem 0px 0px 0px;
+}
+.AboutProcess-li{
+  padding: 0px 0px 0px 18px;
+  font-weight: 300;
+font-size: 17px;
+line-height: 33px;
+color: #fff;
+}
+.quote-text{
+  font-size: 32px;
+  font-weight: 700;
+}
+.quote-number{
+  font-size: 26px;
+  font-weight: 600;
 }
 .video-flex{
     display: flex;
@@ -26,38 +49,34 @@
    
 .video-flex-3{
   flex: 0 0 50%;
+  background-color: #FFB400;
 }
 .video-flex-4{
   flex: 0 0 50%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
-@media screen and (max-width:1825px) {
-   .call-bg{
-    padding: 30px 18px;
-} 
 
-}
-@media screen and (max-width:1420px) {
-   .call-bg{
-    padding: 42px 18px;
-    
-} 
-.video-flex-4{
-  flex: 0 0 50%;
-  text-align: center;
-  padding: 1.4rem 18px;
-}
-.video-flex-4{
-  flex: 0 0 50%;
-  text-align: center;
-}
-}
-@media screen and (max-width:1233px) {
- .call-bg{
-    padding: 18px 18px;
-    text-align: center;
-}
+@media screen and (max-width:1330px) {
 .video-flex{
     flex-direction: column
 }
+.video-flex-3{
+  text-align: center;
+}
 } 
+@media screen and (max-width:1230px) {
+  .video-flex-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width:222px) {
+  .AboutProcess-text{
+  font-size: 30px;
+  font-weight: 500
+}}

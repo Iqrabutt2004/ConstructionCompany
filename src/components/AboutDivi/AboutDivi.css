@@ -8,3 +8,10 @@
     font-size: 40px;
     font-weight: 700;
 }
+@media screen and (max-width:265px) {
+    .divi-style{
+    font-size: 25px;
+    font-weight: 700;
+}
+    
+}

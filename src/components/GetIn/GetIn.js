@@ -8,55 +8,47 @@ function GetIn() {
   return (
     <div className="service-bgClr py-5">
       <Container>
-        <Row className="flex-wrap">
-          <Col lg={6} className="pb-5">
+        <div className="flex-wrap">
+          <div className="flexWrap-1 pb-5">
             <h2>Get In Touch</h2>
             <div className="line-style-4"></div>
-            <form
-              className="py-5 d-flex flex-column"
-              style={{ width: "538px" }}
-            >
-              <div className="pb-4">
+            <form className="py-5">
+              <div className="input-flexWrapper ">
                 <input
-                  className="text-field px-3"
+                  className="text-field-name"
                   type="text"
                   placeholder="Name"
                 />
-              </div>
-              <div className="pb-4">
                 <input
-                  className="text-field px-3"
+                  className="text-field-name"
                   type="text"
                   placeholder="Email"
                 />
               </div>
-              <div className="pb-4">
-                <input
-                  className="text-field-1"
-                  type="text"
-                  placeholder="Message"
-                />
-              </div>
-              <div className="d-flex justify-content-center justify-content-lg-end">
+              <textarea
+                className="text-field-message"
+                type="text"
+                placeholder="Message"
+              />
+
+              <div className="d-flex justify-content-end  button-wrapper ">
                 <ButtonReuse
-                  className=" btn-after hvr-pop"
                   text="SEND MESSAGE"
                   border="4px"
                   borderColor="black"
-                  backgroundColor="white"
+                  backgroundColor="#F7F7F7"
                   textColor="black"
-                  fontSize="14"
+                  fontSize="13"
                   fontWeight="600"
-                  width="180"
-                  height="42"
+                  padding="1px 2rem"
                 />
               </div>
             </form>
-          </Col>
-          <Col xl={6}>
+          </div>
+          <div className="flexWrap-2">
             <CardFaq />
-          </Col>
-        </Row>
+          </div>
+        </div>
       </Container>
     </div>
   );

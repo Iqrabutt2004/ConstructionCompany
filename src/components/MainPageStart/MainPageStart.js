@@ -1,5 +1,4 @@
 import React from 'react'
-import {  Row, Col } from "react-bootstrap";
 import "./MainPageStart.css";
 import MainPagePic from "../../assets/images/MainPageImg.png";
 import HeaderReuse from '../../components/HeaderReuse/HeaderReuse';

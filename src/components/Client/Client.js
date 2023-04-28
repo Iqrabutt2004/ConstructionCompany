@@ -15,13 +15,13 @@ function Client() {
             <div className="line-style-5"></div>
           </div>
           <Row className="d-flex justify-content-evenly">
-            <Col lg={3}>
+            <Col xl={3}>
               <ClientCard />
             </Col>
-            <Col lg={3}>
+            <Col xl={3}>
               <ClientCard />
             </Col>
-            <Col lg={3}>
+            <Col xl={3}>
               <ClientCard />
             </Col>
           </Row>

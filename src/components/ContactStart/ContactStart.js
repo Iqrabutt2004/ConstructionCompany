@@ -10,10 +10,10 @@ function ContactStart() {
           <div className="ContactStartFlex">
             <div className="ContactStartFlex-1">
               <div className="card-title">
-                <h1 className="call-clr about-projectHead">
+                <h1 className="call-clr ">
                   Call: (541) 931-3526
                 </h1>
-                <p style={{fontSize:"30px" ,fontWeight:"500"}}>We Can't Wait to Make Your Ideas a Reality</p>
+                <p style={{fontSize:"28px" ,fontWeight:"500"}}>We Can't Wait to Make Your Ideas a Reality</p>
               </div>
             </div>
             <div className=" ContactStartFlex-2">
@@ -21,14 +21,13 @@ function ContactStart() {
                 <ButtonReuse
                   className=" btn-after hvr-bob"
                   text="ONLINE ESTIMATE FORM"
-                  border="3px"
+                  border="4px"
                   borderColor="#FFB400"
                   backgroundColor="white"
                   textColor="#FFB400"
                   fontSize="14"
                   fontWeight="600"
-                  width="230"
-                  height="65"
+                  padding="10px 16px"
                 />
               </div>
             </div>

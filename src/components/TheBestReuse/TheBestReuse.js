@@ -1,5 +1,6 @@
 import React from "react";
 import Arrow from "../../assets/images/arrow.svg";
+import "./TheBestReuse.css";
 const TheBestReuse = ({ title }) => {
   return (
     <div className="paddingReuse">
@@ -8,7 +9,7 @@ const TheBestReuse = ({ title }) => {
         <img className="img-fluid" src={Arrow} alt="" />
         <h6 className="eco-style">{title}</h6>
       </div>
-      <p className="eco-style-para px-5">
+      <p className="eco-style-para">
         Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis
         a pellentesque nec, egestas non nisi.
       </p>

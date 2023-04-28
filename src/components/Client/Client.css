@@ -2,3 +2,9 @@
     font-weight: 700;
 font-size: 40px;
 }
+@media screen and (max-width:249px) {
+    .clientText{
+    font-weight: 700;
+font-size: 32px;
+}
+}

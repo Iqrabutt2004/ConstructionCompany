@@ -1,5 +1,7 @@
 .call-clr{
     color: #FFB400;
+    font-size: 40px;
+    font-weight: 700;
 }
 .ContactStartFlex{
     display: flex;

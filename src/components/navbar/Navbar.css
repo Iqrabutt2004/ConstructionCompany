@@ -23,3 +23,28 @@ Nav.Link{
   width: 50px;
   background-color: black;
 }
+.CompanyName{
+  font-weight: 600;
+font-size: 23px;
+}
+@media (max-width: 350px) {
+.CompanyName{
+  font-weight: 700;
+font-size: 15px;
+}
+
+}
+@media (max-width: 245px) {
+.CompanyName{
+  font-weight: 700;
+font-size: 12px;
+}
+
+}
+@media (max-width: 208px) {
+.CompanyName{
+  font-weight: 800;
+font-size: 10px;
+}
+
+}

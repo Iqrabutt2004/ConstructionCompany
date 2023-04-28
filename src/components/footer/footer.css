@@ -1,8 +1,17 @@
 .footer-clr{
     background-color: #FFB400;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.footer-call{
+      padding: 0px 0px 0px 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Footer-details{
+  padding: 1rem 7rem;
+}
+.input-flex{
+  display: flex;
+  justify-content: space-between;
 }
 .line-2{
 
@@ -20,39 +29,24 @@ border-bottom: 5px solid black;
 .text-field-3{
     border: 0px solid white;
     border-radius: 0px;
-  width: 259px;
-    height: 53px;
+    margin-bottom: 1rem;
+    padding: 12px;
+    flex: 0 0 48%;
 }
 .text-field-4 {
   border: 0px solid white;
   border-radius: 0px;
-  width: 535px;
-  height: 148px;
-  position: relative;
-  padding: 20px; 
-}
-
-.text-field-4::placeholder {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  padding: 20px; 
-}
-@media (max-width: 540px) {
-  .text-field-3 {
-      width: 190px;
-
-  }
-  .text-field-4 {
-    width: 400px;
-  }
+  width: 100%;
+  margin-bottom: 1rem;
+    padding: 15px 0px 103px 16px;
 }
 .maxWidth{
-  max-width: 536px;
-  margin-left: 1rem;
+  max-width: 530px;
+  margin:auto
 }
 .footer-flex-1{
   flex: 0 0 50%;
+  padding: 2rem;
 }
 .footer-flex-2{
   flex: 0 0 50%;
@@ -64,7 +58,24 @@ border-bottom: 5px solid black;
 .parent-flex{
   flex-direction: column;
 }
-.footer-flex-2{
+}
+@media (max-width: 576px){
+  .input-flex{
+    flex-direction: column;
+  }
+}
+@media (max-width: 460px){
+  .Footer-details{
+  padding: 1rem 0px;
   text-align: center;
 }
+}
+@media (max-width: 280px){
+.footer-call{
+  font-size: 12px;
+}
+}
+.input-flexWrapper{
+  display: flex;
+  flex-direction: column;
 }
