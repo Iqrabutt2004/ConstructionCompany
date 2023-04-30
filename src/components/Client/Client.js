@@ -14,14 +14,14 @@ function Client() {
             <h3 className="clientText">Client Testimonials</h3>
             <div className="line-style-5"></div>
           </div>
-          <Row className="d-flex justify-content-evenly">
-            <Col xl={3}>
+          <Row className="  d-flex justify-content-evenly">
+            <Col xl={3} lg={12} className="clientCards" >
               <ClientCard />
             </Col>
-            <Col xl={3}>
+            <Col xl={3} lg={12} className="clientCards">
               <ClientCard />
             </Col>
-            <Col xl={3}>
+            <Col xl={3} lg={12} className="clientCards">
               <ClientCard />
             </Col>
           </Row>

@@ -36,8 +36,7 @@ function Footer() {
                 textColor="white"
                 fontSize="14"
                 fontWeight="600"
-                width="184"
-                height="40"
+               padding="2px 1.5rem"
               />
             </div>
           </form>
