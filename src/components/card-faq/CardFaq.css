@@ -32,6 +32,7 @@
 } */
 .accordion-item:first-of-type{
     border-radius: 0px;
+    box-shadow: 0px;
 
 }
 .accordion-item:last-of-type{
@@ -41,3 +42,8 @@
 /* .accordion-item:first-of-type .accordion-button {
     border: none;
 } */
+.accordion-button:focus {
+    box-shadow: none !important;
+    border-color: none !important;
+   
+}

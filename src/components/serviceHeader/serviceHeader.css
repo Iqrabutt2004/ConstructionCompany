@@ -1,6 +1,4 @@
 .custom-class-2 .line-style-about {
-
-
        width: 70px;
     border: 4px solid #FFB400;
     transform: rotate(-90deg);
@@ -18,7 +16,7 @@ height: 625px;
   background-position: center;
 }
 .service-paraStyle{
-  font-weight: 400;
+  font-weight: 300;
 font-size: 15px;
 line-height: 27px;
 color: #666666;

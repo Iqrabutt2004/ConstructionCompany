@@ -17,7 +17,7 @@ const ProjectHeader =() => {
               </h1>
               <p className="heading-reuse-text py-3" data-aos="fade-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
-              
+                <br />
                 egestas pellentesque libero dolor in diam consequat ut.
               </p>
             </div>
