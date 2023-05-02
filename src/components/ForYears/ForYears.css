@@ -9,7 +9,7 @@
 
 .home-container-1 {
   position: relative;
-height: 714px;
+height: 650px;
   background-image: url(../../assets/images/HomeImg.png); /* Use the imported image */
   background-size: cover;
   background-position: center;
@@ -27,3 +27,8 @@ height: 714px;
   text-align: center;
   color: #ffffff;
 }
+/* @media screen and (max-width:800px){
+  .home-container-1 {
+    height: 500px;
+  }
+} */

@@ -7,9 +7,23 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width:1200px){
+    .shadow{
+    padding: 1rem 0px !important;
+}}
+
 @media screen and (max-width:992px){
     .ContactStartFlex{
         flex-direction: column;
         text-align: center;
     }
+}
+@media screen and (max-width:420px){
+
+.call-clr{
+    font-size: 30px;
+}}
+
+.shadow{
+    padding: 3rem 0px;
 }

@@ -54,6 +54,9 @@ border-bottom: 5px solid black;
 .parent-flex{
   display: flex;
 }
+.cursor-icon{
+  cursor: pointer;
+}
 @media (max-width: 1200px){
 .parent-flex{
   flex-direction: column;
@@ -66,7 +69,7 @@ border-bottom: 5px solid black;
 }
 @media (max-width: 460px){
   .Footer-details{
-  padding: 1rem 0px;
+  padding: 1rem;
   text-align: center;
 }
 }
@@ -78,4 +81,7 @@ border-bottom: 5px solid black;
 .input-flexWrapper{
   display: flex;
   flex-direction: column;
+}
+a{
+  color: #2A2A2A;
 }

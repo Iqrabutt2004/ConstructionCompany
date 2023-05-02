@@ -12,7 +12,6 @@ import ButtonReuse from "../button/button";
 function Footer() {
   return (
     <div>
-
       <div className="parent-flex">
         <div className="footer-flex-1 footer-clr ">
           <div className="maxWidth">
@@ -55,9 +54,19 @@ function Footer() {
         <div className="footer-flex-2">
           <div className="upper-clr py-4">
             <div className="d-flex justify-content-center ">
-              <img style={{ paddingRight: "2rem" }} src={Facebook} alt="" />
-              <img style={{ paddingRight: "2rem" }} src={Twitter} alt="" />
-              <img src={Linkedin} alt="" />
+              <img
+                className="cursor-icon"
+                style={{ paddingRight: "2rem" }}
+                src={Facebook}
+                alt=""
+              />
+              <img
+                className="cursor-icon"
+                style={{ paddingRight: "2rem" }}
+                src={Twitter}
+                alt=""
+              />
+              <img className="cursor-icon" src={Linkedin} alt="" />
             </div>
           </div>
           <div className="d-flex flex-column Footer-details  ">
@@ -69,11 +78,16 @@ function Footer() {
             </div>
             <div className="pt-4">
               <img src={Phone} alt="" />
-              <span className="footer-call">+00 123 456 78</span>
+              <a href="tel:+0012345678" className="footer-call">
+                +00 123 456 78
+              </a>
             </div>
+
             <div className="pt-4">
               <img src={Mail} alt="" />
-              <span className="footer-call">constractioninc@gmail.com</span>
+              <a href="mailto:constractioninc@gmail.com" className="email-link">
+                constractioninc@gmail.com
+              </a>
             </div>
           </div>
         </div>

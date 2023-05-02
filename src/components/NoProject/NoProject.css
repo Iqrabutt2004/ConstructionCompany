@@ -42,6 +42,12 @@
    .noFlex-4{
         flex: 0 0 50%;
  }
+ .text-left{
+   padding-left: 2rem;
+ }
+ .button-right{
+ padding-right: 2rem;
+ }
   @media  screen and (max-width:1683px) {
  .noFlex{
  flex-direction: column;
@@ -60,10 +66,17 @@
     padding: 3rem 0px;
  }
  }
- @media screen and (max-width:640px) {
+ @media screen and (max-width:1642px) {
     .row-bg{
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
+     .text-left{
+   padding-left: 0rem !important;
  }
+ .button-right{
+ padding-right: 0rem !important;
+ }
+ }
+ 

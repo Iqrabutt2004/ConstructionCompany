@@ -5,7 +5,7 @@ import ButtonReuse from '../../components/button/button';
 function ContactStart() {
   return (
     <div>
-      <div className="shadow py-5">
+      <div className="shadow">
         <Container>
           <div className="ContactStartFlex">
             <div className="ContactStartFlex-1">

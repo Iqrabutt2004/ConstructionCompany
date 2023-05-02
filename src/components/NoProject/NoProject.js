@@ -87,11 +87,11 @@ function NoProject() {
           </div>
           <div className="row-bg">
             <div className="pb-4">
-              <h2 className="text-white" style={{ paddingLeft: "2rem" }}>
+              <h2 className="text-white text-left">
                 Get Free Consultation
               </h2>
             </div>
-            <div style={{ paddingRight: "2rem" }}>
+            <div className='button-right'>
               <ButtonReuse
                 className=" btn-after hvr-bob"
                 text="ONLINE ESTIMATE FORM"

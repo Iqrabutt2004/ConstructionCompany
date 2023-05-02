@@ -17,6 +17,15 @@ const CustomNavbar = () => {
             className="me-auto justify-content-end text-center"
             style={{ width: "100%" }}
           >
+            <Nav.Link as={Link} to="/home" className="nav-text">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/about" className="nav-text">
+              About
+            </Nav.Link>
+            <Nav.Link as={Link} to="/blog" className="nav-text">
+              Blog
+            </Nav.Link>
             <Nav.Link
               as={Link}
               to="/project"
@@ -24,9 +33,6 @@ const CustomNavbar = () => {
               activeClassName="active"
             >
               Project
-            </Nav.Link>
-            <Nav.Link as={Link} to="/blog" className="nav-text">
-              Blog
             </Nav.Link>
             <Nav.Link as={Link} to="/portfolio" className="nav-text">
               Portfolio
@@ -40,14 +46,9 @@ const CustomNavbar = () => {
             <Nav.Link as={Link} to="/contact" className="nav-text">
               Contact
             </Nav.Link>
-            <Nav.Link as={Link} to="/about" className="nav-text">
-              About
-            </Nav.Link>
-            <Nav.Link as={Link} to="/home" className="nav-text">
-              Home
-            </Nav.Link>
+
             <Nav.Link>
-              <img className="img-fluid " src={CartNav} alt="" />
+              <img className="cursor-icon img-fluid " src={CartNav} alt="" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
