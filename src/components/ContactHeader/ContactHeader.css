@@ -1,4 +1,4 @@
-.Contact-container {
+.contact-container {
   position: relative;
   background-image: url(../../assets/images/MainPageImg.png); /* Use the imported image */
   background-size: cover;
@@ -6,42 +6,43 @@
   height: 526px;
 }
 
-/* @media (max-width: 992px) {
-  .contact-small{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.banner-heading {
+  font-weight: 700;
 }
-} */
-.contactFlex{
+
+.icon-banner {
+  padding-right: 2rem;
+}
+
+.contact-flex {
   display: flex;
 }
-.contactFlex-1{
+
+.contact-flex-one {
   flex: 0 0 80%;
 }
-.contactFlex-2{
+
+.contact-flex-two {
   flex: 0 0 20%;
 }
-@media screen and (max-width:1600px){
-  .contactFlex-1{
-  flex: 0 0 70%;
+
+@media screen and (max-width: 1600px) {
+  .contact-flex-one {
+    flex: 0 0 70%;
+  }
+  .contact-flex-two {
+    flex: 0 0 30%;
+  }
 }
-.contactFlex-2{
-  flex: 0 0 30%;
-}
-}
-@media screen and (max-width:1132px){
-  .contactFlex{
+
+@media screen and (max-width: 1132px) {
+  .contact-flex {
     flex-direction: column;
   }
-  .contact-small{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+  .contact-small {
     text-align: center;
   }
-  .icons{
+  .icons {
     justify-content: center;
   }
 }

@@ -2,3 +2,9 @@
 font-weight: 700;
 font-size: 40px;
 }
+
+.latest-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,7 +5,6 @@ import Projectpic from "../../assets/images/project-pic.svg"
 import Projectpicone from "../../assets/images/project-pic1.svg";
 import "../../assets/globalStyle/globalStyle.css"
 import "./about.css";
-// import ReusableButton from "../button/button";
 function About() {
   return (
     <section>
@@ -13,17 +12,17 @@ function About() {
         <Row className="pb-5">
           <Col lg={6}>
             <div className="d-flex flex-column justify-content-center justify-content-lg-left">
-              <h3 className="about-projectHead">About this Project</h3>
+              <h3 className="about-project-head">About this Project</h3>
               <div className="line-style-4"> </div>
               <div>
-                <p className="pt-4 about-paraHead">
+                <p className="pt-4 about-project-para">
                   Lectus erat, consectetur eu sapien eget rhoncus consectetur
                   sem.
                   <br /> Proin cursus, dolor a mollis consectetur, risus dolor
                   fermentum
                   <br /> massa, a commodo elit dui sit amet risus.
                 </p>
-                <ul className="about-paraHead">
+                <ul className="about-project-para">
                   <li>Maecenas ornare nisl</li>
                   <li>A tortor ultrices bibendum</li>
                   <li> Nulla fermentum</li>
@@ -58,8 +57,8 @@ function About() {
               alt=""
             />
           </Col>
-          <Col lg={6} className="text-muted">
-            <p className="about-paraHead">
+          <Col lg={6}>
+            <p className="about-project-para">
               Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus
               erat, consectetur eu sapien eget rhoncus consectetur sem. Proin
               cursus, dolor a mollis consectetur, risus dolor fermentum massa, a
@@ -67,7 +66,7 @@ function About() {
               ultrices bibendum. Nulla fermentum, metus quis sodales tristique,
               augue mauris molestie augue non feugiat ligula neque nec felis.
             </p>
-            <p className="py-3 about-paraHead">
+            <p className="py-3 about-project-para">
               Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
               Proin cursus, dolor a mollis consectetur, risus dolor fermentum
               massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a

@@ -6,13 +6,13 @@ import LatestProject from '../../components/LatestProject/LatestProject'
 import Footer from "../../components/footer/footer";
 function Services() {
   return (
-    <div>
+    <React.Fragment>
       <ServicesHeader/>
       <ServicesQuote/>
       <CustomProject/>
       <LatestProject/>
       <Footer/>
-    </div>
+    </React.Fragment>
   )
 }
 

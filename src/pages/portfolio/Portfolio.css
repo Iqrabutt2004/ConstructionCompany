@@ -1,14 +1,14 @@
-.portfolioFooter-bg{
+.portfolio-footer-bg{
     background-color: #FFB400;
     padding: 4rem 0px;
 
 }
-.portfolioFooter-text{
+.portfolio-footer-text{
         font-weight: 700;
 font-size: 50px;
 text-align: center;
 }
 @media screen and (max-width:450px) {
-    .portfolioFooter-text{
+    .portfolio-footer-text{
         font-size: 30px;}
 }

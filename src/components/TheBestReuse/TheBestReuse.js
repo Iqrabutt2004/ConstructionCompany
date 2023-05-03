@@ -3,7 +3,7 @@ import Arrow from "../../assets/images/arrow.svg";
 import "./TheBestReuse.css";
 const TheBestReuse = ({ title }) => {
   return (
-    <div className="paddingReuse">
+    <div className="only-best-padding">
       <div className="d-flex py-2">
         <img className="img-fluid" src={Arrow} alt="" />
         <img className="img-fluid" src={Arrow} alt="" />

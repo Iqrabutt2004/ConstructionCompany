@@ -1,24 +1,26 @@
-.reuse-construction-style{
-    font-weight: 700;
-font-size: 16px;
+.reuse-construction-style {
+  font-weight: 700;
+  font-size: 16px;
 }
-.head-subtitle{
-    font-size: 15px;
-    font-weight: 300;
-}
-.HeadTtile{
-    font-weight: 700;
-font-size: 16px;
 
+.head-subtitle {
+  font-size: 15px;
+  font-weight: 300;
 }
-@media screen and (max-width:204px){
-    .head-subtitle{
+
+.head-title {
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 13px;
+}
+
+@media screen and (max-width: 204px) {
+  .head-subtitle {
     font-size: 12px;
     font-weight: 300;
-}
-.HeadTtile{
+  }
+  .Head-title {
     font-weight: 700;
-font-size: 10px;
-
-}
+    font-size: 10px;
+  }
 }

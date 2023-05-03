@@ -7,10 +7,9 @@ import AboutTwo from "../../assets/images/AboutTwo.svg";
 import AboutThree from "../../assets/images/AboutThree.svg";
 import ServiceHeaderImg from "../../assets/images/ServicesHeaderImg.png";
 import "./serviceHeader.css";
-// import ButtonReuse from "../../components/button/button";
 function ServiceHeader() {
   return (
-    <div className="service-bgClr">
+    <div className="service-bg-clr">
       <div
         className="service-container"
         style={{ backgroundImage: `url(${ServiceHeaderImg})` }}
@@ -88,7 +87,7 @@ function ServiceHeader() {
         <Container>
           <Row>
             <Col lg={6}>
-              <p className="service-paraStyle">
+              <p className="service-para-style">
                 Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
                 Proin <br />
                 cursus, dolor a mollis consectetur, risus dolor fermentum massa,
@@ -110,7 +109,7 @@ function ServiceHeader() {
               </p>
             </Col>
             <Col lg={6}>
-              <p className="service-paraStyle">
+              <p className="service-para-style">
                 Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus
                 erat,
                 <br /> consectetur eu sapien eget rhoncus consectetur sem.

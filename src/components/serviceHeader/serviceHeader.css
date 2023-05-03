@@ -1,37 +1,35 @@
 .custom-class-2 .line-style-about {
-       width: 70px;
-    border: 4px solid #FFB400;
-    transform: rotate(-90deg);
-    position: absolute;
+  width: 70px;
+  border: 4px solid #ffb400;
+  transform: rotate(-90deg);
+  position: absolute;
   left: 105px;
-    top: 120px;
-
+  top: 120px;
 }
 
-.service-container{
+.service-container {
   position: relative;
-height: 625px;
+  height: 625px;
   background-image: url("../../assets/images/ServicesHeaderImg.png"); /* Use the imported image */
   background-size: cover;
   background-position: center;
 }
-.service-paraStyle{
+.service-para-style {
   font-weight: 300;
-font-size: 15px;
-line-height: 27px;
-color: #666666;
+  font-size: 15px;
+  line-height: 27px;
+  color: #666666;
 }
-@media screen and (max-width:992px) {
-  .service-container{
+@media screen and (max-width: 992px) {
+  .service-container {
     height: 1000px;
   }
-  .heading-styles{
+  .heading-styles {
     padding: 0px;
   }
-  .text-container-2{
+  .text-container-2 {
     padding: 3rem 0px;
     display: flex;
     align-items: center;
   }
-  
 }

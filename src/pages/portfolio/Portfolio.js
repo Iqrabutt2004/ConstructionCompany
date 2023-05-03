@@ -5,16 +5,17 @@ import Footer from "../../components/footer/footer";
 import "./Portfolio.css";
 function Portfolio() {
   return (
-    <div>
+    <React.Fragment>
       <PortfolioHeader />
       <PortfolioCards />
-      <div className="portfolioFooter-bg">
-        <p className="portfolioFooter-text">
-          Have a Project in Mind?<br/> Let's Get Building!
+      <div className="portfolio-footer-bg">
+        <p className="portfolio-footer-text">
+          Have a Project in Mind?
+          <br /> Let's Get Building!
         </p>
       </div>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 

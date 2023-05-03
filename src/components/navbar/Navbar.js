@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import "./Navbar.css";
 import { Link } from "react-router-dom";
 import CartNav from "../../assets/images/cart-nav.svg";
+import "./Navbar.css";
 
 const CustomNavbar = () => {
   return (
     <Navbar expand="lg" collapseOnSelect>
       <Container>
         <Navbar.Brand>
-          <h4 className="CompanyName">Construction Company Landing</h4>
+          <h4 className="companyName">Construction Company Landing</h4>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">

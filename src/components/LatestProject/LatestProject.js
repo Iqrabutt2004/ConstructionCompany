@@ -3,18 +3,19 @@ import LatestCardOne from "../../assets/images/LatestCard-1.svg";
 import LatestCardTwo from "../../assets/images/LatestCard-2.svg";
 import LatestCardThree from "../../assets/images/LatestCard-3.svg";
 import { Container, Row, Col } from "react-bootstrap";
-import CardReuse from "../../components/cardReuse/cardReuse"
+import CardReuse from "../../components/cardReuse/cardReuse";
 import ButtonReuse from "../../components/button/button";
 import "./LatestProject.css";
+
 const LatestProject = () => {
   const customBorderStyle = {
     border: "1px solid #666666",
     borderRadius: "0px",
   };
-    const customTextColor = "#666666";
-    const customBgColor = "#F7F7F7";
+  const customTextColor = "#666666";
+  const customBgColor = "#F7F7F7";
   return (
-    <div className="service-bgClr">
+    <div className="service-bg-clr">
       <Container className="py-5 ">
         <div className="text-center pb-5">
           <h3 className="latest-heading">Latest Project</h3>
@@ -73,15 +74,9 @@ const LatestProject = () => {
             </div>
           </Col>
         </Row>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <div className="latest-button">
           <ButtonReuse
-            className=" btn-after hvr-bob"
+            className="  hvr-bob"
             text="VIEW ALL"
             border="4px"
             borderColor="black"

@@ -1,24 +1,18 @@
 import React from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import {  useEffect } from "react";
-import { Row, Col } from "react-bootstrap";
-import "./ContactHeader.css";
-import  ContactPagePic from "../../assets/images/MainPageImg.png";
+import ContactPagePic from "../../assets/images/MainPageImg.png";
 import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
 import Facebook from "../../assets/images/facebook-1.svg";
 import Twitter from "../../assets/images/twitter-1.svg";
 import Linkedin from "../../assets/images/linkedin-1.svg";
+import "./ContactHeader.css";
+
 const ContactHeader = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div>
-      <div className="contactFlex">
-        <div className="p-0 contactFlex-1">
+      <div className="contact-flex">
+        <div className="p-0 contact-flex-one">
           <div
-            className="Contact-container"
+            className="contact-container"
             style={{ backgroundImage: `url(${ContactPagePic})` }}
           >
             <div className="d-flex justify-content-center p-0">
@@ -40,14 +34,14 @@ const ContactHeader = () => {
             </div>
           </div>
         </div>
-        <div className="clr-main p-0 contactFlex-2">
+        <div className="clr-main p-0 contact-flex-two">
           <div className="py-3 px-4 contact-small">
             <h2 className="py-1 " data-aos="fade-up">
               Contact Info
             </h2>
 
             <div className="pb-4">
-              <p style={{ fontWeight: "700" }} data-aos="fade-left">
+              <p className="banner-heading" data-aos="fade-left">
                 Our Office
               </p>
 
@@ -58,7 +52,7 @@ const ContactHeader = () => {
               </p>
             </div>
             <div className="pb-4">
-              <p style={{ fontWeight: "700" }} data-aos="fade-left">
+              <p className="banner-heading" data-aos="fade-left">
                 Open Office Hours
               </p>
               <p data-aos="fade-left">
@@ -67,7 +61,7 @@ const ContactHeader = () => {
               </p>
             </div>
             <div className="pb-4">
-              <p style={{ fontWeight: "700" }} data-aos="fade-left">
+              <p className="banner-heading" data-aos="fade-left">
                 Get in Touch
               </p>
               <p data-aos="fade-left">
@@ -76,8 +70,8 @@ const ContactHeader = () => {
               </p>
             </div>
             <div className="d-flex icons pb-2 ">
-              <img style={{ paddingRight: "2rem" }} src={Facebook} alt="" />
-              <img style={{ paddingRight: "2rem" }} src={Twitter} alt="" />
+              <img className="icon-banner" src={Facebook} alt="" />
+              <img className="icon-banner" src={Twitter} alt="" />
               <img src={Linkedin} alt="" />
             </div>
           </div>

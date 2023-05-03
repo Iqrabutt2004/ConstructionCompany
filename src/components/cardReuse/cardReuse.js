@@ -25,7 +25,7 @@ const CardReuse = ({
       </p>{" "}
       <div className="buttonPadding">
         <ButtonReuse
-          className=" btn-after hvr-bob"
+          className="  hvr-bob"
           text="LEARN MORE"
           border="1px"
           borderColor="#666666"

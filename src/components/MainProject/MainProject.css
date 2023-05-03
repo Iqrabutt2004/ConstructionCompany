@@ -1,71 +1,81 @@
-.mainPara {
-    line-height: 28px;
-    color: #666666;
-   font-size: 17px;
-   font-weight: 300;
-padding: 3rem 0px;
+.main-para {
+  line-height: 28px;
+  color: #666666;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 3rem 0px;
 }
-.MainImgSet{
-    width: 100%;
-    height: 760px;
-    object-fit: cover;
+
+.main-img-set {
+  width: 100%;
+  height: 731px;
+  object-fit: cover;
 }
-.TooBig-style-2{
-    padding: 0px 8rem;
+
+.too-big-style-two {
+  padding: 0px 8rem;
 }
-.best-orange{
-    padding: 1rem 0px !important;
+
+.best-orange {
+  padding: 1rem 0px !important;
 }
-.flexMain{
+
+.no-project-flex {
+  display: flex;
+}
+
+.no-project-flex-one {
+  flex: 0 0 30%;
+}
+
+.no-project-flex-two {
+  flex: 0 0 70%;
+}
+
+.no-project-flex-three {
+  flex: 0 0 50%;
+}
+
+.no-project-flex-four {
+  flex: 0 0 50%;
+}
+
+.no-project-flex-5 {
+  flex: 0 0 50%;
+}
+
+.no-project-flex-6 {
+  flex: 0 0 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .no-project-flex {
+    flex-direction: column;
+  }
+  .main-img-set {
+    object-fit: contain;
+  }
+  .main-para {
+    padding: 1rem 0px;
+  }
+  .too-big-style-two {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-.flexMain-1{
-    flex: 0 0 30%;
-}
-.flexMain-2{
-    flex: 0 0 70%;
-}
-.flexMain-3{
-    flex: 0 0 50%;
-}
-.flexMain-4{
-    flex: 0 0 50%;
-}
-.flexMain-5{
-    flex: 0 0 50%;
-}
-.flexMain-6{
-    flex: 0 0 50%;
-}
-@media screen and (max-width:1440px) {
-    .flexMain{
-        flex-direction: column;
-    }
-    .MainImgSet{
-        object-fit: contain;
-    }
-     .mainPara{
-        padding:1rem 0px ;
-    }
-      .TooBig-style-2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media screen and (max-width:990px){
-        .flexMain{
-        flex-direction: column;
-    }
-  
-   
-    .flexMain-3{ 
+
+@media screen and (max-width: 990px) {
+  .no-project-flex {
+    flex-direction: column;
+  }
+  .no-project-flex-three {
     flex: 0 0 100%;
-}
-.flexMain-4{
+  }
+  .no-project-flex-four {
     flex: 0 0 100%;
-}
-.TooBig-style-2{
+  }
+  .too-big-style-two {
     padding: 0px;
-}
+  }
 }

@@ -1,21 +1,22 @@
-import React from 'react'
-import "./MainPageStart.css";
+import React from "react";
 import MainPagePic from "../../assets/images/MainPageImg.png";
-import HeaderReuse from '../../components/HeaderReuse/HeaderReuse';
+import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
 import ConstructionReuse from "../../components/ConstructionReuse/ConstructionReuse";
 import MainOne from "../../assets/images/Main-1.svg";
 import MainTwo from "../../assets/images/Main-2.svg";
 import MainThree from "../../assets/images/Main-3.svg";
+import "./MainPageStart.css";
+
 const MainPageStart = () => {
   return (
-    <div>
-      <div className="MainStartFlex">
-        <div className="p-0 MainStartFlex-1">
+    <>
+      <div className="main-banner-flex">
+        <div className="p-0 main-banner-flex-one">
           <div
             className="main-container"
             style={{ backgroundImage: `url(${MainPagePic})` }}
           >
-            <div className="reuseFlex  p-0">
+            <div className="main-services-flex p-0">
               <HeaderReuse
                 title={<>Construction</>}
                 subtitle={
@@ -43,7 +44,7 @@ const MainPageStart = () => {
             </div>
           </div>
         </div>
-        <div className="clr-main p-0 MainStartFlex-2">
+        <div className="clr-main p-0 main-banner-flex-2">
           <div className="mx-3">
             <h4 className="text-services">Our Services</h4>
             <div className="py-3 px-3">
@@ -99,8 +100,8 @@ const MainPageStart = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
-export default MainPageStart
+export default MainPageStart;

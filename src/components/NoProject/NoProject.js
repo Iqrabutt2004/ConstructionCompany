@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./NoProject.css";
 import TheBestReuse from "../../components/TheBestReuse/TheBestReuse";
 import ButtonReuse from "../../components/button/button";
-import ArrowOne from "../../assets/images/arrow-1.svg"
+import ArrowOne from "../../assets/images/arrow-1.svg";
 function NoProject() {
   return (
     <div>
       <div className="noFlex">
         <div className="p-0 noFlex-1">
           <div className="bg-clr-project padding-parent  ">
-            <div className="px-5">
+            <div className="service-quality">
               <div className="d-flex py-2 margin-div">
                 <img className="img-fluid" src={ArrowOne} alt="" />
                 <img className="img-fluid" src={ArrowOne} alt="" />
@@ -21,7 +21,7 @@ function NoProject() {
                 convallis a pellentesque nec, egestas non nisi.
               </p>
             </div>
-            <div className="px-5">
+            <div className="service-quality">
               <div className="d-flex py-2 margin-div">
                 <img className="img-fluid" src={ArrowOne} alt="" />
                 <img className="img-fluid" src={ArrowOne} alt="" />
@@ -34,7 +34,7 @@ function NoProject() {
                 convallis a pellentesque nec, egestas non nisi.
               </p>
             </div>
-            <div className="px-5">
+            <div className="service-quality">
               <div className="d-flex py-2 margin-div">
                 <img className="img-fluid" src={ArrowOne} alt="" />
                 <img className="img-fluid" src={ArrowOne} alt="" />
@@ -50,8 +50,8 @@ function NoProject() {
           </div>
         </div>
         <div className="p-0 noFlex-2">
-          <div className="TooBig-style">
-            <div className="TooBig-style-2">
+          <div className="too-big-style">
+            <div className="too-big-style-two">
               <h1>No Project Too Big Or Too Small</h1>
               <div className="line-style-4 "></div>
               <div className="noFlex">
@@ -87,13 +87,11 @@ function NoProject() {
           </div>
           <div className="row-bg">
             <div className="pb-4">
-              <h2 className="text-white text-left">
-                Get Free Consultation
-              </h2>
+              <h2 className="text-white text-left">Get Free Consultation</h2>
             </div>
-            <div className='button-right'>
+            <div className="button-right">
               <ButtonReuse
-                className=" btn-after hvr-bob"
+                className="  hvr-bob"
                 text="ONLINE ESTIMATE FORM"
                 border="4px" // Set border width to 1px
                 borderColor="#FFB400"
@@ -111,4 +109,4 @@ function NoProject() {
   );
 }
 
-export default NoProject
+export default NoProject;

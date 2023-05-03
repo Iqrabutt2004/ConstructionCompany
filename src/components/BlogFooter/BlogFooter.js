@@ -1,5 +1,4 @@
 import React from 'react'
-import "./BlogFooter.css";
 import Facebook from "../../assets/images/facebook.svg";
 import Twitter from "../../assets/images/twitter.svg";
 import Linkedin from "../../assets/images/linkedin.svg";
@@ -7,11 +6,13 @@ import Location from "../../assets/images/location.svg";
 import Phone from "../../assets/images/phone.svg";
 import Mail from "../../assets/images/mail.svg";
 import ButtonReuse from "../button/button";
+import "./BlogFooter.css";
+
 function BlogFooter() {
   return (
     <div className="parent-flex">
       <div className="footer-flex-1 footer-clr ">
-        <div className="maxWidth">
+        <div className="max-width-footer">
           <p className="newsletter-text">Join Our Newsletter</p>
           <div className="line-footer"> </div>
           <form className="py-5">
@@ -41,13 +42,13 @@ function BlogFooter() {
       </div>
       <div className="footer-flex-2">
         <div className="upper-clr py-4">
-          <div className="d-flex justify-content-center ">
-            <img style={{ paddingRight: "2rem" }} src={Facebook} alt="" />
-            <img style={{ paddingRight: "2rem" }} src={Twitter} alt="" />
-            <img src={Linkedin} alt="" />
+          <div className="d-flex justify-content-center">
+            <img className="cursor-icon social-icons " src={Facebook} alt="" />
+            <img className="cursor-icon social-icons " src={Twitter} alt="" />
+            <img className="cursor-icon" src={Linkedin} alt="" />
           </div>
         </div>
-        <div className="d-flex flex-column Footer-details  ">
+        <div className="d-flex flex-column Footer-details">
           <div className="pt-4">
             <img src={Location} alt="" />
             <span className="footer-call">

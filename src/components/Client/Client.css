@@ -1,19 +1,19 @@
-.clientText{
+.client-text {
+  font-weight: 700;
+  font-size: 40px;
+}
+@media screen and (max-width: 249px) {
+  .client-text {
     font-weight: 700;
-font-size: 40px;
+    font-size: 32px;
+  }
 }
-@media screen and (max-width:249px) {
-    .clientText{
-    font-weight: 700;
-font-size: 32px;
-}
-}
-@media screen and (max-width:1199px){
-    .clientCards{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+@media screen and (max-width: 1199px) {
+  .client-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }

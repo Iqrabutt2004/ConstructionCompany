@@ -7,14 +7,14 @@ import Footer from "../../components/footer/footer";
 import NoProject from '../../components/NoProject/NoProject';
 function Home() {
   return (
-    <div>
+    <React.Fragment>
       <HomeMain/>
       <HomeConstruction/>
       <NoProject/>
       <ForYears/>
       <Client/>
       <Footer/>
-    </div>
+    </React.Fragment>
   )
 }
 

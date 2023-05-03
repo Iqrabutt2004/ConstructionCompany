@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./AboutDivi.css";
 function AboutDivi() {
@@ -6,12 +6,12 @@ function AboutDivi() {
     <section>
       <Container>
         <div className="text-center py-4">
-          <h3 className='divi-style'>About Divi Construction</h3>
+          <h3 className="divi-style">About Divi Construction</h3>
           <div className="text-center line-style-5"></div>
         </div>
         <Row>
           <Col lg={6}>
-            <p className="service-paraStyle d-flex justify-content-center">
+            <p className="service-para-style d-flex justify-content-center">
               Lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
               <br />
               Proin cursus, dolor a mollis consectetur, risus dolor fermentum
@@ -30,7 +30,7 @@ function AboutDivi() {
             </p>
           </Col>
           <Col lg={6}>
-            <p className="service-paraStyle">
+            <p className="service-para-style d-flex justify-content-center">
               Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus
               erat, <br />
               consectetur eu sapien eget rhoncus consectetur sem. <br /> Proin
@@ -48,4 +48,4 @@ function AboutDivi() {
   );
 }
 
-export default AboutDivi
+export default AboutDivi;

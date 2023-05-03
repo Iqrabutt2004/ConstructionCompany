@@ -1,87 +1,88 @@
-.footer-clr{
-    background-color: #FFB400;
+.footer-clr {
+  background-color: #ffb400;
 }
-.footer-call{
-      padding: 0px 0px 0px 12px;
-    font-size: 15px;
-    font-weight: 600;
+.footer-call {
+  padding: 0px 0px 0px 12px;
+  font-size: 15px;
+  font-weight: 600;
 }
-.Footer-details{
+.Footer-details {
   padding: 1rem 7rem;
 }
-.input-flex{
+.input-flex {
   display: flex;
   justify-content: space-between;
 }
-.line-2{
-
-width: 42px;
-border-bottom: 5px solid black;
- padding-top: 1.5rem!important;
-    
+.line-2 {
+  width: 42px;
+  border-bottom: 5px solid black;
+  padding-top: 1.5rem !important;
 }
-.upper-clr{
-    background-color: #2A2A2A;
+.social-icons {
+  padding-right: 2rem;
 }
-.set-padding{
-    padding: 0px !important;
+.upper-color {
+  background-color: #2a2a2a;
 }
-.text-field-3{
-    border: 0px solid white;
-    border-radius: 0px;
-    margin-bottom: 1rem;
-    padding: 12px;
-    flex: 0 0 48%;
+.set-padding {
+  padding: 0px !important;
 }
-.text-field-4 {
+.footer-name-field {
+  border: 0px solid white;
+  border-radius: 0px;
+  margin-bottom: 1rem;
+  padding: 12px;
+  flex: 0 0 48%;
+}
+.footer-message-field {
   border: 0px solid white;
   border-radius: 0px;
   width: 100%;
   margin-bottom: 1rem;
-    padding: 15px 0px 103px 16px;
+  padding: 15px 0px 103px 16px;
 }
-.maxWidth{
+.max-width-footer {
   max-width: 530px;
-  margin:auto
+  margin: auto;
 }
-.footer-flex-1{
+.footer-flex-one {
   flex: 0 0 50%;
   padding: 2rem;
 }
-.footer-flex-2{
+.footer-flex-two {
   flex: 0 0 50%;
 }
-.parent-flex{
+.parent-flex {
   display: flex;
 }
-.cursor-icon{
+.cursor-icon {
   cursor: pointer;
 }
-@media (max-width: 1200px){
-.parent-flex{
-  flex-direction: column;
-}
-}
-@media (max-width: 576px){
-  .input-flex{
+@media (max-width: 1200px) {
+  .parent-flex {
     flex-direction: column;
   }
 }
-@media (max-width: 460px){
-  .Footer-details{
-  padding: 1rem;
-  text-align: center;
+@media (max-width: 576px) {
+  .input-flex {
+    flex-direction: column;
+  }
 }
+@media (max-width: 460px) {
+  .Footer-details {
+    padding: 1rem;
+    text-align: center;
+  }
 }
-@media (max-width: 280px){
-.footer-call{
-  font-size: 12px;
+@media (max-width: 280px) {
+  .footer-call {
+    font-size: 12px;
+  }
 }
-}
-.input-flexWrapper{
+.input-flex-wrap {
   display: flex;
   flex-direction: column;
 }
-a{
-  color: #2A2A2A;
+a {
+  color: #2a2a2a;
 }

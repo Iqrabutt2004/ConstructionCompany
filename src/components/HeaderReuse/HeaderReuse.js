@@ -28,7 +28,7 @@ const HeaderReuse = ({ title, subtitle, className, buttonText }) => {
           {subtitle}
         </p>
         <ButtonReuse
-          className=" btn-after hvr-bob hvr-shutter-out-horizontal"
+          className="hvr-bob hvr-shutter-out-horizontal"
           text={buttonText}
           border="0px"
           borderColor="#FFB400"

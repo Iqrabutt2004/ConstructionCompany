@@ -2,26 +2,26 @@ import React from "react";
 import MainProjectImage from "../../assets/images/MainProject.svg";
 import ButtonReuse from "../../components/button/button";
 import "./MainProject.css";
+
 function MainProject() {
   return (
-    <div>
-      <div className="flexMain">
-        <div className="p-0 flexMain-1">
+    <>
+      <div className="no-project-flex">
+        <div className="p-0 no-project-flex-one">
           <img
-            
-            className="img-fluid MainImgSet"
+            className="img-fluid main-img-set"
             src={MainProjectImage}
             alt=""
           />
         </div>
-        <div className="p-0 flexMain-2">
-          <div className="TooBig-style">
-            <div className="TooBig-style-2">
+        <div className="p-0 no-project-flex-two">
+          <div className="too-big-style">
+            <div className="too-big-style-two">
               <h1>No Project Too Big Or Too Small</h1>
               <div className="line-style-4 "></div>
-              <div className="flexMain">
-                <div className="flexMain-3">
-                  <p className="mainPara ">
+              <div className="no-project-flex">
+                <div className="no-project-flex-three">
+                  <p className="main-para">
                     Lorem ipsum dolor sit amet, consectetur
                     <br /> adipiscing elit. Sapien, dignissim tristique
                     <br /> tellus sed faucibus nullam. Tincidunt mauris
@@ -35,8 +35,8 @@ function MainProject() {
                     tellus sed faucibus nullam.
                   </p>
                 </div>
-                <div className="flexMain-4">
-                  <p className="mainPara  ">
+                <div className="no-project-flex-four">
+                  <p className="main-para">
                     Lorem ipsum dolor sit amet, consectetur
                     <br /> adipiscing elit. Sapien, dignissim tristique tellus
                     <br />
@@ -46,35 +46,34 @@ function MainProject() {
                   </p>
                   <div>
                     <ButtonReuse
-                      className=" btn-after hvr-bob"
+                      className="hvr-bob"
                       text="LEARN MORE"
-                      border="4px" // Set border width to 1px
+                      border="4px"
                       borderColor="#1F1F1F"
                       backgroundColor="#F7F7F7"
                       textColor="#1F1F1F"
                       fontSize="14"
                       fontWeight="600"
-                      width="210"
-                      height="54"
+                      padding="7px 2.5rem"
                     />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="mx-0 flexMain">
-            <div className="best-orange flexMain-5">
+          <div className="mx-0 best-flex">
+            <div className="best-flex-one">
               <h1>12</h1>
               <p className="p-style">YEARS ESTABLISHED</p>
             </div>
-            <div className="best-black flexMain-6">
+            <div className="best-flex-two">
               <h1>250</h1>
               <p className="p-style">COMPLETED PROJECTS</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

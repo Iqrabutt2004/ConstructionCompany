@@ -1,82 +1,89 @@
-.bg-clr-project{
-    background-color: #FFB400;
+.bg-clr-project {
+  background-color: #ffb400;
 }
-.new-style{
-       display: flex;
-    align-items: center;
-    padding-left: 9px;
-    padding-top: 5px;
-    font-weight: 700;
+.service-quality {
+  padding: 0px 3rem;
 }
-.padding-parent{
-    padding: 6rem 0px;
+.new-style {
+  display: flex;
+  align-items: center;
+  padding-left: 9px;
+  padding-top: 5px;
+  font-weight: 700;
 }
-.TooBig-style{
-    background-color: #F7F7F7;
+.padding-parent {
+  padding: 6rem 0px;
 }
-.TooBig-style{
-      padding: 5.1rem 40px;
+.too-big-style {
+  background-color: #f7f7f7;
 }
- .row-bg{
-    background-color: #2A2A2A;
-            padding-top: 35px!important;
-    padding-bottom: 15px!important;
-    display: flex;
-    justify-content: space-between;
- }
- .margin-para{
-    padding: 0px 4rem;
- }
- .noFlex{
-    display: flex;
- }
- .noFlex-1{
-    flex: 0 0 30%;
- }
- .noFlex-2{
-        flex: 0 0 70%;
- }
-  .noFlex-3{
-        flex: 0 0 50%;
- }
-   .noFlex-4{
-        flex: 0 0 50%;
- }
- .text-left{
-   padding-left: 2rem;
- }
- .button-right{
- padding-right: 2rem;
- }
-  @media  screen and (max-width:1683px) {
- .noFlex{
- flex-direction: column;
- }}
- @media  screen and (max-width:1642px) {
-
- .TooBig-style-2{
+.too-big-style {
+  padding: 5.1rem 40px;
+}
+.row-bg {
+  background-color: #2a2a2a;
+  padding-top: 35px !important;
+  padding-bottom: 15px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.margin-para {
+  padding: 0px 4rem;
+}
+.noFlex {
+  display: flex;
+}
+.noFlex-1 {
+  flex: 0 0 30%;
+}
+.noFlex-2 {
+  flex: 0 0 70%;
+}
+.noFlex-3 {
+  flex: 0 0 50%;
+}
+.noFlex-4 {
+  flex: 0 0 50%;
+}
+.text-left {
+  padding-left: 2rem;
+}
+.button-right {
+  padding-right: 2rem;
+}
+@media screen and (max-width: 1683px) {
+  .noFlex {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1642px) {
+  .too-big-style-two {
     display: flex;
     flex-direction: column;
     align-items: center;
- }
- .padding-parent{
-        display: flex;
+  }
+  .padding-parent {
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem 0px;
- }
- }
- @media screen and (max-width:1642px) {
-    .row-bg{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-     .text-left{
-   padding-left: 0rem !important;
- }
- .button-right{
- padding-right: 0rem !important;
- }
- }
- 
+  }
+}
+@media screen and (max-width: 1642px) {
+  .row-bg {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-left {
+    padding-left: 0rem !important;
+  }
+  .button-right {
+    padding-right: 0rem !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  .service-quality {
+    padding: 0px 0.5rem;
+  }
+}

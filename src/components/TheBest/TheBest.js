@@ -1,15 +1,16 @@
-import React from 'react'
-import { Container, Row, Col } from "react-bootstrap";
-import "./TheBest.css";
-import TheBestReuse from '../../components/TheBestReuse/TheBestReuse';
-import ButtonReuse from '../../components/button/button';
+import React from "react";
+import { Row } from "react-bootstrap";
+import TheBestReuse from "../../components/TheBestReuse/TheBestReuse";
+import ButtonReuse from "../../components/button/button";
 import TheBestpic from "../../assets/images/TheBest-pic.svg";
+import "./TheBest.css";
+
 function TheBest() {
   return (
-    <div>
+    <>
       <section>
-        <Row>
-          <Col xl={4} lg={12} className="background-clr py-4">
+        <div className="the-best-flex">
+          <div className="the-best-flex-one background-clr py-4">
             <div className="width-manage">
               <div>
                 <h3 className="py-3 px-2">Only the Best</h3>
@@ -26,20 +27,19 @@ function TheBest() {
                   textColor="#FFB400"
                   fontSize="14"
                   fontWeight="600"
-                  width="230"
-                  height="65"
+                  padding="12px 3.5rem"
                 />
               </div>
             </div>
-          </Col>
-          <Col xl={8} lg={12} className="px-0">
-            <img className="img-fluid bestPic" src={TheBestpic} alt="" />
-            <div className="mx-0 BestFlex">
-              <div className="BestFlex-1 best-orange">
+          </div>
+          <div className="the-best-flex-two px-0">
+            <img className="best-pic" src={TheBestpic} alt="" />
+            <div className="mx-0 best-flex">
+              <div className="best-flex-one">
                 <h1>12</h1>
                 <p className="p-style">YEARS ESTABLISHED</p>
               </div>
-              <div className=" BestFlex-2 best-black">
+              <div className="best-flex-two">
                 <h1>250</h1>
                 <p className="p-style">COMPLETED PROJECTS</p>
               </div>
@@ -56,23 +56,21 @@ function TheBest() {
                 </div>
               </div>
             </Row>
-          </Col>
-        </Row>
-      </section>
-      <section>
-        <div className="py-5">
-          <h2 className="text-center h2-style">
-            “Suspendisse neque erat, imperdiet <br /> ac non, sollicitudin
-            accumsan lacus.
-            <br /> Vestibulum ac ex rutrum,
-            <br /> pellentesque purus et, lacinia mi.
-            <br /> Nullam maximus lectus libero.”
-          </h2>
-          <p className="text-muted text-font text-center">JOHN SMITH – CEO</p>
+          </div>
         </div>
       </section>
-    </div>
+      <section>
+        <h2 className="text-center h2-style">
+          “Suspendisse neque erat, imperdiet <br /> ac non, sollicitudin
+          accumsan lacus.
+          <br /> Vestibulum ac ex rutrum,
+          <br /> pellentesque purus et, lacinia mi.
+          <br /> Nullam maximus lectus libero.”
+        </h2>
+        <p className="text-muted text-font text-center">JOHN SMITH - CEO</p>
+      </section>
+    </>
   );
 }
 
-export default TheBest
+export default TheBest;

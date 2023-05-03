@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./relatedProject.css";
 import CardReuse from "../../components/cardReuse/cardReuse";
 import ServiceOne from "../../assets/images/service-1.svg";
 import ServiceTwo from "../../assets/images/service-2.svg";
 import ServiceThree from "../../assets/images/service-3.svg";
 import ButtonReuse from "../button/button";
+import "./relatedProject.css";
 
 const RelatedProject = () => {
   const customBorderStyle = {
@@ -15,12 +15,12 @@ const RelatedProject = () => {
   const customTextColor = "#666666";
   const customBgColor = "#F7F7F7";
   return (
-    <div className="service-bgClr">
+    <div className="service-bg-clr">
       <section>
         <Container className=" ">
           <div className="text-center pb-5">
             <h3 style={{ fontWeight: "700", fontSize: "40px" }}>
-              Related Project
+              Related Projects
             </h3>
             <div className="line-style-2 mx-auto"></div>
           </div>
@@ -77,13 +77,7 @@ const RelatedProject = () => {
               </div>
             </Col>
           </Row>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className="button-project">
             <ButtonReuse
               className="hvr-pop"
               text="VIEW ALL"

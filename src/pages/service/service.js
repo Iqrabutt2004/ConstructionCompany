@@ -6,13 +6,13 @@ import FAQ from "../../components/FAQ/faq";
 import Footer from "../../components/footer/footer";
 function Service() {
   return (
-    <div className="servic-bgClr">
+    <React.Fragment>
       <ServiceHeader />
       <Video />
       <RelatedProject />
       <FAQ />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 

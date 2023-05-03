@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./portfolioCards.css";
 import PortfolioCardsOne from "../../assets/images/portfolioCard-1.svg";
 import PortfolioCardsTwo from "../../assets/images/portfolioCard-2.svg";
 import PortfolioCardsThree from "../../assets/images/portfolioCard-3.svg";
@@ -10,8 +9,8 @@ import PortfolioCardsSix from "../../assets/images/portfolioCard-6.svg";
 import PortfolioCardsSeven from "../../assets/images/portfolioCard-7.svg";
 import PortfolioCardsEight from "../../assets/images/portfolioCard-8.svg";
 import PortfolioCardsNine from "../../assets/images/portfolioCard-9.svg";
-
 import CardReuse from "../../components/cardReuse/cardReuse";
+import "./portfolioCards.css";
 
 function PortfolioCards() {
   const customBorderStyle = {
@@ -21,7 +20,7 @@ function PortfolioCards() {
   const customTextColor = "#666666";
   const customBgColor = "#F7F7F7";
   return (
-    <div className="service-bgClr">
+    <div className="service-bg-clr">
       <Container className="py-5">
         <Row className="mb-5 d-flex justify-content-evenly">
           <Col lg={3} className="mb-5 ">
@@ -54,7 +53,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -71,7 +70,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -90,7 +89,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -107,7 +106,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -124,7 +123,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -143,7 +142,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -160,7 +159,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>
@@ -177,7 +176,7 @@ function PortfolioCards() {
                 body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. "
                 borderStyle={customBorderStyle}
                 textColor={customTextColor}
-                 backgroundColor={customBgColor}
+                backgroundColor={customBgColor}
               />
             </div>
           </Col>

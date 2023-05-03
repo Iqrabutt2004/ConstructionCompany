@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ButtonReuse from '../../components/button/button';
-import CardFaq from '../../components/card-faq/CardFaq';
+import ButtonReuse from "../../components/button/button";
+import CardFaq from "../../components/card-faq/CardFaq";
+
 function Build() {
   return (
-    <div className=" py-5 service-bgClr">
+    <div className=" py-5 service-bg-clr">
       <div className="py-5">
         <Container>
           <Row className="flex-wrap">
@@ -18,11 +19,10 @@ function Build() {
                 Sapien, dignissim tristique <br /> tellus sed faucibus nullam.
                 Tincidunt mauris
                 <br />
-                ut quam sed mauris proin feugiat.{" "}
+                ut quam sed mauris proin feugiat.
               </p>
-              <div className="">
                 <ButtonReuse
-                  className=" btn-after hvr-bob"
+                  className="hvr-bob"
                   text="GET IN TOUCH"
                   border="3px"
                   borderColor="#FFB400"
@@ -30,10 +30,8 @@ function Build() {
                   textColor="#FFB400"
                   fontSize="14"
                   fontWeight="600"
-                  width="180"
-                  height="42"
+                 padding="4px 2rem"
                 />
-              </div>
             </Col>
             <Col lg={8}>
               <CardFaq />
@@ -45,4 +43,4 @@ function Build() {
   );
 }
 
-export default Build
+export default Build;

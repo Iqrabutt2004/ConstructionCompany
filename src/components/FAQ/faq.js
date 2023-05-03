@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./faq.css";
 import ButtonReuse from "../../components/button/button";
 import CardFaq from "../card-faq/CardFaq";
+import "./faq.css";
+
 function FAQ() {
   return (
-    <div className="service-bgClr">
-      
+    <div className="service-bg-clr">
       <Container className="py-5">
         <Row>
           <Col lg={4} className="pb-4">
@@ -18,9 +18,9 @@ function FAQ() {
               ut quam sed mauris proin feugiat.{" "}
             </p>
             <ButtonReuse
-              className=" btn-after hvr-bob"
+              className=" hvr-bob"
               text="ASK A QUESTION"
-              border="3px" // Set border width to 1px
+              border="3px"
               borderColor="#FFB400"
               backgroundColor="#F7F7F7"
               textColor="#FFB400"
@@ -39,4 +39,4 @@ function FAQ() {
   );
 }
 
-export default FAQ
+export default FAQ;

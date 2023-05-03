@@ -1,57 +1,57 @@
-.video-bg{
-    background-color: #2A2A2A;
-    padding: 5rem 4rem 11rem 4rem;
+.video-bg {
+  background-color: #2a2a2a;
+  padding: 5rem 4rem 11rem 4rem;
 }
-.line-3{
-    width: 48px;
-   border-bottom: 5px solid #FFB400;
- padding-top: 1.5rem!important; 
+.line-3 {
+  width: 48px;
+  border-bottom: 5px solid #ffb400;
+  padding-top: 1.5rem !important;
 }
-.padding-none{
-    padding: 0px !important;
+.padding-none {
+  padding: 0px !important;
 }
-.AboutProcess-text{
+.about-process-style {
   font-weight: 700;
-font-size: 40px;
-color: #fff;
+  font-size: 40px;
+  color: #fff;
 }
-.AboutProcess-para{
+.about-process-paragraph {
   font-weight: 300;
-font-size: 17px;
-line-height: 28px;
-color: #fff;
-padding: 3rem 0px 0px 0px;
+  font-size: 17px;
+  line-height: 28px;
+  color: #fff;
+  padding: 3rem 0px 0px 0px;
 }
-.AboutProcess-li{
+.about-process-li {
   padding: 0px 0px 0px 18px;
   font-weight: 300;
-font-size: 17px;
-line-height: 33px;
-color: #fff;
+  font-size: 17px;
+  line-height: 33px;
+  color: #fff;
 }
-.quote-text{
+.quote-text {
   font-size: 32px;
   font-weight: 700;
 }
-.quote-number{
+.quote-number {
   font-size: 26px;
   font-weight: 600;
 }
-.video-flex{
-    display: flex;
+.video-flex {
+  display: flex;
 }
-.video-flex-1{
+.video-flex-one {
   flex: 0 0 30%;
 }
-.video-flex-2{
+.video-flex-two {
   flex: 0 0 70%;
 }
-   
-.video-flex-3{
+
+.video-flex-three {
   flex: 0 0 50%;
-  background-color: #FFB400;
+  background-color: #ffb400;
 }
-.video-flex-4{
+.video-flex-four {
   flex: 0 0 50%;
   display: flex;
   justify-content: center;
@@ -59,24 +59,25 @@ color: #fff;
   padding: 3rem;
 }
 
-@media screen and (max-width:1330px) {
-.video-flex{
-    flex-direction: column
+@media screen and (max-width: 1330px) {
+  .video-flex {
+    flex-direction: column;
+  }
+  .video-flex-three {
+    text-align: center;
+  }
 }
-.video-flex-3{
-  text-align: center;
-}
-} 
-@media screen and (max-width:1230px) {
-  .video-flex-3{
+@media screen and (max-width: 1230px) {
+  .video-flex-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
   }
 }
-@media screen and (max-width:222px) {
-  .AboutProcess-text{
-  font-size: 30px;
-  font-weight: 500
-}}
+@media screen and (max-width: 222px) {
+  .about-process-style {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}

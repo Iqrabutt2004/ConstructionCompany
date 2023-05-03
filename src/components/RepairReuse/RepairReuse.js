@@ -14,9 +14,9 @@ const RepairReuse = ({
 }) => {
   return (
     <div className="float-repair">
-      <div className="card service-bgClr width-set">
-        <div className="padding-set ">
-          <div className="text-color ">
+      <div className="card service-bg-clr width-set">
+        <div className="padding-set">
+          <div className="text-color">
             <h3 className="pt-4">{title}</h3>
             <div className="line-style-4"></div>
             <p className="pt-4 pb-3">{description}</p>
@@ -51,12 +51,11 @@ const RepairReuse = ({
             </Row>
           </div>
         </div>
-
         <Row className="width-set-none pb-5">
           <Col lg={6} className="padding-none">
-            <div className="repair-clr-1 d-flex justify-content-center">
+            <div className="repair-color-one">
               <ButtonReuse
-                className=" btn-after hvr-bob"
+                className="hvr-bob"
                 text={button1Text}
                 border="4px"
                 borderColor="white"
@@ -64,15 +63,14 @@ const RepairReuse = ({
                 textColor="white"
                 fontSize="14"
                 fontWeight="500"
-                width="180"
-                height="42"
+                padding="5px 2rem"
               />
             </div>
           </Col>
           <Col lg={6} className="padding-none">
-            <div className="repair-clr-2 d-flex justify-content-center">
+            <div className="repair-button-clr-two repair-color-one">
               <ButtonReuse
-                className=" btn-after hvr-bob"
+                className="hvr-bob"
                 text={button2Text}
                 border="4px"
                 borderColor="white"
@@ -80,8 +78,7 @@ const RepairReuse = ({
                 textColor="white"
                 fontSize="14"
                 fontWeight="500"
-                width="180"
-                height="42"
+                padding="5px 2rem"
               />
             </div>
           </Col>

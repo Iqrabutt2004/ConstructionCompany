@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import "./projectHeader.css";
 import ProjectHeaderPic from "../../assets/images/ProjectHeaderImg.png";
+import "./projectHeader.css";
 const ProjectHeader =() => {
   return (
     <div
@@ -11,8 +11,8 @@ const ProjectHeader =() => {
       <Container>
         <Row>
           <Col lg={6} md={6} sm={12}>
-            <div className=" project-style">
-              <h1 className="heading-reuse " data-aos="fade-up">
+            <div className="project-style">
+              <h1 className="heading-reuse" data-aos="fade-up">
                 Monarch HQ Project
               </h1>
               <p className="heading-reuse-text py-3" data-aos="fade-left">
@@ -42,3 +42,4 @@ const ProjectHeader =() => {
 }
 
 export default ProjectHeader;
+

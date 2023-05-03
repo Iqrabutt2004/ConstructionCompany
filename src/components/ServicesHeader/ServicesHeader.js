@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
 import HomeMainImg from "../../assets/images/home-head.png";
-import ButtonReuse from "../../components/button/button";
 import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
 import ConstructionReuse from "../../components/ConstructionReuse/ConstructionReuse";
 import AboutOne from "../../assets/images/AboutOne.svg";

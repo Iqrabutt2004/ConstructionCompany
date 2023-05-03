@@ -5,13 +5,13 @@ import Footer from "../../components/footer/footer";
 import AboutHeader from "../../components/AboutHeader/AboutHeader"
 function About() {
   return (
-    <div>
-      <AboutHeader/>
-      <AboutDivi/>
-      <TheBest/>
-      <Footer/>
-    </div>
-  )
+    <React.Fragment>
+      <AboutHeader />
+      <AboutDivi />
+      <TheBest />
+      <Footer />
+    </React.Fragment>
+  );
 }
 
 export default About

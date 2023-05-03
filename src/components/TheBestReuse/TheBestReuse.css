@@ -1,13 +1,25 @@
-.eco-style-para{
-    padding: 0px 2.5rem;
+.eco-style-para {
+  padding: 0px 2.5rem;
 }
-@media screen and (max-width:350px){
-    .eco-style-para{
+
+.only-best-padding{
+  padding: 2rem 0px;
+}
+
+@media screen and (max-width: 1425px) {
+  .only-best-padding {
+    padding: 0rem 0px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .eco-style-para {
     padding: 0px 1rem;
+  }
 }
-}
-@media screen and (max-width:247px){
-    .eco-style-para{
+
+@media screen and (max-width: 247px) {
+  .eco-style-para {
     padding: 0px 0rem;
-}
+  }
 }
