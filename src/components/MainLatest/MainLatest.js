@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import PortfolioCardsThree from "../../assets/images/portfolioCard-3.svg";
 import PortfolioCardsFour from "../../assets/images/portfolioCard-4.svg";
 import PortfolioCardsFive from "../../assets/images/portfolioCard-5.svg";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./MainLatest.css";
 
 function MainLatest() {
@@ -26,28 +26,30 @@ function MainLatest() {
                 <div className="card card-main mb-5">
                   <h6 className="py-3 project-title-style">Project Title</h6>
                   <p className=" pb-5 card-para-main">
-                    nLorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <ButtonReuse
-                    className="hvr-wobble-horizontal "
-                    text="VIEW PROJECT"
-                    border="1px"
-                    borderColor="#666666"
-                    backgroundColor="white"
-                    textColor="#666666"
-                    fontSize="11"
-                    fontWeight="800"
-                    padding="1px 22px 4px 23px"
-                  />
+                  <div>
+                    <ButtonReuse
+                      className="hvr-wobble-horizontal"
+                      text="VIEW PROJECT"
+                      border="1px"
+                      borderColor="#666666"
+                      backgroundColor="white"
+                      textColor="#666666"
+                      fontSize="11"
+                      fontWeight="800"
+                      padding="1px 22px 4px 23px"
+                    />
+                  </div>
                 </div>
               </div>
             </Col>
             <Col lg={4} className="d-flex justify-content-evenly">
               <div>
                 <img
-                  className="img-latest  mb-4"
+                  className="img-latest mb-4"
                   src={PortfolioCardsThree}
                   alt=""
                 />
@@ -58,9 +60,9 @@ function MainLatest() {
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div className="">
+                  <div>
                     <ButtonReuse
-                      className="   hvr-wobble-horizontal "
+                      className="hvr-wobble-horizontal"
                       text="VIEW PROJECT"
                       border="1px"
                       borderColor="#666666"
@@ -88,9 +90,9 @@ function MainLatest() {
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div className="">
+                  <div>
                     <ButtonReuse
-                      className="hvr-wobble-horizontal "
+                      className="hvr-wobble-horizontal"
                       text="VIEW PROJECT"
                       border="1px"
                       borderColor="#666666"
@@ -104,7 +106,7 @@ function MainLatest() {
                 </div>
               </div>
             </Col>
-            <div className="text-center d-flex flex-column align-items-center justify-content-center ">
+            <div className="text-center d-flex flex-column align-items-center justify-content-center">
               <ButtonReuse
                 className="hvr-bob"
                 text="VIEW ALL"

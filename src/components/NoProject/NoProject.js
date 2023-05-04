@@ -1,9 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import "./NoProject.css";
-import TheBestReuse from "../../components/TheBestReuse/TheBestReuse";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import ArrowOne from "../../assets/images/arrow-1.svg";
+
 function NoProject() {
   return (
     <div>
@@ -93,7 +92,7 @@ function NoProject() {
               <ButtonReuse
                 className="  hvr-bob"
                 text="ONLINE ESTIMATE FORM"
-                border="4px" // Set border width to 1px
+                border="4px" 
                 borderColor="#FFB400"
                 backgroundColor="#2A2A2A"
                 textColor="#FFB400"

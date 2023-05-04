@@ -1,15 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ButtonReuse from "../../components/button/button";
-import CardFaq from "../../components/card-faq/CardFaq";
+import ButtonReuse from "../ReusableComponent/button/button";
+import CardFaq from "../ReusableComponent/card-faq/CardFaq";
+import "./Build.css";
 
 function Build() {
   return (
-    <div className=" py-5 service-bg-clr">
+    <div className="py-5 service-bg-clr">
       <div className="py-5">
         <Container>
-          <Row className="flex-wrap">
-            <Col lg={4} className="pb-5">
+          <Row>
+            <Col lg={4} className="build-card pb-5">
               <h2>
                 Let's Build <br /> Something <br /> Together
               </h2>

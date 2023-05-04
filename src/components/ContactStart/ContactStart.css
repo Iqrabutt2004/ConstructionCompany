@@ -2,11 +2,9 @@
   color: #ffb400;
   font-size: 40px;
   font-weight: 700;
-}
-
-.contact-estimation-flex {
-  display: flex;
-  justify-content: space-between;
+}.ideas-text{
+  font-weight: 500;
+font-size: 28px;
 }
 
 .shadow {

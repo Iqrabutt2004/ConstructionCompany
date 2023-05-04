@@ -1,6 +1,7 @@
 import React from "react";
 import MainPagePic from "../../assets/images/MainPageImg.png";
-import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
+// import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
+import ButtonReuse from "../ReusableComponent/button/button";
 import ConstructionReuse from "../../components/ConstructionReuse/ConstructionReuse";
 import MainOne from "../../assets/images/Main-1.svg";
 import MainTwo from "../../assets/images/Main-2.svg";
@@ -16,35 +17,30 @@ const MainPageStart = () => {
             className="main-container"
             style={{ backgroundImage: `url(${MainPagePic})` }}
           >
-            <div className="main-services-flex p-0">
-              <HeaderReuse
-                title={<>Construction</>}
-                subtitle={
-                  <>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    quis egestas <br /> pellentesque libero dolor in diam
-                    consequat ut. Mi nibh amet viverra <br /> id aliquet neque
-                    odio.
-                  </>
-                }
-                buttonText="VIEW OUR WORK"
-                buttonProps={{
-                  text: "GET A FREE QUOTE",
-                  border: "0px",
-                  borderColor: "#FFB400",
-                  backgroundColor: "#FFB400",
-                  textColor: "white",
-                  fontSize: "14",
-                  fontWeight: "600",
-                  width: "180",
-                  height: "42",
-                }}
-                className="custom-class-2"
+            <div className="main-banner-style">
+              <h1 className="main-banner-heading" data-aos="fade-up">
+                Construction
+              </h1>
+              <p className="main-banner-text" data-aos="fade-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
+                egestas <br /> pellentesque libero dolor in diam consequat ut.
+                Mi nibh amet viverra id <br /> aliquet neque odio.
+              </p>
+              <ButtonReuse
+                className="hvr-bob hvr-shutter-out-horizontal"
+                text="VIEW OUR WORK"
+                border="4px"
+                borderColor="#FFB400"
+                backgroundColor="#FFB400"
+                textColor="#fff"
+                fontSize="14"
+                fontWeight="500"
+                padding="8px 2.5rem"
               />
             </div>
           </div>
         </div>
-        <div className="clr-main p-0 main-banner-flex-2">
+        <div className="clr-main p-0 main-banner-flex-two">
           <div className="mx-3">
             <h4 className="text-services">Our Services</h4>
             <div className="py-3 px-3">

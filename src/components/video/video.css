@@ -2,19 +2,23 @@
   background-color: #2a2a2a;
   padding: 5rem 4rem 11rem 4rem;
 }
-.line-3 {
+
+.line-three {
   width: 48px;
   border-bottom: 5px solid #ffb400;
   padding-top: 1.5rem !important;
 }
+
 .padding-none {
   padding: 0px !important;
 }
+
 .about-process-style {
   font-weight: 700;
   font-size: 40px;
   color: #fff;
 }
+
 .about-process-paragraph {
   font-weight: 300;
   font-size: 17px;
@@ -22,6 +26,7 @@
   color: #fff;
   padding: 3rem 0px 0px 0px;
 }
+
 .about-process-li {
   padding: 0px 0px 0px 18px;
   font-weight: 300;
@@ -29,20 +34,25 @@
   line-height: 33px;
   color: #fff;
 }
+
 .quote-text {
   font-size: 32px;
   font-weight: 700;
 }
+
 .quote-number {
   font-size: 26px;
   font-weight: 600;
 }
+
 .video-flex {
   display: flex;
 }
+
 .video-flex-one {
   flex: 0 0 30%;
 }
+
 .video-flex-two {
   flex: 0 0 70%;
 }
@@ -51,6 +61,7 @@
   flex: 0 0 50%;
   background-color: #ffb400;
 }
+
 .video-flex-four {
   flex: 0 0 50%;
   display: flex;
@@ -67,6 +78,7 @@
     text-align: center;
   }
 }
+
 @media screen and (max-width: 1230px) {
   .video-flex-three {
     display: flex;
@@ -75,6 +87,7 @@
     text-align: center;
   }
 }
+
 @media screen and (max-width: 222px) {
   .about-process-style {
     font-size: 30px;

@@ -1,6 +1,6 @@
 import React from "react";
 import HomeImg from "../../assets/images/HomeImg.png";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./ForYears.css";
 const ForYears = () => {
   return (

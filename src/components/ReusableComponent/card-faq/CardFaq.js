@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
-import Plus from "../../assets/images/plus.svg";
-import Minus from "../../assets/images/minus.svg";
+import Plus from "../../../assets/images/plus.svg";
+import Minus from "../../../assets/images/minus.svg";
 import "./CardFaq.css";
 
 function CardFaq() {

@@ -12,76 +12,75 @@ import "./blogHeader.css";
 
 const BlogHeader = () => {
   return (
-    <div>
+    <>
       <div
         className="blog-container"
         style={{ backgroundImage: `url(${BlogMain})` }}
       >
-        <h1 className="heading-reuse news-style" data-aos="fade-up">
-          News
-        </h1>
+        <div className="header-container">
+          <h1 className="heading-reuse news-style" data-aos="fade-up">
+            News
+          </h1>
+        </div>
       </div>
       <section>
-        <Row className="d-flex justify-content-center">
-          <Col lg={3}>
-            <Cards
-              imageSrc={AvatarOne}
-              title="Nunc Volutpat Venenatis"
-              date="May 9, 2014"
-              category="Category"
-              description="Nulla a odio sed magna congue condimentum. Pellentesque
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={3}>
+              <Cards
+                imageSrc={AvatarOne}
+                title="Nunc Volutpat Venenatis"
+                date="May 9, 2014"
+                category="Category"
+                description="Nulla a odio sed magna congue condimentum. Pellentesque
         convallis enim nec libero vulputate, et rhoncus urna placerat.
         Phasellus mattis, diam vel vehicula facilisis, erat leo
         dapibus augue, at mollis tellus ex non nisi."
-            />
-            <Cards
-              imageSrc={AvatarFour}
-              title="Nunc Volutpat Venenatis"
-              date="May 9, 2014"
-              category="Category"
-              description="Nulla a odio sed magna congue condimentum. Pellentesque convallis enim nec libero vulputate, et rhoncus urna placerat. Phasellus mattis, diam vel vehicula facilisis, erat leo dapibus augue, at mollis tellus ex non nisi. Maecenas urna sapien, dignissim a augue vitae, porttitor luctus urna. Morbi scelerisque semper congue. "
-            />
-          </Col>
-          <Col lg={3}>
-            <Cards
-              imageSrc={AvatarTwo}
-              title="Vestibulum Nisl Felis"
-              date="May 9, 2014"
-              category="Category"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet. "
-            />
-            <Cards
-              imageSrc={AvatarFive}
-              title="Donec Sit Amet Nibh"
-              date="May 9, 2014"
-              category="Category"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet.   "
-            />
-          </Col>
-          <Col lg={3}>
-            <Cards
-              imageSrc={AvatarThree}
-              title="Proin Eu Augue Efficitur"
-              date="May 9, 2014"
-              category="Category"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet.  "
-            />
-            <Cards
-              imageSrc={AvatarSix}
-              title="Maecenas Fringilla Augue"
-              date="May 9, 2014"
-              category="Category"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet.Donec quis felis imperdiet, vestibulum est ut, pulvinar dolor.   "
-            />
-          </Col>
-        </Row>
-        {/* <Row className="d-flex justify-content-center">
-          <Col lg={3} className="blog-setWidth"></Col>
-          <Col lg={3} className="blog-setWidth"></Col>
-          <Col lg={3} className="blog-setWidth"></Col>
-        </Row> */}
+              />
+              <Cards
+                imageSrc={AvatarFour}
+                title="Nunc Volutpat Venenatis"
+                date="May 9, 2014"
+                category="Category"
+                description="Nulla a odio sed magna congue condimentum. Pellentesque convallis enim nec libero vulputate, et rhoncus urna placerat. Phasellus mattis, diam vel vehicula facilisis, erat leo dapibus augue, at mollis tellus ex non nisi. Maecenas urna sapien, dignissim a augue vitae, porttitor luctus urna. Morbi scelerisque semper congue. "
+              />
+            </Col>
+            <Col lg={3}>
+              <Cards
+                imageSrc={AvatarTwo}
+                title="Vestibulum Nisl Felis"
+                date="May 9, 2014"
+                category="Category"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet. "
+              />
+              <Cards
+                imageSrc={AvatarFive}
+                title="Donec Sit Amet Nibh"
+                date="May 9, 2014"
+                category="Category"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet.   "
+              />
+            </Col>
+            <Col lg={3}>
+              <Cards
+                imageSrc={AvatarThree}
+                title="Proin Eu Augue Efficitur"
+                date="May 9, 2014"
+                category="Category"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet.  "
+              />
+              <Cards
+                imageSrc={AvatarSix}
+                title="Maecenas Fringilla Augue"
+                date="May 9, 2014"
+                category="Category"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam justo et nibh venenatis aliquet.Donec quis felis imperdiet, vestibulum est ut, pulvinar dolor.   "
+              />
+            </Col>
+          </Row>
+        </Container>
       </section>
-    </div>
+    </>
   );
 };
 

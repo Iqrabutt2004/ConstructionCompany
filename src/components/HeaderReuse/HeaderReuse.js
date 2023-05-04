@@ -1,23 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./HeaderReuse.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import ButtonReuse from "../../components/button/button";
 
 const HeaderReuse = ({ title, subtitle, className, buttonText }) => {
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      duration: 1000,
-      easing: "ease-in-out",
-      offset: 200,
-    });
-    window.addEventListener("scroll", AOS.refresh);
-    return () => {
-      window.removeEventListener("scroll", AOS.refresh);
-    };
-  }, []);
-
   return (
     <div className={className}>
       <div className="text-container-2">

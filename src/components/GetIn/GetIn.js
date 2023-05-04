@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import ButtonReuse from "../../components/button/button";
-import CardFaq from "../card-faq/CardFaq";
+import ButtonReuse from "../ReusableComponent/button/button";
+import CardFaq from "../ReusableComponent/card-faq/CardFaq";
 import Map from "../../assets/images/Map.svg";
 import "./GetIn.css";
 

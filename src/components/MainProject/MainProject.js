@@ -1,6 +1,6 @@
 import React from "react";
 import MainProjectImage from "../../assets/images/MainProject.svg";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./MainProject.css";
 
 function MainProject() {

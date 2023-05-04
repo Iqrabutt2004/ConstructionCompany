@@ -1,6 +1,7 @@
 import React from "react";
-import Arrow from "../../assets/images/arrow.svg";
+import Arrow from "../../../assets/images/arrow.svg"
 import "./TheBestReuse.css";
+
 const TheBestReuse = ({ title }) => {
   return (
     <div className="only-best-padding">

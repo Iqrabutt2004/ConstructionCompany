@@ -1,6 +1,7 @@
 import React from "react";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./cardReuse.css";
+
 const CardReuse = ({
   title,
   body,

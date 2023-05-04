@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ButtonReuse from "../../components/button/button";
+import { Row, Col } from "react-bootstrap";
+import ButtonReuse from "../button/button";
 import "./RepairReuse.css";
 
 const RepairReuse = ({

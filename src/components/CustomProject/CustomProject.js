@@ -1,6 +1,7 @@
 import React from "react";
-import RepairReuse from "../../components/RepairReuse/RepairReuse";
+import RepairReuse from "../ReusableComponent/RepairReuse/RepairReuse";
 import "./CustomProject.css";
+
 function CustomProject() {
   return (
     <div>

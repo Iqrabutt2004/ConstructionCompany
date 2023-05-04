@@ -29,4 +29,5 @@
 
     .hvr-shutter-out-horizontal:before {
       background: black !important;
+      border-color: black !important;
 }

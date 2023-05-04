@@ -4,7 +4,7 @@ import CardReuse from "../../components/cardReuse/cardReuse";
 import ServiceOne from "../../assets/images/service-1.svg";
 import ServiceTwo from "../../assets/images/service-2.svg";
 import ServiceThree from "../../assets/images/service-3.svg";
-import ButtonReuse from "../button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./relatedProject.css";
 
 const RelatedProject = () => {

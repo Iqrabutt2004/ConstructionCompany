@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./ServicesQuote.css";
 
 function ServicesQuote() {
@@ -9,12 +9,10 @@ function ServicesQuote() {
       <div className="shadow py-4">
         <Container>
           <div className="services-flex">
-            <div className="services-flex-one">
-              <h2 className="about-project-head ">
-                Get a Quote For Your Project
-              </h2>
-            </div>
-            <div className="services-flex-two">
+            <h2 className="about-project-head ">
+              Get a Quote For Your Project
+            </h2>
+            <div className="services-button-padding">
               <ButtonReuse
                 className="hvr-wobble-horizontal"
                 text="FREE QUOTE"

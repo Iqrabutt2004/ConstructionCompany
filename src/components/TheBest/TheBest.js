@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import TheBestReuse from "../../components/TheBestReuse/TheBestReuse";
-import ButtonReuse from "../../components/button/button";
+import TheBestReuse from "../ReusableComponent/TheBestReuse/TheBestReuse";
+import ButtonReuse from "../ReusableComponent/button/button";
 import TheBestpic from "../../assets/images/TheBest-pic.svg";
 import "./TheBest.css";
 

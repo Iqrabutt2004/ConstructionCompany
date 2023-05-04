@@ -7,7 +7,7 @@ function Blog() {
   return (
     <React.Fragment>
       <BlogHeader/>
-      {/* <BlogFooter/> */}
+      <BlogFooter/>
     </React.Fragment>
   );
 }

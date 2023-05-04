@@ -7,7 +7,7 @@ function AboutDivi() {
       <Container>
         <div className="text-center py-4">
           <h3 className="divi-style">About Divi Construction</h3>
-          <div className="text-center line-style-5"></div>
+          <div className="text-center line-style-five"></div>
         </div>
         <Row>
           <Col lg={6}>

@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 import Facebook from "../../assets/images/facebook.svg";
 import Twitter from "../../assets/images/twitter.svg";
 import Linkedin from "../../assets/images/linkedin.svg";
 import Location from "../../assets/images/location.svg";
 import Phone from "../../assets/images/phone.svg";
 import Mail from "../../assets/images/mail.svg";
-import ButtonReuse from "../button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./BlogFooter.css";
 
 function BlogFooter() {
   return (
     <div className="parent-flex">
-      <div className="footer-flex-1 footer-clr ">
+      <div className="footer-flex-1  ">
         <div className="max-width-footer">
           <p className="newsletter-text">Join Our Newsletter</p>
           <div className="line-footer"> </div>
@@ -48,7 +48,7 @@ function BlogFooter() {
             <img className="cursor-icon" src={Linkedin} alt="" />
           </div>
         </div>
-        <div className="d-flex flex-column Footer-details">
+        <div className="d-flex flex-column footer-details">
           <div className="pt-4">
             <img src={Location} alt="" />
             <span className="footer-call">
@@ -69,4 +69,4 @@ function BlogFooter() {
   );
 }
 
-export default BlogFooter
+export default BlogFooter;

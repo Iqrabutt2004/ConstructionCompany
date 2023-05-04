@@ -4,7 +4,7 @@ import LatestCardTwo from "../../assets/images/LatestCard-2.svg";
 import LatestCardThree from "../../assets/images/LatestCard-3.svg";
 import { Container, Row, Col } from "react-bootstrap";
 import CardReuse from "../../components/cardReuse/cardReuse";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./LatestProject.css";
 
 const LatestProject = () => {

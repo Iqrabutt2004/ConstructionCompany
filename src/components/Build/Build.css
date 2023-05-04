@@ -1,0 +1,7 @@
+@media screen and (max-width: 992px) {
+  .build-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

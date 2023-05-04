@@ -1,8 +1,6 @@
 import React from "react";
-import "../../assets/css/hover-min.css";
-import "../../assets/css/hover.css";
 import HomeMainImg from "../../assets/images/home-head.png";
-import ButtonReuse from "../../components/button/button";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./HomeMain.css";
 
 const HomeMain = () => {
@@ -20,7 +18,7 @@ const HomeMain = () => {
           <br /> consectetur eu sapien eget, rhoncus consectetur sem.
         </p>
         <ButtonReuse
-          className="  hvr-bob hvr-shutter-out-horizontal"
+          className="hvr-bob hvr-shutter-out-horizontal"
           text="VIEW OUR WORK"
           border="0px"
           borderColor="#FFB400"

@@ -1,4 +1,5 @@
-import "../HomeMain/HomeMain.css";
+import React from "react";
+
 const ButtonReuse = ({
   className,
   text,
