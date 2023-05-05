@@ -1,4 +1,4 @@
-.line-style-2 {
+.latest-bottom-line {
   width: 45px;
   border-bottom: 5px solid #ffb400;
   padding-top: 1.5rem !important;
@@ -11,7 +11,7 @@
   background-color: #f7f7f7;
 }
 
-.button-project{
+.button-project {
   display: flex;
   justify-content: center;
   align-items: center;

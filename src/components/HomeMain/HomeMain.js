@@ -9,10 +9,10 @@ const HomeMain = () => {
       className="home-container"
       style={{ backgroundImage: `url(${HomeMainImg})` }}
     >
-      <div className="text-container">
-        <div className="line-style-home"></div>
-        <h1>Construction Inc</h1>
-        <p className="py-3">
+      <div className="home-banner-design">
+        <div className="banner-line-home"></div>
+        <h1 className="home-banner-heading">Construction Inc</h1>
+        <p className="home-banner-text py-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus
           erat
           <br /> consectetur eu sapien eget, rhoncus consectetur sem.

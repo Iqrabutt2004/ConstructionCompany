@@ -14,7 +14,7 @@ function MainLatest() {
           <Row>
             <div className="text-center d-flex flex-column align-items-center justify-content-center pb-4">
               <p className="latest-head">Latest Projects</p>
-              <div className="line-style-2"></div>
+              <div className="latest-bottom-line"></div>
             </div>
             <Col lg={4} className="d-flex justify-content-evenly">
               <div className="mb-5">
@@ -23,26 +23,24 @@ function MainLatest() {
                   src={PortfolioCardsFour}
                   alt=""
                 />
-                <div className="card card-main mb-5">
-                  <h6 className="py-3 project-title-style">Project Title</h6>
+                <div className="card-main mb-5">
+                  <h6 className="py-3 project-title-design">Project Title</h6>
                   <p className=" pb-5 card-para-main">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div>
-                    <ButtonReuse
-                      className="hvr-wobble-horizontal"
-                      text="VIEW PROJECT"
-                      border="1px"
-                      borderColor="#666666"
-                      backgroundColor="white"
-                      textColor="#666666"
-                      fontSize="11"
-                      fontWeight="800"
-                      padding="1px 22px 4px 23px"
-                    />
-                  </div>
+                  <ButtonReuse
+                    className="hvr-wobble-horizontal"
+                    text="VIEW PROJECT"
+                    border="1px"
+                    borderColor="#666666"
+                    backgroundColor="white"
+                    textColor="#666666"
+                    fontSize="11"
+                    fontWeight="800"
+                    padding="1px 22px 4px 23px"
+                  />
                 </div>
               </div>
             </Col>
@@ -54,25 +52,23 @@ function MainLatest() {
                   alt=""
                 />
                 <div className="card card-main mb-5">
-                  <h6 className="py-3 project-title-style">Project Title</h6>
+                  <h6 className="py-3 project-title-design">Project Title</h6>
                   <p className=" pb-5 card-para-main">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div>
-                    <ButtonReuse
-                      className="hvr-wobble-horizontal"
-                      text="VIEW PROJECT"
-                      border="1px"
-                      borderColor="#666666"
-                      backgroundColor="white"
-                      textColor="#666666"
-                      fontSize="11"
-                      fontWeight="800"
-                      padding="1px 22px 4px 23px"
-                    />
-                  </div>
+                  <ButtonReuse
+                    className="hvr-wobble-horizontal"
+                    text="VIEW PROJECT"
+                    border="1px"
+                    borderColor="#666666"
+                    backgroundColor="white"
+                    textColor="#666666"
+                    fontSize="11"
+                    fontWeight="800"
+                    padding="1px 22px 4px 23px"
+                  />
                 </div>
               </div>
             </Col>
@@ -84,25 +80,23 @@ function MainLatest() {
                   alt=""
                 />
                 <div className="card card-main">
-                  <h6 className="py-3 project-title-style ">Project Title</h6>
+                  <h6 className="py-3 project-title-design ">Project Title</h6>
                   <p className=" pb-5 card-para-main">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
                     et euismod bibendum adipiscing et orci, fermentum. Cras
                     tristique viverra gravida et sit egestas.
                   </p>
-                  <div>
-                    <ButtonReuse
-                      className="hvr-wobble-horizontal"
-                      text="VIEW PROJECT"
-                      border="1px"
-                      borderColor="#666666"
-                      backgroundColor="white"
-                      textColor="#666666"
-                      fontSize="11"
-                      fontWeight="800"
-                      padding="1px 22px 4px 23px"
-                    />
-                  </div>
+                  <ButtonReuse
+                    className="hvr-wobble-horizontal"
+                    text="VIEW PROJECT"
+                    border="1px"
+                    borderColor="#666666"
+                    backgroundColor="white"
+                    textColor="#666666"
+                    fontSize="11"
+                    fontWeight="800"
+                    padding="1px 22px 4px 23px"
+                  />
                 </div>
               </div>
             </Col>

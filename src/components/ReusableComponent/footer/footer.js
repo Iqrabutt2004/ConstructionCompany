@@ -1,11 +1,11 @@
 import React from "react";
-import Facebook from "../../assets/images/facebook.svg";
-import Twitter from "../../assets/images/twitter.svg";
-import Linkedin from "../../assets/images/linkedin.svg";
-import Location from "../../assets/images/location.svg";
-import Phone from "../../assets/images/phone.svg";
-import Mail from "../../assets/images/mail.svg";
-import ButtonReuse from "../ReusableComponent/button/button";
+import Facebook from "../../../assets/images/facebook.svg";
+import Twitter from "../../../assets/images/twitter.svg";
+import Linkedin from "../../../assets/images/linkedin.svg";
+import Location from "../../../assets/images/location.svg";
+import Phone from "../../../assets/images/phone.svg";
+import Mail from "../../../assets/images/mail.svg";
+import ButtonReuse from "../button/button";
 import "./footer.css";
 
 function Footer() {
@@ -15,7 +15,7 @@ function Footer() {
         <div className="footer-flex-one">
           <div className="max-width-footer">
             <h3>Contact Us</h3>
-            <div className="line-two"></div>
+            <div className="footer-bottom-line"></div>
             <form className="py-5">
               <div className="input-flex">
                 <input

@@ -28,11 +28,13 @@ const ButtonReuse = ({
   };
 
   return (
-    <button className={className} style={buttonStyle}>
-      <span className="text-wrapper" style={textStyle}>
-        {text}
-      </span>
-    </button>
+    <div>
+      <button className={className} style={buttonStyle}>
+        <span className="text-wrapper" style={textStyle}>
+          {text}
+        </span>
+      </button>
+    </div>
   );
 };
 

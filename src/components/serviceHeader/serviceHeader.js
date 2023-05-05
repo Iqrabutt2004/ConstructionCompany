@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ConstructionReuse from "../../components/ConstructionReuse/ConstructionReuse";
-import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
+import ButtonReuse from "../ReusableComponent/button/button";
+import ConstructionReuse from "../ReusableComponent/ConstructionReuse/ConstructionReuse";
 import AboutOne from "../../assets/images/AboutOne.svg";
 import AboutTwo from "../../assets/images/AboutTwo.svg";
 import AboutThree from "../../assets/images/AboutThree.svg";
 import ServiceHeaderImg from "../../assets/images/ServicesHeaderImg.png";
 import "./serviceHeader.css";
+
 function ServiceHeader() {
   return (
     <div className="service-bg-clr">
@@ -17,7 +18,28 @@ function ServiceHeader() {
         <Container>
           <Row>
             <Col lg={6} md={12} sm={12}>
-              <HeaderReuse
+              <div className="service-banner-design">
+                <h1 className="service-banner-heading" data-aos="fade-up">
+                  Framing
+                </h1>
+                <p className="service-banner-text" data-aos="fade-left">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  quis <br /> egestas pellentesque libero dolor in diam
+                  consequat ut.
+                </p>
+                <ButtonReuse
+                  className="hvr-bob hvr-shutter-out-horizontal"
+                  text="GET A QUOTE"
+                  border="4px"
+                  borderColor="#FFB400"
+                  backgroundColor="#FFB400"
+                  textColor="#fff"
+                  fontSize="14"
+                  fontWeight="500"
+                  padding="8px 2.5rem"
+                />
+              </div>
+              {/* <HeaderReuse
                 title={<>Framing</>}
                 subtitle={
                   <>
@@ -29,7 +51,7 @@ function ServiceHeader() {
                 }
                 className="my-header-reuse"
                 buttonText="GET A QUOTE"
-              />
+              /> */}
             </Col>
             <Col lg={6} md={12} sm={12} className="py-5">
               <div className="heading-styles py-4">

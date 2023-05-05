@@ -14,10 +14,10 @@
 .padding-parent {
   padding: 6rem 0px;
 }
-.too-big-style {
+.too-big-design {
   background-color: #f7f7f7;
 }
-.too-big-style {
+.too-big-design {
   padding: 5.1rem 40px;
 }
 .row-bg {
@@ -57,7 +57,7 @@
   }
 }
 @media screen and (max-width: 1642px) {
-  .too-big-style-two {
+  .too-big-design-two {
     display: flex;
     flex-direction: column;
     align-items: center;

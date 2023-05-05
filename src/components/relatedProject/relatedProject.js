@@ -22,7 +22,7 @@ const RelatedProject = () => {
             <h3 style={{ fontWeight: "700", fontSize: "40px" }}>
               Related Projects
             </h3>
-            <div className="line-style-2 mx-auto"></div>
+            <div className="latest-bottom-line mx-auto"></div>
           </div>
           <Row className="d-flex justify-content-evenly">
             <Col lg={3} className="mb-5">

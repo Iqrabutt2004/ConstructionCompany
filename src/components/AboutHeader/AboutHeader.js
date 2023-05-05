@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./AboutHeader.css";
 import HomeMainImg from "../../assets/images/home-head.png";
-import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
-import ConstructionReuse from "../../components/ConstructionReuse/ConstructionReuse";
+import ConstructionReuse from "../ReusableComponent/ConstructionReuse/ConstructionReuse";
+import ButtonReuse from "../ReusableComponent/button/button";
 import AboutOne from "../../assets/images/AboutOne.svg";
 import AboutTwo from "../../assets/images/AboutTwo.svg";
 import AboutThree from "../../assets/images/AboutThree.svg";
+import "./AboutHeader.css";
+
 
 const AboutHeader = () => {
   return (
@@ -17,25 +18,27 @@ const AboutHeader = () => {
       <Container>
         <Row>
           <Col lg={6} md={12} sm={12}>
-            <HeaderReuse
-              title={
-                <>
-                  About Our <br />
-                  Construction
-                  <br /> Company
-                </>
-              }
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  quis
-                  <br />
-                  egestas pellentesque libero dolor in diam consequat ut.
-                </>
-              }
-              className="my-header-reuse"
-              buttonText="GET A FREE QUOTE"
-            />
+            <div className="about-banner-design">
+              <h1 className="about-banner-heading" data-aos="fade-up">
+                About Our Construction Company
+              </h1>
+              <p className="about-banner-text py-3" data-aos="fade-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
+                egestas <br /> pellentesque libero dolor in diam consequat ut.
+                Mi nibh amet viverra id <br /> aliquet neque odio.
+              </p>
+              <ButtonReuse
+                className="hvr-bob hvr-shutter-out-horizontal"
+                text="GET A FREE QUOTE"
+                border="4px"
+                borderColor="#FFB400"
+                backgroundColor="#FFB400"
+                textColor="#fff"
+                fontSize="14"
+                fontWeight="500"
+                padding="8px 2.5rem"
+              />
+            </div>
           </Col>
           <Col lg={6} md={12} sm={12}>
             <div className="heading-styles">

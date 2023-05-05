@@ -1,8 +1,7 @@
 import React from "react";
 import MainPagePic from "../../assets/images/MainPageImg.png";
-// import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
 import ButtonReuse from "../ReusableComponent/button/button";
-import ConstructionReuse from "../../components/ConstructionReuse/ConstructionReuse";
+import ConstructionReuse from "../ReusableComponent/ConstructionReuse/ConstructionReuse";
 import MainOne from "../../assets/images/Main-1.svg";
 import MainTwo from "../../assets/images/Main-2.svg";
 import MainThree from "../../assets/images/Main-3.svg";
@@ -17,7 +16,7 @@ const MainPageStart = () => {
             className="main-container"
             style={{ backgroundImage: `url(${MainPagePic})` }}
           >
-            <div className="main-banner-style">
+            <div className="main-banner-design">
               <h1 className="main-banner-heading" data-aos="fade-up">
                 Construction
               </h1>
@@ -59,7 +58,6 @@ const MainPageStart = () => {
                 className="custom-class-1"
               />
             </div>
-
             <div className="py-3 px-3">
               <ConstructionReuse
                 imageSrc={MainTwo}
@@ -76,7 +74,6 @@ const MainPageStart = () => {
                 className="custom-class-1"
               />
             </div>
-
             <div className="py-3 px-3">
               <ConstructionReuse
                 imageSrc={MainThree}

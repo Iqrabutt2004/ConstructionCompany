@@ -6,6 +6,32 @@
   height: 526px;
 }
 
+.contact-banner-design {
+  padding: 8rem 0.5rem;
+}
+
+.contact-banner-heading {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-left: 1rem;
+}
+
+.contact-banner-heading::before {
+  content: "";
+  height: 90px;
+  border: 4px solid #ffb400;
+  position: absolute;
+  left: -0.5rem;
+}
+
+.contact-banner-text {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 2rem 0px;
+}
+
 .banner-heading {
   font-weight: 700;
 }
@@ -45,4 +71,18 @@
   .icons {
     justify-content: center;
   }
+}
+
+@media screen and (max-width:600px) {
+  .contact-banner-heading {
+  font-size: 55px !important;
+  }
+  .contact-banner-text {
+  font-size: 17px;
+  }
+  .contact-banner-design {
+    padding: 3rem 0.5rem 4rem 0.5rem;
+  }
+ 
+
 }

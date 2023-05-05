@@ -3,7 +3,7 @@ import HomeMain from "../../components/HomeMain/HomeMain";
 import HomeConstruction from "../../components/HomeConstruction/HomeConstruction";
 import ForYears from "../../components/ForYears/ForYears";
 import Client from "../../components/Client/Client";
-import Footer from "../../components/footer/footer";
+import Footer from "../../components/ReusableComponent/footer/footer";
 import NoProject from "../../components/NoProject/NoProject";
 
 function Home() {

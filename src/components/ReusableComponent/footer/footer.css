@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 
-.line-two {
+.footer-bottom-line {
   width: 42px;
   border-bottom: 5px solid black;
   padding-top: 1.5rem !important;
@@ -55,7 +55,7 @@
 .footer-flex-one {
   flex: 0 0 50%;
   padding: 2rem;
-   background-color: #ffb400;
+  background-color: #ffb400;
 }
 
 .footer-flex-two {
@@ -73,11 +73,6 @@
 .input-flex-wrap {
   display: flex;
   flex-direction: column;
-}
-
-a {
-  color: #2a2a2a;
-  font-weight: 500;
 }
 
 @media (max-width: 1200px) {

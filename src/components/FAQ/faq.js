@@ -11,7 +11,7 @@ function FAQ() {
         <Row>
           <Col lg={4} className="pb-4">
             <h1>F.A.Q.</h1>
-            <div className="line-style-4"></div>
+            <div className="line-bottom"></div>
             <p className="text-muted py-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris

@@ -1,7 +1,5 @@
-.line-style-4{
-
-width: 48px;
-border-bottom: 5px solid #FFB400;
- padding-top: 1.5rem!important;
-    
+.line-bottom {
+  width: 48px;
+  border-bottom: 5px solid #ffb400;
+  padding-top: 1.5rem !important;
 }

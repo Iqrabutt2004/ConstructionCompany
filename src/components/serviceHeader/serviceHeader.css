@@ -1,12 +1,3 @@
-.custom-class-2 .line-style-about {
-  width: 70px;
-  border: 4px solid #ffb400;
-  transform: rotate(-90deg);
-  position: absolute;
-  left: 105px;
-  top: 120px;
-}
-
 .service-container {
   position: relative;
   height: 625px;
@@ -14,22 +5,64 @@
   background-size: cover;
   background-position: center;
 }
+
+.service-banner-design {
+  padding: 7rem 0.5rem;
+}
+
+.service-banner-heading {
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+  padding-left: 1rem;
+}
+
+.service-banner-heading::before {
+  content: "";
+  height: 85px;
+  border: 4px solid #ffb400;
+  position: absolute;
+  left: -0.5rem;
+}
+
+.service-banner-text {
+  font-weight: 300;
+  font-size: 22px;
+  color: #ffffff;
+  padding: 1rem 0px;
+}
+
 .service-para-style {
   font-weight: 300;
   font-size: 15px;
   line-height: 27px;
   color: #666666;
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 991px) {
   .service-container {
     height: 1000px;
   }
   .heading-styles {
     padding: 0px;
   }
-  .text-container-2 {
-    padding: 3rem 0px;
+  .service-banner-design {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+  .service-banner-design {
+    padding: 4rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service-banner-heading {
+    font-size: 55px !important;
+  }
+  .service-banner-text {
+    font-size: 18px;
+    padding: 1.5rem 0px;
   }
 }

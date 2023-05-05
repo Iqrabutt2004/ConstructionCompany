@@ -14,7 +14,7 @@ function Build() {
               <h2>
                 Let's Build <br /> Something <br /> Together
               </h2>
-              <div className="line-style-4"></div>
+              <div className="line-bottom"></div>
               <p className="text-muted py-4">
                 Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
                 Sapien, dignissim tristique <br /> tellus sed faucibus nullam.
@@ -22,17 +22,17 @@ function Build() {
                 <br />
                 ut quam sed mauris proin feugiat.
               </p>
-                <ButtonReuse
-                  className="hvr-bob"
-                  text="GET IN TOUCH"
-                  border="3px"
-                  borderColor="#FFB400"
-                  backgroundColor="#F7F7F7"
-                  textColor="#FFB400"
-                  fontSize="14"
-                  fontWeight="600"
-                 padding="4px 2rem"
-                />
+              <ButtonReuse
+                className="hvr-bob"
+                text="GET IN TOUCH"
+                border="3px"
+                borderColor="#FFB400"
+                backgroundColor="#F7F7F7"
+                textColor="#FFB400"
+                fontSize="14"
+                fontWeight="600"
+                padding="4px 2rem"
+              />
             </Col>
             <Col lg={8}>
               <CardFaq />

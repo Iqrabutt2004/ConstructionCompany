@@ -15,10 +15,10 @@ function MainProject() {
           />
         </div>
         <div className="p-0 no-project-flex-two">
-          <div className="too-big-style">
-            <div className="too-big-style-two">
+          <div className="too-big-design">
+            <div className="too-big-design-two">
               <h1>No Project Too Big Or Too Small</h1>
-              <div className="line-style-4 "></div>
+              <div className="line-bottom "></div>
               <div className="no-project-flex">
                 <div className="no-project-flex-three">
                   <p className="main-para">
@@ -44,7 +44,6 @@ function MainProject() {
                     <br /> sed mauris proin feugiat. Scelerisque lorem <br />
                     posuere iaculis nunc amet phasellus.
                   </p>
-                  <div>
                     <ButtonReuse
                       className="hvr-bob"
                       text="LEARN MORE"
@@ -56,7 +55,6 @@ function MainProject() {
                       fontWeight="600"
                       padding="7px 2.5rem"
                     />
-                  </div>
                 </div>
               </div>
             </div>

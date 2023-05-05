@@ -1,43 +1,84 @@
-.portfolio-container{
-       position: relative;
-width: 100%;
-height: 569px;
-  background-image: url(../../assets/images/PortfolioHeaderImg.png); 
+.portfolio-container {
+  position: relative;
+  width: 100%;
+  height: 569px;
+  background-image: url(../../assets/images/PortfolioHeaderImg.png);
   background-size: cover;
   background-position: center;
 }
-.portfolio-style{
-      display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #ffffff;
-}
-.lineStyle-portfolio{
-          width: 85px;
-    border: 4px solid #FFB400;
-    transform: rotate(-90deg);
-    position: absolute;
-    left: 480px;
-    top: 286px;
 
+.portfolio-banner-design {
+  padding: 6rem 13rem;
 }
-/* .heading-reuse-2::before {
-    content: "";
-    height: 90px;
-    border: 4px solid #ffb400;
-    position: absolute;
-    left: -2.5rem;}
 
-.heading-reuse-2{
-font-weight: 700;
-    font-size: 64px;
-    color: white;
-    padding: 1rem;
+.portfolio-banner-heading {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 64px;
 }
-         */
+
+.portfolio-banner-heading::before {
+  content: "";
+  height: 158px;
+  border: 4px solid #ffb400;
+  position: absolute;
+  left: -1.5rem;
+}
+
+.portfolio-banner-text {
+  font-weight: 300;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+@media screen and (max-width:990px) {
+   .portfolio-banner-design {
+  padding: 6rem 5rem;
+}
+}
+
+@media screen and (max-width:768px) {
+   .portfolio-banner-design {
+  padding: 6rem 5rem;
+}
+.portfolio-banner-heading {
+  font-size: 55px;
+}
+}
+
+@media screen and (max-width:600px) {
+   .portfolio-banner-design {
+  padding: 6rem 3rem;
+}
+.portfolio-banner-heading {
+  font-size: 50px;
+}
+.portfolio-banner-heading::before {
+  height: 130px;
+}
+}
+
+@media screen and (max-width:380px) {
+   .portfolio-banner-design {
+  padding: 6rem 2rem;
+}
+.portfolio-banner-heading {
+  font-size: 40px;
+}
+}
+
+@media screen and (max-width:280px) {
+   .portfolio-banner-design {
+  padding: 6rem 2rem;
+}
+.portfolio-banner-heading {
+  font-size: 30px;
+}
+.portfolio-banner-heading::before{
+  font-size: 28px;
+  height: 110px;
+}
+.portfolio-banner-text {
+  font-size: 16px;
+}
+}

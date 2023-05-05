@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectAbout from "../../assets/images/project-about.svg"
-import Projectpic from "../../assets/images/project-pic.svg"
+import ProjectAbout from "../../assets/images/project-about.svg";
+import Projectpic from "../../assets/images/project-pic.svg";
 import Projectpicone from "../../assets/images/project-pic1.svg";
-import "../../assets/globalStyle/globalStyle.css"
+import "../../assets/globalStyle/globalStyle.css";
 import "./about.css";
 function About() {
   return (
@@ -13,7 +13,7 @@ function About() {
           <Col lg={6}>
             <div className="d-flex flex-column justify-content-center justify-content-lg-left">
               <h3 className="about-project-head">About this Project</h3>
-              <div className="line-style-4"> </div>
+              <div className="line-bottom"> </div>
               <div>
                 <p className="pt-4 about-project-para">
                   Lectus erat, consectetur eu sapien eget rhoncus consectetur

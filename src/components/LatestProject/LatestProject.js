@@ -19,7 +19,7 @@ const LatestProject = () => {
       <Container className="py-5 ">
         <div className="text-center pb-5">
           <h3 className="latest-heading">Latest Project</h3>
-          <div className="line-style-2 mx-auto"></div>
+          <div className="latest-bottom-line mx-auto"></div>
         </div>
         <Row className="d-flex justify-content-evenly">
           <Col lg={3} className="mb-5">

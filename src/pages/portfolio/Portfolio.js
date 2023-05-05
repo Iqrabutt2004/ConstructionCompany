@@ -1,8 +1,9 @@
 import React from 'react'
 import PortfolioHeader from '../../components/portfolioHeader/portfolioHeader'
 import PortfolioCards from '../../components/portfolioCards/portfolioCards'
-import Footer from "../../components/footer/footer";
+import Footer from "../../components/ReusableComponent/footer/footer";
 import "./Portfolio.css";
+
 function Portfolio() {
   return (
     <React.Fragment>

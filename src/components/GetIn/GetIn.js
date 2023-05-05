@@ -13,7 +13,7 @@ function GetIn() {
           <div className="flex-wrap">
             <div className="flex-wrap-one pb-5">
               <h2>Get In Touch</h2>
-              <div className="line-style-4"></div>
+              <div className="line-bottom"></div>
               <form className="py-5">
                 <div className="input-flex-wrap ">
                   <input

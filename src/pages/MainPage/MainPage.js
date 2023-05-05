@@ -6,7 +6,7 @@ import MainLatest from "../../components/MainLatest/MainLatest";
 import MyVideoComponent from "../../components/video/video";
 import Build from "../../components/Build/Build";
 import Client from "../../components/Client/Client";
-import Footer from "../../components/footer/footer";
+import Footer from "../../components/ReusableComponent/footer/footer";
 
 function MainPage() {
   return (

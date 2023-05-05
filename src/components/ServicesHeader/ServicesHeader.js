@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import HomeMainImg from "../../assets/images/home-head.png";
-import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
-import ConstructionReuse from "../../components/ConstructionReuse/ConstructionReuse";
+import ButtonReuse from "../ReusableComponent/button/button";
+import ConstructionReuse from "../ReusableComponent/ConstructionReuse/ConstructionReuse";
 import AboutOne from "../../assets/images/AboutOne.svg";
 import AboutTwo from "../../assets/images/AboutTwo.svg";
 import AboutThree from "../../assets/images/AboutThree.svg";
+import "./SevicesHeader.css";
 
 const SevicesHeader = () => {
   return (
@@ -16,7 +17,27 @@ const SevicesHeader = () => {
       <Container>
         <Row>
           <Col lg={6} md={12} sm={12}>
-            <HeaderReuse
+            <div className="services-banner-design">
+              <h1 className="services-banner-heading" data-aos="fade-up">
+                Our Construction <br/> Services
+              </h1>
+              <p className="services-banner-text" data-aos="fade-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis<br/>
+                egestas pellentesque libero dolor in diam consequat ut.
+              </p>
+              <ButtonReuse
+                className="hvr-bob hvr-shutter-out-horizontal"
+                text="GET A FREE QUOTE"
+                border="4px"
+                borderColor="#FFB400"
+                backgroundColor="#FFB400"
+                textColor="#fff"
+                fontSize="14"
+                fontWeight="500"
+                padding="8px 2.5rem"
+              />
+            </div>
+            {/* <HeaderReuse
               title={
                 <>
                   Our Construction
@@ -33,7 +54,7 @@ const SevicesHeader = () => {
               }
               className="my-header-reuse"
               buttonText="GET A FREE QUOTE"
-            />
+            /> */}
           </Col>
           <Col lg={6} md={12} sm={12}>
             <div className="heading-styles">

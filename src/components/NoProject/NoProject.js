@@ -49,10 +49,10 @@ function NoProject() {
           </div>
         </div>
         <div className="p-0 noFlex-2">
-          <div className="too-big-style">
-            <div className="too-big-style-two">
+          <div className="too-big-design">
+            <div className="too-big-design-two">
               <h1>No Project Too Big Or Too Small</h1>
-              <div className="line-style-4 "></div>
+              <div className="line-bottom "></div>
               <div className="noFlex">
                 <div className="noFlex-3">
                   <p className="text-muted py-4">
@@ -92,7 +92,7 @@ function NoProject() {
               <ButtonReuse
                 className="  hvr-bob"
                 text="ONLINE ESTIMATE FORM"
-                border="4px" 
+                border="4px"
                 borderColor="#FFB400"
                 backgroundColor="#2A2A2A"
                 textColor="#FFB400"

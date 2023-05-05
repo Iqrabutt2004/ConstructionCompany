@@ -12,9 +12,9 @@ const MyVideoComponent = () => {
   return (
     <div className="video-flex">
       <div className="video-flex-one video-bg">
-        <h3 className="about-process-style">About Process</h3>
-        <div className="line-three"></div>
-        <p className="about-process-paragraph ">
+        <h3 className="about-process-design">About Process</h3>
+        <div className="about-bottom-line"></div>
+        <p className="about-process-paragraph">
           Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin
           cursus, dolor a mollis consectetur, fermentum massa, a commodo elit
           dui sit amet risus.

@@ -1,0 +1,61 @@
+.services-banner-design {
+  padding: 7rem 0px;
+}
+
+.services-banner-heading {
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+  padding: 0px 0px 0px 13px;
+}
+
+.services-banner-heading::before {
+  content: "";
+  height: 153px;
+  border: 4px solid #ffb400;
+  position: absolute;
+  left: -0.5rem;
+}
+
+.services-banner-text {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 2rem 0px;
+}
+
+@media screen and (max-width: 1199px) {
+  .services-banner-heading {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services-banner-heading {
+    font-size: 40px;
+  }
+  .services-banner-design {
+    padding: 5rem 0.5rem;
+  }
+  .services-banner-heading::before {
+    height: 120px;
+  }
+  .services-banner-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .services-banner-heading::before {
+    height: 90px;
+  }
+  .services-banner-heading {
+    font-size: 30px;
+  }
+  .services-banner-text {
+    font-size: 16px;
+  }
+  .services-banner-design {
+    padding: 2rem 0.5rem;
+  }
+}

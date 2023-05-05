@@ -1,9 +1,9 @@
 import React from "react";
 import ContactPagePic from "../../assets/images/MainPageImg.png";
-import HeaderReuse from "../../components/HeaderReuse/HeaderReuse";
 import Facebook from "../../assets/images/facebook-1.svg";
 import Twitter from "../../assets/images/twitter-1.svg";
 import Linkedin from "../../assets/images/linkedin-1.svg";
+import ButtonReuse from "../ReusableComponent/button/button";
 import "./ContactHeader.css";
 
 const ContactHeader = () => {
@@ -16,21 +16,28 @@ const ContactHeader = () => {
             style={{ backgroundImage: `url(${ContactPagePic})` }}
           >
             <div className="d-flex justify-content-center p-0">
-              <HeaderReuse
-                title={<>Contact Us</>}
-                subtitle={
-                  <>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    quis egestas
-                    <br /> pellentesque libero dolor in diam consequat ut. Mi
-                    nibh amet viverra id
-                    <br /> aliquet neque odio.
-                  </>
-                }
-                buttonText="SEND A MESSAGE"
-                className="custom-class-1"
-                data-aos="fade-left"
-              />
+              <div className="contact-banner-design">
+                <h1 className="contact-banner-heading" data-aos="fade-up">
+                  Contact Us
+                </h1>
+                <p className="contact-banner-text" data-aos="fade-left">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  quis egestas <br /> pellentesque libero dolor in diam
+                  consequat ut. Mi nibh amet viverra id <br /> aliquet neque
+                  odio.
+                </p>
+                <ButtonReuse
+                  className="hvr-bob hvr-shutter-out-horizontal"
+                  text="SEND A MESSAGE"
+                  border="4px"
+                  borderColor="#FFB400"
+                  backgroundColor="#FFB400"
+                  textColor="#fff"
+                  fontSize="14"
+                  fontWeight="500"
+                  padding="8px 2.5rem"
+                />
+              </div>
             </div>
           </div>
         </div>

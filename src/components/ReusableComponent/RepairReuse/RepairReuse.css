@@ -1,19 +1,12 @@
-.float-repair {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .width-set {
   border: 0px;
   border-radius: 0px;
+  width: 900px;
+  height: 498px;
 }
 
 .padding-set {
   padding: 0px 3rem;
-}
-
-.width-set-none {
-  padding: 12px !important;
 }
 
 .text-color {
@@ -31,19 +24,30 @@
 .repair-button-clr-two {
   background-color: #ffb400;
   padding: 1rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .padding-none {
   padding: 0px 0px !important;
 }
 
-.padding-section {
-  padding-bottom: 8rem;
+@media screen and (max-width: 991px) {
+  .width-set {
+    height: 650px;
+    width: 956px;
+  }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 600px) {
   .width-set {
-    width: 900px;
-    height: 400px;
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .width-set {
+    height: 906px;
   }
 }

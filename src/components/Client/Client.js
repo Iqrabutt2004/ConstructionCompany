@@ -11,7 +11,7 @@ function Client() {
         <Container>
           <div className="text-center pb-5">
             <h3 className="client-text">Client Testimonials</h3>
-            <div className="line-style-five"></div>
+            <div className="client-bottom-line"></div>
           </div>
           <Row className="d-flex justify-content-evenly">
             <Col xl={3} lg={12} className="client-cards">
