@@ -7,7 +7,7 @@ import AvatarThree from "../../assets/images/avatar-3.svg";
 import AvatarFour from "../../assets/images/avatar-4.svg";
 import AvatarFive from "../../assets/images/avatar-5.svg";
 import AvatarSix from "../../assets/images/avatar-6.svg";
-import Cards from "../cards/cards";
+import Cards from "../ReusableComponent/cards/cards";
 import "./blogHeader.css";
 
 const BlogHeader = () => {
@@ -17,8 +17,8 @@ const BlogHeader = () => {
         className="blog-container"
         style={{ backgroundImage: `url(${BlogMain})` }}
       >
-        <div className="header-container">
-          <h1 className="heading-reuse news-style" data-aos="fade-up">
+        <div className="blog-banner-design">
+          <h1 className="blog-banner-heading" data-aos="fade-up">
             News
           </h1>
         </div>
@@ -32,10 +32,7 @@ const BlogHeader = () => {
                 title="Nunc Volutpat Venenatis"
                 date="May 9, 2014"
                 category="Category"
-                description="Nulla a odio sed magna congue condimentum. Pellentesque
-        convallis enim nec libero vulputate, et rhoncus urna placerat.
-        Phasellus mattis, diam vel vehicula facilisis, erat leo
-        dapibus augue, at mollis tellus ex non nisi."
+                description="Nulla a odio sed magna congue condimentum. Pellentesque convallis enim nec libero vulputate, et rhoncus urna placerat. Phasellus mattis, diam vel vehicula facilisis, erat leo dapibus augue, at mollis tellus ex non nisi."
               />
               <Cards
                 imageSrc={AvatarFour}

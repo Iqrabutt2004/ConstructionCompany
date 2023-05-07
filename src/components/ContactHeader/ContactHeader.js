@@ -46,12 +46,10 @@ const ContactHeader = () => {
             <h2 className="py-1 " data-aos="fade-up">
               Contact Info
             </h2>
-
             <div className="pb-4">
               <p className="banner-heading" data-aos="fade-left">
                 Our Office
               </p>
-
               <p data-aos="fade-left">
                 1234 Divi St. #1000, San Francisc, CA
                 <br />
@@ -77,9 +75,9 @@ const ContactHeader = () => {
               </p>
             </div>
             <div className="d-flex icons pb-2 ">
-              <img className="icon-banner" src={Facebook} alt="" />
-              <img className="icon-banner" src={Twitter} alt="" />
-              <img src={Linkedin} alt="" />
+              <img className="icon-banner" src={Facebook} alt="facebook-icon" />
+              <img className="icon-banner" src={Twitter} alt="twitter-icon" />
+              <img src={Linkedin} alt="linkedin-icon" />
             </div>
           </div>
         </div>

@@ -30,19 +30,19 @@
 .margin-para {
   padding: 0px 4rem;
 }
-.noFlex {
+.no-project-flex {
   display: flex;
 }
-.noFlex-1 {
+.no-project-flex-one {
   flex: 0 0 30%;
 }
-.noFlex-2 {
+.no-project-flex-two {
   flex: 0 0 70%;
 }
-.noFlex-3 {
+.no-project-flex-three {
   flex: 0 0 50%;
 }
-.noFlex-4 {
+.no-project-flex-four {
   flex: 0 0 50%;
 }
 .text-left {
@@ -52,7 +52,7 @@
   padding-right: 2rem;
 }
 @media screen and (max-width: 1683px) {
-  .noFlex {
+  .no-project-flex {
     flex-direction: column;
   }
 }

@@ -15,10 +15,10 @@ function FAQ() {
             <p className="text-muted py-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien,
               dignissim tristique tellus sed faucibus nullam. Tincidunt mauris
-              ut quam sed mauris proin feugiat.{" "}
+              ut quam sed mauris proin feugiat.
             </p>
             <ButtonReuse
-              className=" hvr-bob"
+              className="hvr-bob"
               text="ASK A QUESTION"
               border="3px"
               borderColor="#FFB400"
@@ -26,8 +26,7 @@ function FAQ() {
               textColor="#FFB400"
               fontSize="14"
               fontWeight="500"
-              width="180"
-              height="42"
+              padding="8px 2rem"
             />
           </Col>
           <Col lg={8}>

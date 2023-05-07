@@ -3,7 +3,7 @@ import LatestCardOne from "../../assets/images/LatestCard-1.svg";
 import LatestCardTwo from "../../assets/images/LatestCard-2.svg";
 import LatestCardThree from "../../assets/images/LatestCard-3.svg";
 import { Container, Row, Col } from "react-bootstrap";
-import CardReuse from "../../components/cardReuse/cardReuse";
+import CardReuse from "../ReusableComponent/cardReuse/cardReuse";
 import ButtonReuse from "../ReusableComponent/button/button";
 import "./LatestProject.css";
 
@@ -23,7 +23,6 @@ const LatestProject = () => {
         </div>
         <Row className="d-flex justify-content-evenly">
           <Col lg={3} className="mb-5">
-            <div>
               <img
                 className="img-fluid mb-4"
                 style={{ width: "100%" }}
@@ -37,10 +36,8 @@ const LatestProject = () => {
                 textColor={customTextColor}
                 backgroundColor={customBgColor}
               />
-            </div>
           </Col>
           <Col lg={3} className="mb-5">
-            <div>
               <img
                 className="img-fluid mb-4"
                 style={{ width: "100%" }}
@@ -54,10 +51,8 @@ const LatestProject = () => {
                 textColor={customTextColor}
                 backgroundColor={customBgColor}
               />
-            </div>
           </Col>
           <Col lg={3} className="mb-5">
-            <div>
               <img
                 className="img-fluid mb-4"
                 style={{ width: "100%" }}
@@ -71,7 +66,6 @@ const LatestProject = () => {
                 textColor={customTextColor}
                 backgroundColor={customBgColor}
               />
-            </div>
           </Col>
         </Row>
         <div className="latest-button">

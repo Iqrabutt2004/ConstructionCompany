@@ -3,7 +3,7 @@ import "./cards.css";
 
 const Cards = ({ imageSrc, title, date, category, description }) => {
   return (
-    <div className="card card-style-1" >
+    <div className="card card-design">
       <img className="card-img-top" src={imageSrc} alt="pictures of card top" />
       <div className="card-body">
         <h5 className="card-title card-heading">{title}</h5>
@@ -16,4 +16,4 @@ const Cards = ({ imageSrc, title, date, category, description }) => {
   );
 };
 
-export default Cards
+export default Cards;

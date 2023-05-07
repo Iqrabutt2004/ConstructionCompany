@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonReuse from "../ReusableComponent/button/button";
+import ButtonReuse from "../button/button";
 import "./cardReuse.css";
 
 const CardReuse = ({
@@ -20,13 +20,13 @@ const CardReuse = ({
 
   return (
     <div className="card" style={cardStyle}>
-      <h6 className="card-body card-headerStyle pt-5">{title}</h6>
+      <h6 className="card-body card-text-heading pt-5">{title}</h6>
       <p className="card-body card-para" style={textStyle}>
         {body}
-      </p>{" "}
-      <div className="buttonPadding">
+      </p>
+      <div className="button-card-design">
         <ButtonReuse
-          className="  hvr-bob"
+          className="hvr-bob"
           text="LEARN MORE"
           border="1px"
           borderColor="#666666"

@@ -1,0 +1,37 @@
+.footer-call {
+  padding: 0px 0px 0px 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.footer-details {
+  padding: 1rem 7rem;
+}
+
+.upper-color {
+  background-color: #2a2a2a;
+}
+
+.social-icons {
+  padding-right: 2rem;
+}
+
+.cursor-icon {
+  cursor: pointer;
+}
+
+@media (max-width: 460px) {
+  .footer-details {
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 280px) {
+  .footer-call {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+}

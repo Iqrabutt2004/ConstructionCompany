@@ -39,19 +39,6 @@ function ServiceHeader() {
                   padding="8px 2.5rem"
                 />
               </div>
-              {/* <HeaderReuse
-                title={<>Framing</>}
-                subtitle={
-                  <>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    quis
-                    <br />
-                    egestas pellentesque libero dolor in diam consequat ut.
-                  </>
-                }
-                className="my-header-reuse"
-                buttonText="GET A QUOTE"
-              /> */}
             </Col>
             <Col lg={6} md={12} sm={12} className="py-5">
               <div className="heading-styles py-4">

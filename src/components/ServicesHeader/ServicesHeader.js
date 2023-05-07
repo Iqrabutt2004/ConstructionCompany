@@ -37,24 +37,6 @@ const SevicesHeader = () => {
                 padding="8px 2.5rem"
               />
             </div>
-            {/* <HeaderReuse
-              title={
-                <>
-                  Our Construction
-                  <br /> Services
-                </>
-              }
-              subtitle={
-                <>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  quis
-                  <br />
-                  egestas pellentesque libero dolor in diam consequat ut.
-                </>
-              }
-              className="my-header-reuse"
-              buttonText="GET A FREE QUOTE"
-            /> */}
           </Col>
           <Col lg={6} md={12} sm={12}>
             <div className="heading-styles">

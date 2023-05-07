@@ -1,11 +1,6 @@
 import React from "react";
-import Facebook from "../../../assets/images/facebook.svg";
-import Twitter from "../../../assets/images/twitter.svg";
-import Linkedin from "../../../assets/images/linkedin.svg";
-import Location from "../../../assets/images/location.svg";
-import Phone from "../../../assets/images/phone.svg";
-import Mail from "../../../assets/images/mail.svg";
 import ButtonReuse from "../button/button";
+import ContactFooter from "../ContactFooter/ContactFooter";
 import "./footer.css";
 
 function Footer() {
@@ -50,33 +45,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-flex-two">
-          <div className="upper-color py-4">
-            <div className="d-flex justify-content-center ">
-              <img className="cursor-icon social-icons" src={Facebook} alt="" />
-              <img className="cursor-icon social-icons" src={Twitter} alt="" />
-              <img className="cursor-icon " src={Linkedin} alt="" />
-            </div>
-          </div>
-          <div className="d-flex flex-column footer-details">
-            <div className="pt-4">
-              <img src={Location} alt="" />
-              <span className="footer-call">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </span>
-            </div>
-            <div className="pt-4">
-              <img src={Phone} alt="" />
-              <a href="tel:+0012345678" className="footer-call">
-                +00 123 456 78
-              </a>
-            </div>
-            <div className="pt-4">
-              <img src={Mail} alt="" />
-              <a href="mailto:constractioninc@gmail.com">
-                constractioninc@gmail.com
-              </a>
-            </div>
-          </div>
+          <ContactFooter />
         </div>
       </div>
     </>

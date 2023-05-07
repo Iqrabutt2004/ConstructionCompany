@@ -39,8 +39,22 @@ h6 {
   padding-top: 1.5rem !important;
 }
 
+.card-img-top {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.service-bg-clr {
+  background-color: #f7f7f7;
+}
+
 section {
   padding: 4rem 0px;
+}
+
+.hvr-shutter-out-horizontal:before {
+  background: black !important;
+  border-color: black !important;
 }
 
 @media screen and (max-width: 600px) {

@@ -6,8 +6,9 @@ import HomeThree from "../../assets/images/HomeThree.svg";
 import HomeFour from "../../assets/images/HomeFour.svg";
 import HomeFive from "../../assets/images/HomeFive.svg";
 import HomeSix from "../../assets/images/HomeSix.svg";
-import CustomHomeComponent from "../../components/CustomHomeComponent/CustomHomeComponent";
+import CustomHomeComponent from "../ReusableComponent/CustomHomeComponent/CustomHomeComponent";
 import "./HomeConstruction.css";
+
 function HomeConstruction() {
   return (
     <section>

@@ -9,7 +9,7 @@ import PortfolioCardsSix from "../../assets/images/portfolioCard-6.svg";
 import PortfolioCardsSeven from "../../assets/images/portfolioCard-7.svg";
 import PortfolioCardsEight from "../../assets/images/portfolioCard-8.svg";
 import PortfolioCardsNine from "../../assets/images/portfolioCard-9.svg";
-import CardReuse from "../../components/cardReuse/cardReuse";
+import CardReuse from "../ReusableComponent/cardReuse/cardReuse";
 import "./portfolioCards.css";
 
 function PortfolioCards() {

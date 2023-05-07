@@ -2,26 +2,37 @@
   color: #ffb400;
   font-size: 40px;
   font-weight: 700;
-}.ideas-text{
+}
+
+.ideas-text {
   font-weight: 500;
-font-size: 28px;
+  font-size: 28px;
 }
 
 .shadow {
   padding: 3rem 0px;
 }
 
-@media screen and (max-width: 1200px) {
+.contact-estimation-flex {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+@media screen and (max-width: 1199px) {
   .shadow {
     padding: 1rem 0px !important;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .contact-estimation-flex {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
+
 }
 
 @media screen and (max-width: 420px) {

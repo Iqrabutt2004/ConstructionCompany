@@ -5,6 +5,7 @@ import Projectpic from "../../assets/images/project-pic.svg";
 import Projectpicone from "../../assets/images/project-pic1.svg";
 import "../../assets/globalStyle/globalStyle.css";
 import "./about.css";
+
 function About() {
   return (
     <section>
@@ -37,7 +38,7 @@ function About() {
               className="img-fluid"
               style={{ width: "100%" }}
               src={ProjectAbout}
-              alt=""
+              alt="about-project"
             />
           </Col>
         </Row>
@@ -45,7 +46,7 @@ function About() {
           className="py-5 img-fluid"
           style={{ width: "100%" }}
           src={Projectpic}
-          alt=""
+          alt="about-project-pic"
         />
 
         <Row className="py-3">
@@ -54,7 +55,7 @@ function About() {
               className="img-fluid pb-4"
               style={{ width: "100%" }}
               src={Projectpicone}
-              alt=""
+              alt="about-project-pic-one"
             />
           </Col>
           <Col lg={6}>

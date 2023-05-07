@@ -7,8 +7,9 @@
   align-items: center;
 }
 
-.service-bg-clr {
-  background-color: #f7f7f7;
+.related-project-heading{
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .button-project {

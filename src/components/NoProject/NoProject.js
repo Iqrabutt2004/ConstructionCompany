@@ -1,14 +1,15 @@
 import React from "react";
-import "./NoProject.css";
 import ButtonReuse from "../ReusableComponent/button/button";
 import ArrowOne from "../../assets/images/arrow-1.svg";
+import "./NoProject.css";
+
 
 function NoProject() {
   return (
     <div>
-      <div className="noFlex">
-        <div className="p-0 noFlex-1">
-          <div className="bg-clr-project padding-parent  ">
+      <div className="no-project-flex">
+        <div className="p-0 no-project-flex-one">
+          <div className="bg-clr-project padding-parent">
             <div className="service-quality">
               <div className="d-flex py-2 margin-div">
                 <img className="img-fluid" src={ArrowOne} alt="" />
@@ -48,13 +49,13 @@ function NoProject() {
             </div>
           </div>
         </div>
-        <div className="p-0 noFlex-2">
+        <div className="p-0 no-project-flex-two">
           <div className="too-big-design">
             <div className="too-big-design-two">
               <h1>No Project Too Big Or Too Small</h1>
-              <div className="line-bottom "></div>
-              <div className="noFlex">
-                <div className="noFlex-3">
+              <div className="line-bottom"></div>
+              <div className="no-project-flex">
+                <div className="no-project-flex-three">
                   <p className="text-muted py-4">
                     Lectus erat, consectetur eu sapien eget <br /> rhoncus
                     consectetur sem. Proin cursus, dolor <br /> a mollis
@@ -66,7 +67,7 @@ function NoProject() {
                     feugiat ligula neque nec felis nec felis
                   </p>
                 </div>
-                <div className="noFlex-4">
+                <div className="no-project-flex-four">
                   <p className="text-muted py-4">
                     Lorem ipsum dolor sit consectetur adipiscing elit.
                     <br /> Nullam lectus erat, consectetur eu sapien eget
@@ -90,7 +91,7 @@ function NoProject() {
             </div>
             <div className="button-right">
               <ButtonReuse
-                className="  hvr-bob"
+                className="hvr-bob"
                 text="ONLINE ESTIMATE FORM"
                 border="4px"
                 borderColor="#FFB400"

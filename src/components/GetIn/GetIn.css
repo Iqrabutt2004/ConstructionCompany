@@ -1,6 +1,7 @@
 .flex-wrap {
   display: flex;
 }
+
 .text-field-name {
   border: 0px solid white;
   border-radius: 0px;
@@ -8,6 +9,7 @@
   padding: 12px;
   width: 85%;
 }
+
 .text-field-message {
   border: 0px solid white;
   border-radius: 0px;
@@ -15,15 +17,19 @@
   margin-bottom: 1rem;
   padding: 15px 0px 103px 16px;
 }
+
 .button-wrapper {
   width: 85%;
 }
+
 .flex-wrap-one {
   flex: 0 0 50%;
 }
+
 .flexWrap-2 {
   flex: 0 0 50%;
 }
+
 @media screen and (max-width: 992px) {
   .flex-wrap {
     flex-direction: column;

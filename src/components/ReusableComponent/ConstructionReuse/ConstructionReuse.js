@@ -19,15 +19,15 @@ const ConstructionReuse = ({
       </div>
       <div className="head-title">
         <p
-          className="building-para-1"
+          className="building-paragraph"
           data-aos="fade-right"
-          style={{...titleStyle }}
+          style={{ ...titleStyle }}
         >
           {title} <br />
           <span
             className="head-subtitle"
             data-aos="fade-right"
-            style={{...subtitleStyle }}
+            style={{ ...subtitleStyle }}
           >
             {subtitle}
           </span>
